@@ -21,7 +21,8 @@
       <pubDate>Sun, 30 Oct 2022 19:05:33 +0530</pubDate>
       
       <guid>https://nithishkgnani.github.io/projects/</guid>
-      <description> Time Sensitive Networking (TSN) and Tactile Cyber-Physical Systems Acoustics Based Localization Airplane IoT data analytics and management Wi-Fi Modelling AMMAZING – Advanced MM-wAve Systems for Informatics at Gigabit Video Casting </description>
+      <description>Time Sensitive Networking (TSN) and Tactile Cyber-Physical Systems
+Design and implementation of a Tactile Cyber-Physical System (TCPS) for real-time interaction between humans and robots for applications requiring ultra-reliable low latency communication (uRLLC). To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network to then setup a time sensitive network (TSN). This would involve implementing time aware shaper and gate control logic at the TSN switches’ ports.</description>
     </item>
     
     <item>
