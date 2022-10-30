@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nithish K Gnani</title>
+    <link>https://nithishkgnani.github.io/</link>
+    <description>Recent content on Nithish K Gnani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://nithishkgnani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://nithishkgnani.github.io/contact/</link>
+      <pubDate>Sun, 30 Oct 2022 19:08:42 +0530</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/contact/</guid>
+      <description>Email 📧 : nithishgnani@iisc.ac.in</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://nithishkgnani.github.io/projects/</link>
+      <pubDate>Sun, 30 Oct 2022 19:05:33 +0530</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/projects/</guid>
+      <description> Time Sensitive Networking (TSN) and Tactile Cyber-Physical Systems Acoustics Based Localization Airplane IoT data analytics and management Wi-Fi Modelling AMMAZING – Advanced MM-wAve Systems for Informatics at Gigabit Video Casting </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nithishkgnani.github.io/about/</link>
+      <pubDate>Sun, 30 Oct 2022 18:55:42 +0530</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/about/</guid>
+      <description>Hello👋, I&amp;rsquo;m Nithish K GnaniLink to headingI&amp;rsquo;m a researcher at Indian Institute of Science (IISc), Bangalore. I work with tactile internet, deterministic networks, cyber physical systems, IoT data management among other research areas in electronic systems.</description>
+    </item>
+    
+  </channel>
+</rss>
