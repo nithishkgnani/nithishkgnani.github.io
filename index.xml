@@ -13,7 +13,7 @@
       <pubDate>Thu, 03 Nov 2022 20:34:44 +0530</pubDate>
       
       <guid>https://nithishkgnani.github.io/projects/tcps/</guid>
-      <description>ObjectiveLink to headingDesign and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
+      <description>Objective Design and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
 To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.</description>
     </item>
     
@@ -44,6 +44,39 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
       <guid>https://nithishkgnani.github.io/about/</guid>
       <description>Hello👋, I&amp;rsquo;m Nithish K GnaniLink to headingI&amp;rsquo;m a researcher at Indian Institute of Science (IISc), Bangalore. I work with tactile internet, deterministic networks, cyber physical systems, IoT data management among other research areas in electronic systems.
 ExperienceLink to headingProject Associate, Centre for Networked Intelligence (CNI), IISc (2022-present) Project Associate, Department of Electronic Systems Engineering (DESE), IISc (2019-present) Team Leader, Supply Chain at Hindustan Coca-Cola Beverages Private Limited (2017-18) EducationLink to headingBachelor of Technology in Mechanical Engineering from National Institute of Technology (NIT) Karnataka, Surathkal, Karnataka, India</description>
+    </item>
+    
+    <item>
+      <title>My Experience at Yuwa</title>
+      <link>https://nithishkgnani.github.io/blog/my-experience-at-yuwa/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/blog/my-experience-at-yuwa/</guid>
+      <description>I had quit my job at an FMCG company due to some personal reasons and was at a stage where I needed some clarity about what next to do in life. I have always wanted my work to have a positive impact in the society. Harsha, my friend, is a teacher at Yuwa School. Thanks to him, I could spend a short time there.
+Yuwa empowers girls from impoverished families in rural Jharkhand, where they are at a risk of child marriage and human trafficking.</description>
+    </item>
+    
+    <item>
+      <title>Breaking the Universal Buffer</title>
+      <link>https://nithishkgnani.github.io/blog/breaking-the-universal-buffer/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/blog/breaking-the-universal-buffer/</guid>
+      <description>This post is based on what I had written this in November 2017 in a website called Steemit. My views have matured and my goals have changed. Original post: https://steemit.com/philosophy/@nithishkgnani/breaking-the-universal-buffer
+During my college life, I had developed a theory in which humans develop into a class 3 civilization and eventually evolve into what we define as God today.
+Classes of civilization – Kardashev scale
+When you think about it, humans are confined to earth.</description>
+    </item>
+    
+    <item>
+      <title>Money Talks</title>
+      <link>https://nithishkgnani.github.io/blog/money-talks/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/blog/money-talks/</guid>
+      <description>I want to talk about a popular paradox known as the rich guest paradox.
+There is a town where everyone is in a huge debt with someone but has no money to pay it back.
+Here, there is a hotel which is hardly seeing any business anymore. They are to soon shut it down. One day a very wealthy guest shows up and wants to spend some time there as he wants to write his novel in peace.</description>
     </item>
     
   </channel>
