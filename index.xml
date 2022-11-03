@@ -5,7 +5,18 @@
     <link>https://nithishkgnani.github.io/</link>
     <description>Recent content on Nithish K Gnani</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://nithishkgnani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Nov 2022 20:34:44 +0530</lastBuildDate><atom:link href="https://nithishkgnani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Sensitive Networking and Tactile Cyber-Physical Systems</title>
+      <link>https://nithishkgnani.github.io/projects/tcps/</link>
+      <pubDate>Thu, 03 Nov 2022 20:34:44 +0530</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/projects/tcps/</guid>
+      <description>ObjectiveLink to headingDesign and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.</description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://nithishkgnani.github.io/contact/</link>
@@ -22,7 +33,7 @@
       
       <guid>https://nithishkgnani.github.io/projects/</guid>
       <description>Time Sensitive Networking (TSN) and Tactile Cyber-Physical Systems
-Design and implementation of a Tactile Cyber-Physical System (TCPS) for real-time interaction between humans and robots for applications requiring ultra-reliable low latency communication (uRLLC). To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network to then setup a time sensitive network (TSN). This would involve implementing time aware shaper and gate control logic at the TSN switches’ ports.</description>
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports. To demonstrate a remote surgery scenario where a user with haptic device(s) can in real time perform complex tasks using a robotic arm at a remote location with no apparent experience of lag.</description>
     </item>
     
     <item>

@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nithishkgnani.github.io/categories/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/tags/networking/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/categories/networking/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/projects/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/tags/robotics/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/tags/tactile-internet/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/tags/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
+    <loc>https://nithishkgnani.github.io/projects/tcps/</loc>
+    <lastmod>2022-11-03T20:34:44+05:30</lastmod>
+  </url><url>
     <loc>https://nithishkgnani.github.io/contact/</loc>
     <lastmod>2022-10-30T19:08:42+05:30</lastmod>
   </url><url>
@@ -13,12 +40,6 @@
   </url><url>
     <loc>https://nithishkgnani.github.io/authors/</loc>
   </url><url>
-    <loc>https://nithishkgnani.github.io/categories/</loc>
-  </url><url>
-    <loc>https://nithishkgnani.github.io/</loc>
-  </url><url>
     <loc>https://nithishkgnani.github.io/series/</loc>
-  </url><url>
-    <loc>https://nithishkgnani.github.io/tags/</loc>
   </url>
 </urlset>

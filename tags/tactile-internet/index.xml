@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tactile internet on Nithish K Gnani</title>
+    <link>https://nithishkgnani.github.io/tags/tactile-internet/</link>
+    <description>Recent content in Tactile internet on Nithish K Gnani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Nov 2022 20:34:44 +0530</lastBuildDate><atom:link href="https://nithishkgnani.github.io/tags/tactile-internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Sensitive Networking and Tactile Cyber-Physical Systems</title>
+      <link>https://nithishkgnani.github.io/projects/tcps/</link>
+      <pubDate>Thu, 03 Nov 2022 20:34:44 +0530</pubDate>
+      
+      <guid>https://nithishkgnani.github.io/projects/tcps/</guid>
+      <description>ObjectiveLink to headingDesign and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.</description>
+    </item>
+    
+  </channel>
+</rss>

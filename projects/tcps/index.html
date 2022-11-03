@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  Time Sensitive Networking and Tactile Cyber-Physical Systems · Nithish K Gnani
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Nithish K Gnani">
+<meta name="description" content="ObjectiveLink to headingDesign and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.">
+<meta name="keywords" content="blog,developer,personal,research,networking,communication,IoT">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Time Sensitive Networking and Tactile Cyber-Physical Systems"/>
+<meta name="twitter:description" content="ObjectiveLink to headingDesign and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports."/>
+
+<meta property="og:title" content="Time Sensitive Networking and Tactile Cyber-Physical Systems" />
+<meta property="og:description" content="ObjectiveLink to headingDesign and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nithishkgnani.github.io/projects/tcps/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2022-11-03T20:34:44+05:30" />
+<meta property="article:modified_time" content="2022-11-03T20:34:44+05:30" />
+
+
+
+
+
+<link rel="canonical" href="https://nithishkgnani.github.io/projects/tcps/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.c4d7e93a158eda5a65b3df343745d2092a0a1e2170feeec909b8a89443903c6a.css" integrity="sha256-xNfpOhWO2lpls980N0XSCSoKHiFw/u7JCbiolEOQPGo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.78b5fe3864945faf5207fb8fe3ab2320d49c3365def0e88ac1df0ddadc54a03c.css" integrity="sha256-eLX&#43;OGSUX69SB/uP46sjINScM2Xe8OiKwd8N2txUoDw=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.105.0">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Nithish K Gnani
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://nithishkgnani.wordpress.com/blog/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/">Home</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://nithishkgnani.github.io/projects/tcps/">
+          Time Sensitive Networking and Tactile Cyber-Physical Systems
+        </a>
+      </h1>
+    </header>
+
+    <hr>
+<h1 id="objective">
+  Objective
+  <a class="heading-link" href="#objective">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p><em>Design and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).</em></p>
+<p>To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.</p>
+<p>To demonstrate a remote surgery scenario where a user with haptic device(s) can in real time perform complex tasks using a robotic arm at a remote location with no apparent experience of lag.</p>
+<h4 id="time-sensitive-networking-tsn">
+  Time-sensitive networking (TSN)
+  <a class="heading-link" href="#time-sensitive-networking-tsn">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>TSN is the IEEE 802.1Q defined standard technology to provide deterministic messaging on standard Ethernet. It provides guarantees of delivery and minimized jitter using time scheduling for those real-time applications that require determinism.</p>
+<figure><img src="/img/TCPS_overview.png"
+         alt="Overview of the TCPS project"/><figcaption>
+            <p>Overview of the TCPS project</p>
+        </figcaption>
+</figure>
+
+<h1 id="work-done">
+  Work Done
+  <a class="heading-link" href="#work-done">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>The work that has been completed in this project till date is described here.</p>
+<h2 id="time-synchronization">
+  Time synchronization
+  <a class="heading-link" href="#time-synchronization">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Implemented Precision Time Protocol (PTP) on Linux devices. Tested using four Raspberry Pi devices – R1, R2, R3, and R4. R3 is the grand-master clock using the Best Master Clock Algorithm (BMCA). Remaining devices are in slave configuration. Using software timestamping a sub 100 μs synchronization error was obtained.</p>
+<figure><img src="/img/TCPS_time_sync.jpg"
+         alt="Time synchronization using PTP"/><figcaption>
+            <p>Time synchronization using PTP</p>
+        </figcaption>
+</figure>
+
+<h2 id="p4-based-switch-using-netronome-agilio-smartnic">
+  P4 based switch using Netronome Agilio SmartNIC
+  <a class="heading-link" href="#p4-based-switch-using-netronome-agilio-smartnic">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>We have setup a ethernet swtich using P4 programming language on the Netwronome Agilio SmartNIC. The match action table/rules contain the MAC addresses of the connected hosts. IP address is extracted from the packet and the packet is forwarded to a matching MAC address. The P4 program is also useful for obtaining and adding timestamp in a custom metadata header. Obtaining timestamps at the ports of the switch is a basic step for TSN.</p>
+<figure><img src="/img/TCPS_P4_switch.jpg"
+         alt="P4 based switch using Netronome Agilio SmartNIC"/><figcaption>
+            <p>P4 based switch using Netronome Agilio SmartNIC</p>
+        </figcaption>
+</figure>
+
+<h2 id="time-aware-shaper-using-linuxtc-on-netronome-card">
+  Time Aware Shaper using LinuxTC on Netronome card
+  <a class="heading-link" href="#time-aware-shaper-using-linuxtc-on-netronome-card">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><figure><img src="/img/TCPS_TAPRIO_implementation.jpg"
+         alt="Implementation of TAPRIO"/><figcaption>
+            <p>Implementation of TAPRIO</p>
+        </figcaption>
+</figure>
+
+.</p>
+<figure><img src="/img/TCPS_TAPRIO_Results.jpg"
+         alt="Results with cycle time of 20ms"/><figcaption>
+            <p>Results with cycle time of 20ms</p>
+        </figcaption>
+</figure>
+
+<h2 id="feedback-to-the-human-operator">
+  Feedback to the human operator
+  <a class="heading-link" href="#feedback-to-the-human-operator">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<figure><img src="/img/TCPS_force_feedback.gif"
+         alt="Feedback felt by human using a Geomagic Touch haptic device from a simulated robotic arm in CoppeliaSim environment"/><figcaption>
+            <p>Feedback felt by human using a Geomagic Touch haptic device from a simulated robotic arm in CoppeliaSim environment</p>
+        </figcaption>
+</figure>
+
+<h2 id="control-of-ur3-robotic-arm">
+  Control of UR3 robotic arm
+  <a class="heading-link" href="#control-of-ur3-robotic-arm">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>UR3 from Universal Robots is a high precision capable collaborative robot. It comes with a patented programming interface – PolyScope. But it has no real time control capability. A Python program using rospy library was developed for real time control of the robot using its external control feature. Some issues of vibration and jerky motion was fixed by developing few algorithms.</p>
+<figure><img src="/img/TCPS_robot_motion.gif"
+         alt="Eliminating vibrations and jerky motion"/><figcaption>
+            <p>Eliminating vibrations and jerky motion</p>
+        </figcaption>
+</figure>
+
+<p>A demonstration of teleoperation of the UR3 robotic arm by a human operator using the Geomagic Touch haptic device:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/JoljHneluBo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="ongoing-and-future-work">
+  Ongoing and future work:
+  <a class="heading-link" href="#ongoing-and-future-work">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<figure><img src="/img/TCPS_future_work.jpg"/>
+</figure>
+
+<hr>
+<h4 id="team">
+  Team
+  <a class="heading-link" href="#team">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><a href="https://nithishkgnani.github.io/">Nithish K Gnani</a>, <a href="https://joygetsit.github.io/">Joydeep Pal</a>, <a href="https://deepakc7y.github.io/">Deepak Choudary</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+
+    
+      1995 -
+    
+    2022
+    ·
+     Nithish K Gnani 
+    ·
+    
+
+    Sapien Prime
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.236049395dc3682fb2719640872958e12f1f24067bb09c327b233e6290c7edac.js" integrity="sha256-I2BJOV3DaC&#43;ycZZAhylY4S8fJAZ7sJwyeyM&#43;YpDH7aw="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
