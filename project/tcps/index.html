@@ -61,8 +61,8 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
 
 
 
-<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
 
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -164,7 +164,7 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
   </a>
 </h4>
 <p>TSN is the IEEE 802.1Q defined standard technology to provide deterministic messaging on standard Ethernet. It provides guarantees of delivery and minimized jitter using time scheduling for those real-time applications that require determinism.</p>
-<figure><img src="/img/TCPS_overview.png"
+<figure><img src="/img/tcps/TCPS_overview.png"
          alt="Overview of the TCPS project"/><figcaption>
             <p>Overview of the TCPS project</p>
         </figcaption>
@@ -186,7 +186,7 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
   </a>
 </h2>
 <p>Implemented Precision Time Protocol (PTP) on Linux devices. Tested using four Raspberry Pi devices – R1, R2, R3, and R4. R3 is the grand-master clock using the Best Master Clock Algorithm (BMCA). Remaining devices are in slave configuration. Using software timestamping a sub 100 μs synchronization error was obtained.</p>
-<figure><img src="/img/TCPS_time_sync.jpg"
+<figure><img src="/img/tcps/TCPS_time_sync.jpg"
          alt="Time synchronization using PTP"/><figcaption>
             <p>Time synchronization using PTP</p>
         </figcaption>
@@ -200,7 +200,7 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
   </a>
 </h2>
 <p>We have setup a ethernet swtich using P4 programming language on the Netwronome Agilio SmartNIC. The match action table/rules contain the MAC addresses of the connected hosts. IP address is extracted from the packet and the packet is forwarded to a matching MAC address. The P4 program is also useful for obtaining and adding timestamp in a custom metadata header. Obtaining timestamps at the ports of the switch is a basic step for TSN.</p>
-<figure><img src="/img/TCPS_P4_switch.jpg"
+<figure><img src="/img/tcps/TCPS_P4_switch.jpg"
          alt="P4 based switch using Netronome Agilio SmartNIC"/><figcaption>
             <p>P4 based switch using Netronome Agilio SmartNIC</p>
         </figcaption>
@@ -213,14 +213,14 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p><figure><img src="/img/TCPS_TAPRIO_implementation.jpg"
+<p><figure><img src="/img/tcps/TCPS_TAPRIO_implementation.jpg"
          alt="Implementation of TAPRIO"/><figcaption>
             <p>Implementation of TAPRIO</p>
         </figcaption>
 </figure>
 
 .</p>
-<figure><img src="/img/TCPS_TAPRIO_Results.jpg"
+<figure><img src="/img/tcps/TCPS_TAPRIO_Results.jpg"
          alt="Results with cycle time of 20ms"/><figcaption>
             <p>Results with cycle time of 20ms</p>
         </figcaption>
@@ -233,7 +233,7 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<figure><img src="/img/TCPS_force_feedback.gif"
+<figure><img src="/img/tcps/TCPS_force_feedback.gif"
          alt="Feedback felt by human using a Geomagic Touch haptic device from a simulated robotic arm in CoppeliaSim environment"/><figcaption>
             <p>Feedback felt by human using a Geomagic Touch haptic device from a simulated robotic arm in CoppeliaSim environment</p>
         </figcaption>
@@ -247,7 +247,7 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
   </a>
 </h2>
 <p>UR3 from Universal Robots is a high precision capable collaborative robot. It comes with a patented programming interface – PolyScope. But it has no real time control capability. A Python program using rospy library was developed for real time control of the robot using its external control feature. Some issues of vibration and jerky motion was fixed by developing few algorithms.</p>
-<figure><img src="/img/TCPS_robot_motion.gif"
+<figure><img src="/img/tcps/TCPS_robot_motion.gif"
          alt="Eliminating vibrations and jerky motion"/><figcaption>
             <p>Eliminating vibrations and jerky motion</p>
         </figcaption>
@@ -266,7 +266,7 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<figure><img src="/img/TCPS_future_work.jpg"/>
+<figure><img src="/img/tcps/TCPS_future_work.jpg"/>
 </figure>
 
 <hr>
