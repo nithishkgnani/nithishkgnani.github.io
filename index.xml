@@ -32,8 +32,9 @@ To develop TSN enabled ethernet switches on programmable network hardware (Netro
       <pubDate>Sun, 30 Oct 2022 19:05:33 +0530</pubDate>
       
       <guid>https://nithishkgnani.github.io/projects/</guid>
-      <description>Time Sensitive Networking (TSN) and Tactile Cyber-Physical Systems
-To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programming language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports. To demonstrate a remote surgery scenario where a user with haptic device(s) can in real time perform complex tasks using a robotic arm at a remote location with no apparent experience of lag.</description>
+      <description>TSN &amp;amp; TCPSTime Sensitive Networking (TSN) and Tactile Cyber-Physical Systems
+To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programming language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.
+To demonstrate a remote surgery scenario where a user with haptic device(s) can in real time perform complex tasks using a robotic arm at a remote location with no apparent experience of lag.</description>
     </item>
     
     <item>
