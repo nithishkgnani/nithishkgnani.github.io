@@ -1,0 +1,192 @@
+baseURL = "https://nithishkgnani.github.io/"
+title = "Nithish K Gnani"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+# Enable Disqus comments
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+author = "Nithish K Gnani"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Nithish's website"
+keywords = "blog,developer,personal,research,networking,communication,IoT"
+info = ["Electronic systems, communication networks & mechanical engineer", "🔍 Researcher at Indian Institute of Science", "[Download CV 👆](/Nithish-K-Gnani_CV.pdf)"]
+avatarURL = "img/DP_01_crop.jpg"
+#gravatar = "john.doe@example.com"
+
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+
+dateFormat = "January 2, 2006"
+since = 1995
+# Git Commit in Footer, uncomment the line below to enable it
+#commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+# [params.fathomAnalytics]
+# siteID = "ABCDE"
+# serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+
+# If you want to use plausible(https://plausible.io) for analytics, add this section
+# [params.plausibleAnalytics]
+# domain = "example.com"
+# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+
+# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+# [params.goatCounter]
+# code = "code"
+
+# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
+# [params.cloudflare]
+# token = "token"
+
+# If you want to use Matomo(https://matomo.org) for analytics, add this section
+# [params.matomo]
+# siteID = "ABCDE" # Default value is "1", overwrite this if you are cloud-hosting
+# serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
+
+# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
+# [params.googleTagManager]
+# id = "gid"
+
+# If you want to use Application Insights(https://azure.com/) for analytics, add this section
+# [params.applicationInsights]
+# connectionString = "connectionString"
+
+# If you want to implement a Content-Security-Policy, add this section
+# [params.csp]
+# childsrc = ["'self'"]
+# fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+# formaction = ["'self'"]
+# framesrc = ["'self'", "https://www.youtube.com"]
+# imgsrc = ["'self'"]
+# objectsrc = ["'none'"]
+# stylesrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://fonts.googleapis.com/",
+#   "https://cdn.jsdelivr.net/",
+# ]
+# scriptsrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://www.google-analytics.com",
+#   "https://cdn.jsdelivr.net/",
+# ]
+# prefetchsrc = ["'self'"]
+# # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+# connectsrc = ["'self'", "https://www.google-analytics.com"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Work at ZENLab"
+icon = "fa fa-3x fa-briefcase"
+weight = 1
+url = "https://labs.dese.iisc.ac.in/zenlab/people/nithish-k-gnani/"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-3x fa-github"
+weight = 2
+url = "https://github.com/nithishkgnani/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-3x fa-linkedin"
+weight = 3
+url = "https://www.linkedin.com/in/nithish-k-gnani/"
+
+#[[params.social]]
+#name = "Wordpress"
+#icon = "fa fa-3x fa-wordpress"
+#weight = 4
+#url = "https://nithishkgnani.wordpress.com/blog/"
+
+#[[params.social]]
+#name = "Instagram"
+#icon = "fa fa-3x fa-instagram"
+#weight = 5
+#url = "https://instagram.com/nithishkgnani"
+
+#[[params.social]]
+#name = "Twitter"
+#icon = "fa fa-3x fa-twitter"
+#weight = 6
+#url = "https://twitter.com/nihishkgnani/"
+
+#[[params.social]]
+#name = "YouTube"
+#icon = "fa fa-3x fa-youtube-play"
+#weight = 7
+#url = "https://www.youtube.com/channel/UCY_54xEn83SUWpL6e7y809w"
+
+#[[params.social]]
+#name = "RSS"
+#icon = "fa fa-3x fa-rss"
+#weight = 8
+#url = "https://myhugosite.com/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
+
+#[[params.social]]
+#name = "Gitlab"
+#icon = "fa fa-3x fa-gitlab"
+#weight = 9
+#url = "https://gitlab.com/johndoe/"
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 3
+url = "blog/"
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 4
+url = "/"
+
+#[[languages.en.menu.main]]
+#name = "Contact me"
+#weight = 5
+#url = "contact/"
