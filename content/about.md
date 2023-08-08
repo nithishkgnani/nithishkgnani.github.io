@@ -4,7 +4,7 @@ date: 2022-10-30T18:55:42+05:30
 draft: false
 ---
 
-## Hello👋, I'm Nithish K Gnani  
+## Hello👋, I'm Nithish Krishnabharathi Gnani  
 
 I'm a researcher at Indian Institute of Science (IISc), Bangalore.
 I work with cyber physical systems (connected robots), tactile internet, 
