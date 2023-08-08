@@ -1,5 +1,5 @@
 ---
-title: "Time Sensitive Networking and Tactile Cyber-Physical Systems"
+title: "Designing Tactile Cyber-Physical Systems"
 date: 2022-11-03T20:34:44+05:30
 author: "Nithish K Gnani"
 tags: [Networking, Tactile internet, robotics]
@@ -13,14 +13,27 @@ draft: false
 # Objective
 _Design and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC)._
 
-To develop TSN enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.
+To develop Time-Senstitive Networking (TSN) enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programmikng language. To implement time synchronization in the network and then setup a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.
 
 To demonstrate a remote surgery scenario where a user with haptic device(s) can in real time perform complex tasks using a robotic arm at a remote location with no apparent experience of lag.
 
-#### Time-sensitive networking (TSN)
-TSN is the IEEE 802.1Q defined standard technology to provide deterministic messaging on standard Ethernet. It provides guarantees of delivery and minimized jitter using time scheduling for those real-time applications that require determinism.
+**Time-Sensitive Networking (TSN)** is the IEEE 802.1Q defined standard technology to provide deterministic messaging on standard Ethernet. It provides guarantees of delivery and minimized jitter using time scheduling for those real-time applications that require determinism.
 
 {{< figure src="/img/tcps/TCPS_overview.jpg" caption="Overview of the TCPS project" >}}
+
+## Modules:
+
+1. Time-Senstitive Networking (TSN) switch (Towards implementing IEEE 802.1 TSN):
+    * Time Synchronization (Towards implementing IEEE 802.1AS)
+    * Time Aware Shaper (Towards implementing IEEE 802.1Qbv)
+    * Packet duplication and Elimination (Towards implementing IEEE. 802.1CB)
+2. Tactile Cyber-Physical System:
+    * Real time control of a teleoperator robotic arm
+    * Using haptic devices to send kinematic data and receive haptic feedback
+    * Intelligence algorithms for performance improvement
+    * Edge intelligent switch ports on programmable switches using P4
+
+
 
 # Work Done
 The work that has been completed in this project till date is described here.
