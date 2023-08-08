@@ -12,7 +12,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Nithish K Gnani"
+author = "Nithish Krishnabharathi Gnani"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nithish's website"
 keywords = "blog,developer,personal,research,networking,communication,IoT"
