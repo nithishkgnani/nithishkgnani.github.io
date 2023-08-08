@@ -24,7 +24,7 @@ IoT data management among other research areas in electronic systems.
 ### Education
 Bachelor of Technology in Mechanical Engineering from National Institute of Technology (NIT) Karnataka, Surathkal, Karnataka, India
 
-### Research Interests:
+### Research Interests
 
 * Cyber-Physical Systems & Robotics
 * Edge intelligence
@@ -33,5 +33,20 @@ Bachelor of Technology in Mechanical Engineering from National Institute of Tech
 * IoT Data Management
 * Indoor localization and sensor identification
 
-#### Address
+### Publications
+**Ongoing**
+* **Nithish Krishnabharathi Gnani**, Joydeep Pal, Deepak Choudhary, Himanshu Verma, Soumya Kanta Rana, Kaushal Mhapsekar, T. V. Prabhakar, Chandramani Singh. EdgeP4: A P4-Programmable Edge Intelligent Ethernet Switch for Tactile Cyber-Physical Systems, (submitted to HotNets 2023)
+* Joydeep Pal, Deepak Choudhary, **Nithish Krishnabharathi Gnani**, Chandramani Singh, T.V. Prabhakar. P4TAS: A P4-based Time-Aware Shaper on SmartNICs, (submitted to 2023 IEEE Global Communications Conference (GLOBECOM))
+* Kaumudi Singh, **Nithish Krishnabharathi Gnani**, Pratyush Shukla, Sachin S M, T V Prabhakar, Joy Kuri, Judicious data management for sustaining an energy harvesting sensor node - extension (manuscript in preparation)
+
+**Published**
+* Girish Vaidya, T.V.Prabhakar, **Nithish Gnani**, Ryan Shah, Shishir Nagaraja. A novel approach for identification of sensor devices through Acoustic PUF, Digital Threats: Research and Practice. https://doi.org/10.1145/3488306
+* Kaumudi Singh, Pratyush Shukla, Sachin S. M., **Nithish K. Gnani**, Prabhakar T. V., Joy Kuri. Judicious data management for sustaining an energy harvesting sensor node, Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.5997
+
+#### Contact
+**Email**  
+Work: nithishgnani@iisc.ac.in
+Personal: nkgnani101@gmail.com  
+
+**Address**  
 DESE, IISc Bangalore, CV Raman Road, Bengaluru, Karnataka, India - 560012
