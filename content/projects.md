@@ -16,7 +16,7 @@ Design and implementation of a Tactile Cyber-Physical System (TCPS) for real-tim
 {{< /details >}}
 
 {{< details "**2. Acoustics Based Localization**" open >}}
-[👆 More details](http://zenlab.dese.iisc.ac.in/past-projects/acoustic-localization/) 
+[👆 More details](/project/acoustic-localization/) 
 
 ![](/img/project_tiles/2_Acoustic-Localization.png "Localization setup")
 

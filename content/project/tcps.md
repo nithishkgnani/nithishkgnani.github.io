@@ -6,7 +6,11 @@ tags: [Networking, Tactile internet, robotics]
 categories: [Networking]
 draft: false
 ---
-
+---
+🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
+📅 Duration: March 2021 - Present  
+💰 Funded by: Ministry of Electronics and Information Technology (MeitY), Government of India and Center for Networked Intelligence (CNI), a Cisco CSR initiative.  
+👩‍🏫 Guided by: [Dr. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Dr. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 
