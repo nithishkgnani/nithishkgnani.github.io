@@ -26,9 +26,9 @@ During pre-boarding checks in an aircraft articles/assets such as safety vests a
 {{< gallery dir="/img/al/al-gallery1" />}}
 
 ### Localization Algorithms Simulated in MATLAB
-1. RSS based spherical intersection (3D lateration) 
-2. TDoA based spherical intersection 
-3. TDoA based angle estimation
+1. RSS-based spherical intersection (3D lateration) 
+2. TDoA-based spherical intersection 
+3. TDoA-based angle estimation
 
 {{< figure src="/img/al/al-SX.png" >}}
 {{< figure src="/img/al/al-TDoA_Angle.png" >}}
@@ -56,4 +56,4 @@ A “training” data set was collected. Each set consists of TDoA1, TDoA2, TDoA
 
 ### Future
 The results and observations in this project inspired the work on Physically Unclonable Functions (PUF) using acoustic signals and timers.  
-_A novel approach for identification of sensor devices through Acoustic PUF, Digital Threats: Research and Practice. https://doi.org/10.1145/3488306_
+_Sensor Identification via Acoustic Physically Unclonable Function, Digital Threats: Research and Practice. https://doi.org/10.1145/3488306_
