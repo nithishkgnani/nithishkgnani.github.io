@@ -33,12 +33,27 @@ During pre-boarding checks in an aircraft articles/assets such as safety vests a
 {{< figure src="/img/al/al-SX.png" >}}
 {{< figure src="/img/al/al-TDoA_Angle.png" >}}
 
-### Fingerprinting TDoA
-It was observed that a complex space like an aircraft cabin has no direct path between the speakers and microphones for sound to travel. This makes accurate measurement of the time between the arrival of beeps very difficult with the need to develop complicated algorithms. Our solution is low compute and energy efficient. We fingerprint the time difference between the arrival of sound from different speakers and use KNN algorithm to determine the location of a node.
+### Fingerprinting Time Difference of Arrival (TDoA)
+It was observed that a complex space like an aircraft cabin has no direct path between the speakers and microphones for sound to travel. This makes accurate measurement of the time between the arrival of beeps very difficult with the need to develop complicated algorithms. Our solution is low compute and energy efficient. We fingerprint the TDoA of sound from different speakers and use KNN algorithm to determine the location of a node.
 {{< figure src="/img/al/al-Fingerprinting.png" >}}
 
 
 ### Demonstration
 The sequence of steps involved in localizing the node can be seen in the video below. A smartphone running an Android application sends a command to the speaker controller board using BLE. The speakers beep successively. The nodes measure the time difference between the arrival of these beeps. The time information is communicated back to the smartphone. The application runs the KNN algorithm to determine if the nodes (hence the safety vests) are in their place.
 
-{{< youtube id="ZKtaTy-hZzg" >}}
+{{< figure src="/img/al/al-demo.gif" >}}
+
+### TDoA capture logic for 4 Speakers
+We use the comparator to detect the start of a beep and utilize the multiple timers available in nRF52840 board to measure TDoA. With the logic we use, TDoAs from any number of speakers can be captured. The TDoA in every cycle of beeps is transmitted using BLE to a central node (a microcontroller or a smartphone).
+
+{{< figure src="/img/al/tdoa-logic.png" >}}
+
+## Results
+A “training” data set was collected. Each set consists of TDoA1, TDoA2, TDoA3 and the seat label. A New “test” set was taken separately. The TDoA values from the test set are extracted and run through the kNN Algorithm to determine the seat label.
+##### Accuracy of KNN on test set obtained: 98%
+
+{{< figure src="/img/al/KNN-results.png" caption="Confusion matrix" >}}
+
+### Future
+The results and observations in this project inspired the work on Physically Unclonable Functions (PUF) using acoustic signals and timers.  
+_A novel approach for identification of sensor devices through Acoustic PUF, Digital Threats: Research and Practice. https://doi.org/10.1145/3488306_

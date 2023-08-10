@@ -13,6 +13,7 @@ draft: false
 👩‍🏫 Guided by: [Dr. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Dr. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
+_Note:_ This work is under progress. The information in this page is up to August 2022.
 
 # Objective
 _Design and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC)._

@@ -28,7 +28,7 @@ Bachelor of Technology in Mechanical Engineering from National Institute of Tech
 
 * Cyber-Physical Systems & Robotics
 * Edge intelligence
-* Ultra Low Latency Communication (uRLLC) - Time Sensitive Netowrking (IEEE 802.1TSN)
+* Ultra Low Latency Communication (uRLLC) - Time Sensitive Networking (IEEE 802.1TSN)
 * Programmable network hardware, P4 programming language
 * IoT Data Management
 * Indoor localization and sensor identification
