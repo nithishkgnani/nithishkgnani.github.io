@@ -36,7 +36,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< /details >}}
 
 {{< details "**4. Wi-Fi Modelling**" open >}}
-[👆 More details](https://labs.dese.iisc.ac.in/zenlab/ongoing-projects/wi-fi-modelling/) 
+[👆 More details](/project/wi-fi-modelling/) 
 
 ![](/img/project_tiles/4_WLAN-Modelling.png "WLAN modelling in MATLAB")
 

@@ -1,5 +1,5 @@
 ---
-title: "Acoustic Localization"
+title: "Acoustics Based Localization"
 date: 2023-08-10T18:53:40+05:30
 author: "Nithish K Gnani"
 tags: [indoor localization, embedded, aerospace]
@@ -10,7 +10,7 @@ draft: false
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: March 2019 - February 2020  
 💰 Funded by: Boeing  
-👩‍🏫 Guided by: [Dr. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Dr. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
+👩‍🏫 Guided by: [Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 

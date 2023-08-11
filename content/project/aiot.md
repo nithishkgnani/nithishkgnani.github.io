@@ -1,5 +1,5 @@
 ---
-title: "Aiot"
+title: "Aircraft IoT Data Management"
 date: 2023-08-10T22:57:47+05:30
 author: "Nithish K Gnani"
 draft: false
@@ -8,7 +8,7 @@ draft: false
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: March 2019 - February 2020  
 💰 Funded by: Boeing  
-👩‍🏫 Guided by: [Dr. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
+👩‍🏫 Guided by: [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 # Summary
