@@ -18,7 +18,7 @@ Design and implementation of a Tactile Cyber-Physical System (TCPS) for real-tim
 {{< details "**2. Acoustics Based Localization**" open >}}
 [👆 More details](/project/acoustic-localization/) 
 
-![](/img/project_tiles/2_Acoustic-Localization.png "Localization setup")
+![](/img/project_tiles/2_Acoustic-Localization2.png "Localization setup")
 
 * Developed an application to locate multiple wireless edge devices with embedded microphones by using audio signals from speakers. 
 * Simulated a few localization algorithms using MATLAB. Implemented KNN fingerprinting based localization of the receivers and achieved an accuracy of 98%.
