@@ -27,7 +27,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< /details >}}
 
 {{< details "**3. Airplane IoT data analytics and management**" open >}}
-[👆 More details](https://labs.dese.iisc.ac.in/zenlab/ongoing-projects/iot-data-management-via-intelligent-data-aggregation/) 
+[👆 More details](/project/aiot/) 
 
 ![](/img/project_tiles/3_AIOT-Data-Management.png "AIOT data management")
 
