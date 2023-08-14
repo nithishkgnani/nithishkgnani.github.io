@@ -5,5 +5,4 @@ author: "Nithish K Gnani"
 draft: false
 ---
 
-{{< figure src="/img/other_images/NKG_signature.png" >}}
 {{< figure src="/img/other_images/NKG_signature.jpg" >}}
