@@ -1,6 +1,6 @@
 ---
 title: "Wi Fi Modelling"
-date: 2023-08-11T17:04:07+05:30
+date: 2020-07-01
 author: "Nithish K Gnani"
 draft: false
 ---
@@ -82,5 +82,11 @@ I actively contributed to the project until June 2021 after which I supported it
 coexisting WLAN networks, [visit this page](https://labs.dese.iisc.ac.in/zenlab/ongoing-projects/wi-fi-modelling/). 
 
 ---
+
+<!-- In-line html -->
+<div style="text-align: right"> 
+<a href="/projects">Back to Projects 👆</a>
+</div>
+
 #### Team
 [Nithish K Gnani](https://nithishkgnani.github.io/), [Shyam Sundar D G](http://linkedin.com/in/shyam-sundar-44216818a)

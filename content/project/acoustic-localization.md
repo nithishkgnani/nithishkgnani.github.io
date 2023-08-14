@@ -1,6 +1,6 @@
 ---
 title: "Acoustics Based Localization"
-date: 2023-08-10T18:53:40+05:30
+date: 2019-03-16
 author: "Nithish K Gnani"
 tags: [indoor localization, embedded, aerospace]
 categories: [Aerospace network]
@@ -57,3 +57,10 @@ A “training” data set was collected. Each set consists of TDoA1, TDoA2, TDoA
 ### Future
 The results and observations in this project inspired the work on Physically Unclonable Functions (PUF) using acoustic signals and timers.  
 _Sensor Identification via Acoustic Physically Unclonable Function, Digital Threats: Research and Practice. https://doi.org/10.1145/3488306_
+
+---
+
+<!-- In-line html -->
+<div style="text-align: right"> 
+<a href="/projects">Back to Projects 👆</a>
+</div>

@@ -46,6 +46,10 @@ customSCSS = []
 # Custom JS
 customJS = []
 
+# for inline styles
+[markup.goldmark.renderer]
+unsafe= true
+
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
 # siteID = "ABCDE"
@@ -186,10 +190,10 @@ name = "Blog"
 weight = 3
 url = "blog/"
 
-[[languages.en.menu.main]]
-name = "Home"
-weight = 4
-url = "/"
+# [[languages.en.menu.main]]
+# name = "Home"
+# weight = 4
+# url = "/"
 
 #[[languages.en.menu.main]]
 #name = "Contact me"

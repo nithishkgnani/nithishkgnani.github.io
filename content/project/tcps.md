@@ -1,6 +1,6 @@
 ---
 title: "Designing Tactile Cyber-Physical Systems"
-date: 2022-11-03T20:34:44+05:30
+date: 2021-03-01
 author: "Nithish K Gnani"
 tags: [Networking, Tactile internet, robotics]
 categories: [Networking]
@@ -91,6 +91,10 @@ A demonstration of teleoperation of the UR3 robotic arm by a human operator usin
 
 ---
 
+<!-- In-line html -->
+<div style="text-align: right"> 
+<a href="/projects">Back to Projects 👆</a>
+</div>
 
 #### Team
 [Nithish K Gnani](https://nithishkgnani.github.io/), [Joydeep Pal](https://joygetsit.github.io/), [Deepak Choudhary](https://deepakc7y.github.io/)

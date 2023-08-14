@@ -1,6 +1,6 @@
 ---
 title: "Aircraft IoT Data Management"
-date: 2023-08-10T22:57:47+05:30
+date: 2019-03-17
 author: "Nithish K Gnani"
 draft: false
 ---
@@ -60,5 +60,11 @@ The results and observations in this project inspired the work on data managemen
 _Judicious data management for sustaining an energy harvesting sensor node, Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.5997_
 
 ---
+
+<!-- In-line html -->
+<div style="text-align: right"> 
+<a href="/projects">Back to Projects 👆</a>
+</div>
+
 #### Team
 [Nithish K Gnani](https://nithishkgnani.github.io/), [Sachin SM](https://www.linkedin.com/in/sachin-s-m-040288124), [Pratyush Shukla](https://www.linkedin.com/in/pratyush-shukla/%20%20)

@@ -66,7 +66,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 * _Novelty:_ Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0). 
 {{< /details >}}
 
-_Note:_ Click on "👆 More details" links to open the detailed page about each project.
+_Note:_ Click on "👆 More details" links under the dropdowns to open the detailed page about each project.
 
 <!-- {{< tabgroup >}}
 

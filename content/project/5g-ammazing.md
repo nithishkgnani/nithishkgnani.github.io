@@ -1,6 +1,6 @@
 ---
 title: "5G AMMAZING"
-date: 2023-08-14T15:08:41+05:30
+date: 2020-03-01
 author: "Nithish K Gnani"
 draft: false
 ---
@@ -23,3 +23,10 @@ Ideally, a phone, tablet, laptop or desktop PC can serve as the platform for the
 
 ## Project summary
 {{< youtube id="QhCendre_SY" >}}
+
+---
+
+<!-- In-line html -->
+<div style="text-align: right"> 
+<a href="/projects">Back to Projects 👆</a>
+</div>
