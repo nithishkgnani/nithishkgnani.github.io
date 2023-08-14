@@ -46,7 +46,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< /details >}}
 
 {{< details "**5. 5G - AMMAZING – Advanced MM-wAve Systems for Informatics at Gigabit**" open >}}
-[👆 More details](https://youtu.be/QhCendre_SY) 
+[👆 More details](/project/5g-ammazing/) 
 
 ![](/img/project_tiles/5_AMMAZING.png "5G - AMMAZING - Overview")
 
