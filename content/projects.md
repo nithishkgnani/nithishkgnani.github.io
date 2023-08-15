@@ -10,9 +10,9 @@ draft: false
 
 Design and implementation of a Tactile Cyber-Physical System (TCPS) for real-time interaction between humans and robots for applications requiring ultra-reliable low latency communication (uRLLC). 
 * Built an IEEE 802.1 TSN capable ethernet switch by implementing in hardware, a. time synchronization (IEEE 802.1AS), b. Time Aware Shaper (IEEE 802.1Qbv), and c. packet duplication and elimination (IEEE. 802.1CB). Built a TCPS testbed with a haptic device (Geomagic Touch) on one end and a robotic arm (UR3 - Universal Robots) on the other end for real time teleoperation.
-* _Novelty 1 - P4TAS:_ a P4-based system implementation for offloading Time-Aware Shaper onto a programmable SmartNIC. Achieved a latency bound of 20 µs between two end hosts connected through two switches (SmartNICs with P4TAS)
-* _Novelty 2:_ Developed packet de-duplication algorithms for SmartNICs to efficiently eliminate duplicates for enhancing the reliability of Scheduled Traffic in Time-Sensitive Networks. For duplicating over two links with 10% packet losses in each, achieved perfect de-duplication for a single 2.5 Gbps stream. For 12 simultaneous streams of total 1 Gbps, obtained de-duplication efficiency of 99.88% with 99.83% packet delivery.
-* _Novelty 3 - EdgeP4:_ Developed and implemented two edge intelligence algorithms for teleoperation, _pose correction_ and _tremor suppression_ on P4-programmable network edge switches to show that ports can be intelligent in reducing control loop latency (<100 µs for _pose correction_ task) and network load (99% reduction). Further, multiple algorithms can be hosted on the same edge switch which can transparently switch between the algorithms depending on the tasks by leveraging P4's match-actions.
+* <u>_Novelty 1 : P4TAS_</u> - a P4-based system implementation for offloading Time-Aware Shaper onto a programmable SmartNIC. Achieved a latency bound of 20 µs between two end hosts connected through two switches (SmartNICs with P4TAS)
+* <u>_Novelty 2_</u> - Developed packet de-duplication algorithms for SmartNICs to efficiently eliminate duplicates for enhancing the reliability of Scheduled Traffic in Time-Sensitive Networks. For duplicating over two links with 10% packet losses in each, achieved perfect de-duplication for a single 2.5 Gbps stream. For 12 simultaneous streams of total 1 Gbps, obtained de-duplication efficiency of 99.88% with 99.83% packet delivery.
+* <u>_Novelty 3: EdgeP4_</u> - Developed and implemented two edge intelligence algorithms for teleoperation, _pose correction_ and _tremor suppression_ on P4-programmable network edge switches to show that ports can be intelligent in reducing control loop latency (<100 µs for _pose correction_ task) and network load (99% reduction). Further, multiple algorithms can be hosted on the same edge switch which can transparently switch between the algorithms depending on the tasks by leveraging P4's match-actions.
 {{< /details >}}
 
 {{< details "**2. Acoustics Based Localization**" open >}}
@@ -56,11 +56,11 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< /details >}}
 
 {{< details "**6 .Video Casting**" open >}}
-[👆 More details](https://labs.dese.iisc.ac.in/zenlab/past-projects/video-casting/) 
+[👆 More details](/project/video-casting/) 
 
 ![](/img/project_tiles/6_Video-Casting.gif "Wi-Fi channel interference in an aircraft cabin")
 
-* Passengers bring media content on personal portable devices onto airplane, and desire to “cast” the media onto seat back displays in an aircraft cabin.
+* Passengers bring media content on personal portable devices onto an airplane, and desire to “cast” the media onto seat back displays in an aircraft cabin.
 * Considering that 2.4 \& 5 GHz Wi-Fi is congested in an aircraft cabin in which 400+ passengers use devices to cast media onto seat back displays in close proximity, the possibility of using IEEE 802.11ad, 60GHz Wi-Fi (Wi-Gig) \& 802.11ax (Wi-Fi 6E) was explored.
 * WLAN Toolbox in MATLAB was used to simulate the physical behavior of Wi-Fi transmissions in a dense environment.
 * _Novelty:_ Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0). 
