@@ -3,16 +3,17 @@ title: "Projects"
 date: 2022-10-30T19:05:33+05:30
 draft: false
 ---
+<div style="text-align: justify"> 
 {{< details "**1. Designing Tactile Cyber-Physical Systems (TCPS)** " open >}}
 [👆 More details](/project/tcps/)  
 
 ![](/img/project_tiles/1_TCPS.png "TCPS overview")
 
-Design and implementation of a Tactile Cyber-Physical System (TCPS) for real-time interaction between humans and robots for applications requiring ultra-reliable low latency communication (uRLLC). 
-* Built an IEEE 802.1 TSN capable ethernet switch by implementing in hardware, a. time synchronization (IEEE 802.1AS), b. Time Aware Shaper (IEEE 802.1Qbv), and c. packet duplication and elimination (IEEE. 802.1CB). Built a TCPS testbed with a haptic device (Geomagic Touch) on one end and a robotic arm (UR3 - Universal Robots) on the other end for real time teleoperation.
-* <u>_Novelty 1 : P4TAS_</u> - a P4-based system implementation for offloading Time-Aware Shaper onto a programmable SmartNIC. Achieved a latency bound of 20 µs between two end hosts connected through two switches (SmartNICs with P4TAS)
-* <u>_Novelty 2_</u> - Developed packet de-duplication algorithms for SmartNICs to efficiently eliminate duplicates for enhancing the reliability of Scheduled Traffic in Time-Sensitive Networks. For duplicating over two links with 10% packet losses in each, achieved perfect de-duplication for a single 2.5 Gbps stream. For 12 simultaneous streams of total 1 Gbps, obtained de-duplication efficiency of 99.88% with 99.83% packet delivery.
-* <u>_Novelty 3: EdgeP4_</u> - Developed and implemented two edge intelligence algorithms for teleoperation, _pose correction_ and _tremor suppression_ on P4-programmable network edge switches to show that ports can be intelligent in reducing control loop latency (<100 µs for _pose correction_ task) and network load (99% reduction). Further, multiple algorithms can be hosted on the same edge switch which can transparently switch between the algorithms depending on the tasks by leveraging P4's match-actions.
+Designed and executed a Tactile Cyber-Physical System (TCPS) connecting a haptic device (Geomagic Touch) and a UR3 robotic arm (Universal Robots) for live teleoperation. Constructed an IEEE 802.1 TSN-capable ethernet switch with in-hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). Key novelties:
+1. _P4TAS_ - Employed P4-based design for SmartNIC, enabling Time-Aware Shaper offloading and achieving a 20 µs latency between connected hosts via SmartNICs.
+2. Devised packet de-duplication algorithms for SmartNICs, bolstering Scheduled Traffic reliability. Attained 100% packet delivery at destination for a single 2.5 Gbps stream across two links with 10% losses each. Achieved 99.88% efficiency & 99.83% packet delivery for 12 simultaneous streams.
+3. _EdgeP4_ - Embedding intelligence for _pose correction_ and _tremor suppression_ in P4-programmable edge switches. These algorithms curbed control loop latency (<100 µs) and network load (99% reduction), demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.
+
 {{< /details >}}
 
 {{< details "**2. Acoustics Based Localization**" open >}}
@@ -67,6 +68,8 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< /details >}}
 
 _Note:_ Click on "👆 More details" links under the dropdowns to open the detailed page about each project.
+
+</div>
 
 <!-- {{< tabgroup >}}
 

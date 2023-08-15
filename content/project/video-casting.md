@@ -28,7 +28,7 @@ draft: false
 * Video Casting or Screen Mirroring Options
 
 # Summary
-* [A document](/img/vid-cast/Video_Casting_Study.pdf)  was prepared with market survey and casting methods available in wired and wireless casting. 
+* A document  was prepared with market survey and casting methods available in wired and wireless casting. 
 * Since 2.4 \& 5 GHz Wi-Fi is congested in an aircraft cabin, the possibility of using IEEE 802.11ad, 60GHz Wi-Fi (Wi-Gig) \& 802.11ax (Wi-Fi 6E) was explored.
 * WLAN Toolbox in MATLAB was used to simulate the physical behavior of Wi-Fi transmissions in a dense environment.
 * Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0). 
@@ -65,6 +65,14 @@ Considering the simulations performed and observations made, we find the followi
 * Virtual WLAN controllers like OpenWISP, Chillispot could be used to automate several aspects of network deployment and management.
 
 {{< figure src="/img/vid-cast/Result-algo-ch-alloc.png" caption="Channel allocation on 400 seats and resulting PER">}}
+
+## Video casting study document
+The document is a comprehensive and informative guide on video casting and its various aspects. It provides useful insights and recommendations for anyone interested in video casting technology.
+- Wireless casting: The document explains how wireless casting works using Wi-Fi standards, such as 802.11ad and 802.11ay, and their advantages and disadvantages for video casting. It also discusses the possibility of using private LTE networks for video casting.
+- Casting method: The document compares different methods of video casting, such as DLNA, WebRTC, and HDMI-CEC. It describes the underlying stack, pros and cons, and use cases of each method. It also proposes a video casting architecture using WebRTC and its components.
+- Streaming protocols: The document reviews different streaming protocols that are used for video casting, such as RTSP/RTP, RTMP, HLS, and MPEG-DASH. It evaluates their performance, compatibility, and features.
+- Wired casting: The document explores different wired casting options, such as HDMI, DisplayPort, USB Type-C, and MHL. It explains how they work, what connections they support, and what features they offer.
+- Solutions available in the market: The document lists some of the existing solutions that provide video casting capabilities, such as Chromecast, Roku, Apple TV, Amazon Fire TV, Miracast, AirPlay, and WiDi. It compares their features, compatibility, and pricing.
 
 
 
