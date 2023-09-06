@@ -72,7 +72,7 @@ Some issues of vibration and jerky motion were fixed by developing a few algorit
 
 {{< rawhtml >}}
 
-<video width=100% autoplay loop>
+<video width=100% controls yes autoplay loop>
     <source src="/img/tcps/JerkyToSmooth02.mp4" type="video/mp4">
     Eliminating vibrations and jerky motion.  
 </video>
@@ -110,7 +110,7 @@ Applying force feedback to indicate breach of operating boundary and floor touch
 
 {{< rawhtml >}}
 
-<video width=100% autoplay loop>
+<video width=100% controls yes autoplay loop>
     <source src="/img/tcps/GloveCalib01.mp4" type="video/mp4">
     SenseGlove Nova calibration.  
 </video>
