@@ -73,7 +73,7 @@ Some issues of vibration and jerky motion were fixed by developing a few algorit
 {{< rawhtml >}}
 
 <video width=100% controls yes autoplay loop>
-    <source src="/img/tcps/JerkyToSmooth02.mp4" type="video/mp4">
+    <source src="/img/tcps/JerkyToSmooth03.mp4" type="video/mp4">
     Eliminating vibrations and jerky motion.  
 </video>
 
