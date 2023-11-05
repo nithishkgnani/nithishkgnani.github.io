@@ -13,14 +13,14 @@ draft: false
 👩‍🏫 Guided by: [Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
-_Note:_ This work is under progress. The information in this page is up to August 2022.
+_Note:_ This work is under progress. The information in this page is up to August 2022. The application developed over this work is detailed in the project "[Designing Tactile Cyber-Physical Systems](/project/tcps/)".
 
 # Objective
 
 1. To develop Time-Senstitive Networking (TSN) enabled ethernet switches on programmable network hardware (Netronome Agilio SmartNIC) using P4 programming language. To implement time synchronization in the network and then set up a TSN network. This involves implementing time aware shaper and gate control list at the switch ports.
 2. To enable applications requiring ultra-reliable low latency communication (uRLLC) such as remote robotics assisted surgery.
 
-<!-- {{< figure src="/img/tcps/TCPS_overview.jpg" caption="Overview of the TCPS project" >}} -->
+{{< figure src="/img/tcps/TCPS_overview.jpg" caption="Overview of the project" >}}
 
 ## Modules:
 
@@ -64,6 +64,11 @@ TAS is a feature specified in the IEEE 802.1Qbv standard that helps to guarantee
 
 
 ---
+
+<!-- In-line html -->
+<div style="text-align: right">
+<a href="/project/tcps/">Go to Designing Tactile Cyber-Physical Systems 👆</a>
+</div>
 
 <!-- In-line html -->
 <div style="text-align: right"> 

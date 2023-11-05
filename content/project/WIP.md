@@ -37,11 +37,11 @@ _Note:_ This work is under progress and the page will be updated.
 * Intelligence algorithms for performance improvement
 * Edge intelligent switch ports on programmable switches using P4
 
-# Highlights
+# Results
 
 ## Intercity haptic bilateral teleoperation
 
-As shown in the video at the top of this page, the robotic arm at IISc Bangalore equipped with a marker pen was controlled by a human operator (yours truly) using a haptic device located in IIT Madras Research Park, Chennai trace over an outline of a spiral. A video feed of the operating area from Bengaluru is provided to the human operator at Chennai. Haptic feedback was implemented to indicate operating boundary of the robot and a sense of floor touch.
+As shown in the video at the top of this page, the robotic arm at IISc Bangalore equipped with a marker pen was controlled by a human operator (yours truly) using a haptic device located about 400km away in IIT Madras Research Park, Chennai trace over an outline of a spiral. A video feed of the operating area from Bengaluru is provided to the human operator at Chennai. Haptic feedback was implemented to indicate operating boundary of the robot and a sense of floor touch.
 
 ## P4-programmable edge intelligent ethernet switches for TCPS
 
@@ -49,15 +49,29 @@ As shown in the video at the top of this page, the robotic arm at IISc Bangalore
 
 ### 1. Tremor suppression
 
-Developed _tremor suppression_ algorithm that suppresses tremors in the robot arm while controlling it using a haptic device.
+The edge intelligent switch port connected to the haptic device runs the _tremor suppression_ algorithm that:
+
+* Filters out the hand tremors of the human operator that can cause unwanted movement of the teleoperator.
+* Uses a threshold-based algorithm to compare the coordinates of the haptic device and discard the packets that are associated with tremors.
+* Reduces the network load (up to 99.9%), and movement length of the teleoperator by suppressing tremors as shown.
+
 {{< figure src="/img/tcps/TCPS_Tremor_plot.jpg" caption="(A) Physiological tremors reflected in output movement; (B) Smooth movement due to tremor suppression algorithm at the edge switch port using tremor amplitude threshold of 0.5mm" >}}
 {{< figure src="/img/tcps/Trem_sup_results.png" width=100% caption="Results: tremor suppression" >}}
 
-### 2. Pose correction
+### 2. Automatic pose correction
 
-Developed _pose correction_ algorithm that automatically adjusts the pose of a robot while gripping a tool.
-{{< figure src="/img/tcps/TCPS_FingerMod.jpg" width=80% caption="A. stock and B. modified gripper fingertips design in CAD; C. Photo of modified gripper" >}}
-{{< figure src="/img/tcps/Ladder_diagrams-PoseCor.png" width=100% caption="Results: pose correction" >}}
+A 5x3 array of force-sensitive resistors (FSRs) was built and attached to custom fingertips on a two-fingered gripper. It is used to detect the contact region and force between the gripper and the tool. An Arduino Mega communicates the sensor data to the switch via a host computer.
+
+{{< figure src="/img/tcps/TCPS_FingerMod.jpg" width=70% caption="A. stock and B. modified gripper fingertips design in CAD; C. Photo of modified gripper" >}}
+
+The edge intelligent switch port connected to the robotic arm runs the automatic _pose correction_ algorithm that:
+
+* Monitors the grip of the two-fingered gripper on a tool using the force sensor array.
+* Calculates and sends the necessary translation and rotation steps to the robot to achieve a firm and accurate grip.
+* Uses a geometry-based algorithm and a precomputed table of pose corrections for different sensor combinations as shown in the figure below.
+* Reduces the control loop latency (100 μs) and network load by performing the pose correction locally on the switch port as shown.
+{{< figure src="/img/tcps/TCPS_PoseCorr.jpg" width=80% caption="Pose correction to correctly grip a tool using force sensor array" >}}
+{{< figure src="/img/tcps/Ladder_diagrams-PoseCor.png" width=80% caption="Results: pose correction" >}}
 
 
 # Work Done
@@ -79,7 +93,7 @@ Developed _pose correction_ algorithm that automatically adjusts the pose of a r
 
 {{< /rawhtml >}}
 
-## Force feedback from a simulated robot
+### Force feedback from a simulated robot
 
 * A simulated robot was built using Vrep/Coppelia Sim. You can control the position of end effector using Geomagic Touch
 * When force feedback is enabled, it stops you from moving into virtual objects like the cube wall
@@ -110,14 +124,7 @@ Some issues of vibration and jerky motion were fixed by developing a few algorit
 
 <!-- {{< figure src="/img/tcps/TCPS_robot_motion.gif" caption="Eliminating vibrations and jerky motion" >}} -->
 
-A demonstration of teleoperation of the UR3 robotic arm by a human operator using the Geomagic Touch haptic device:
-
-* Video feedback provided for inspecting the writing process
-* A sense of floor touch would enhance and improve the experience
-
-{{< youtube id="JoljHneluBo" >}}
-
-## Force feedback - operating boundaries and floor touch
+### Force feedback - operating boundaries and floor touch
 
 Applying force feedback to indicate breach of operating boundary and floor touch. This lead to easier and safer teleoperation of the robot for the writing task.
 
@@ -130,13 +137,16 @@ Applying force feedback to indicate breach of operating boundary and floor touch
 
 {{< /rawhtml >}}
 
-## Pose correction
+A demonstration of teleoperation of the UR3 robotic arm by a human operator using the Geomagic Touch haptic device across two cities: (YouTube link to a higher quality version of the video at the top of this page)
 
-{{< figure src="/img/tcps/TCPS_PoseCorr.jpg" width=80% caption="Pose correction to correctly grip a tool using force sensor array" >}}
+{{< youtube id="ATLq_FPcpLU" >}}
+
+
 
 # Ongoing and future work:
 
 * Improving the performance and parallel processing using ROS2
+* Intercontinental haptic bilateral teleoperation
 * Developing application that utilizes haptic gloves to feel touch and grasp sensation while interacting with virtual and physical objects.
 
 {{< rawhtml >}}
