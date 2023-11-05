@@ -54,7 +54,7 @@ A “training” data set was collected. Each set consists of TDoA1, TDoA2, TDoA
 
 {{< figure src="/img/al/KNN-results.png" caption="Confusion matrix" >}}
 
-### Future
+### Related work
 The results and observations in this project inspired the work on Physically Unclonable Functions (PUF) using acoustic signals and timers.  
 _Sensor Identification via Acoustic Physically Unclonable Function, Digital Threats: Research and Practice. https://doi.org/10.1145/3488306_
 

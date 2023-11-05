@@ -8,7 +8,7 @@ draft: false
 {{< details "**Designing Tactile Cyber-Physical Systems (TCPS)** " open >}}
 [👆 More details](/project/tcps/)  
 
-![](/img/project_tiles/1_TCPS.png "TCPS overview")
+![](/img/tcps/TCPS_Testbed.jpg "Cyber-Physical System Testbed")
 
 * Designed and executed a Tactile Cyber-Physical System (TCPS) connecting a haptic device (Geomagic Touch) and a UR3 robotic arm (Universal Robots) for live teleoperation.
 * Developed _pose correction_ algorithm that automatically adjusts the pose of a robot while gripping a tool.
@@ -18,6 +18,8 @@ draft: false
 
 {{< details "**Time Sensitive Networking (TSN) Switch** " open >}}
 [👆 More details](/project/tsn/)  
+
+![](/img/project_tiles/1_TCPS.png "TCPS and TSN overview")
 
 Built an IEEE 802.1 TSN-capable ethernet switch with in-hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). Key novelties:
 1. _P4TAS_ - Employed P4-based design for SmartNIC, enabling Time-Aware Shaper offloading and achieving a 20 µs latency between connected hosts via SmartNICs.

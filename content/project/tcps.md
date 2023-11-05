@@ -159,6 +159,9 @@ A demonstration of teleoperation of the UR3 robotic arm by a human operator usin
 
 {{< /rawhtml >}}
 
+# Related publications
+* EdgeP4: A P4-Programmable Edge Intelligent Ethernet Switch for Tactile Cyber-Physical Systems, preprint, 2023. [Link](https://arxiv.org/abs/2309.10383)
+
 ---
 
 

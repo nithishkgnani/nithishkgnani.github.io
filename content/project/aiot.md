@@ -55,7 +55,7 @@ The data stored and the reconstruction from the sparsely stored data can be seen
 {{< load-photoswipe >}}
 {{< gallery dir="/img/aiot/aiot-results" />}}
 
-### Future
+### Related work
 The results and observations in this project inspired the work on data management in energy-constrained IoT sensor nodes that transmit data wirelessly.  
 _Judicious data management for sustaining an energy harvesting sensor node, Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.5997_
 

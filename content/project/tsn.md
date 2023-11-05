@@ -62,6 +62,9 @@ TAS is a feature specified in the IEEE 802.1Qbv standard that helps to guarantee
 
 {{<figure src="/img/tcps/TCPS_future_work.jpg">}}
 
+# Related publications
+* Enhancing Reliability of Scheduled Traffic in Time-Sensitive Networks using Frame Replication and Elimination,  IEEE LANMAN 2023. [Link](https://ieeexplore.ieee.org/document/10189416)
+* μTAS: Design and implementation of Time Aware Shaper on SmartNICs to achieve bounded latency, prepint, 2023. [Link](https://arxiv.org/abs/2310.07480)
 
 ---
 
