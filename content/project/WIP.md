@@ -14,6 +14,15 @@ draft: true
 ---
 _Note:_ This work is under progress and the page will be updated.
 
+{{< rawhtml >}}
+
+<video width=100% controls yes>
+    <source src="/img/tcps/Chn-Blr-04_nkg50q.mp4" type="video/mp4">
+    Intercity haptic bilateral teleoperation.  
+</video>
+
+{{< /rawhtml >}}
+
 # Objective
 
 1. Design and implementation of a Tactile Cyber-Physical System for real-time interaction between physical and virtual worlds for applications requiring ultra-reliable low latency communication (uRLLC).  
@@ -28,6 +37,27 @@ _Note:_ This work is under progress and the page will be updated.
 * Intelligence algorithms for performance improvement
 * Edge intelligent switch ports on programmable switches using P4
 
+# Highlights
+
+## Intercity haptic bilateral teleoperation
+
+As shown in the video at the top of this page, the robotic arm at IISc Bangalore equipped with a marker pen was controlled by a human operator (yours truly) using a haptic device located in IIT Madras Research Park, Chennai trace over an outline of a spiral. A video feed of the operating area from Bengaluru is provided to the human operator at Chennai. Haptic feedback was implemented to indicate operating boundary of the robot and a sense of floor touch.
+
+## P4-programmable edge intelligent ethernet switches for TCPS
+
+{{< figure src="/img/tcps/TCPS_Testbed.jpg" caption="Cyber-Physical System Testbed" >}}
+
+### 1. Tremor suppression
+
+Developed _tremor suppression_ algorithm that suppresses tremors in the robot arm while controlling it using a haptic device.
+{{< figure src="/img/tcps/TCPS_Tremor_plot.jpg" caption="(A) Physiological tremors reflected in output movement; (B) Smooth movement due to tremor suppression algorithm at the edge switch port using tremor amplitude threshold of 0.5mm" >}}
+{{< figure src="/img/tcps/Trem_sup_results.png" width=100% caption="Results: tremor suppression" >}}
+
+### 2. Pose correction
+
+Developed _pose correction_ algorithm that automatically adjusts the pose of a robot while gripping a tool.
+{{< figure src="/img/tcps/TCPS_FingerMod.jpg" width=80% caption="A. stock and B. modified gripper fingertips design in CAD; C. Photo of modified gripper" >}}
+{{< figure src="/img/tcps/Ladder_diagrams-PoseCor.png" width=100% caption="Results: pose correction" >}}
 
 
 # Work Done
@@ -100,20 +130,9 @@ Applying force feedback to indicate breach of operating boundary and floor touch
 
 {{< /rawhtml >}}
 
-## P4-programmable edge intelligent ethernet switches for TCPS
+## Pose correction
 
-{{< figure src="/img/tcps/TCPS_Testbed.jpg" caption="Cyber-Physical System Testbed" >}}
-
-### Tremor suppression
-
-* Developed _tremor suppression_ algorithm that suppresses tremors in the robot arm while controlling it using a haptic device.
-{{< figure src="/img/tcps/TCPS_Tremor_plot.jpg" caption="(A) Physiological tremors reflected in output movement; (B) Smooth movement due to tremor suppression algorithm at the edge switch port using tremor amplitude threshold of 0.5mm" >}}
-
-### Pose correction
-
-* Developed _pose correction_ algorithm that automatically adjusts the pose of a robot while gripping a tool.
-{{< figure src="/img/tcps/TCPS_FingerMod.jpg" caption="CAD render of A. stock and B. modified gripper fingertips; C. Custom fingertips with force sensor array attached on the gripper" >}}
-{{< figure src="/img/tcps/TCPS_PoseCorr.jpg" caption="Pose correction to correctly grip a tool using force sensor array" >}}
+{{< figure src="/img/tcps/TCPS_PoseCorr.jpg" width=80% caption="Pose correction to correctly grip a tool using force sensor array" >}}
 
 # Ongoing and future work:
 
