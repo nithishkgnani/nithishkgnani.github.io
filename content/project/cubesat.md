@@ -26,6 +26,8 @@ draft: false
 
 To implement a simple adaptive control algorithm, MRAC using the MIT rule, for yaw control of a suspended CubeSat body using a reaction wheel and compare it with PID control.
 
+{{< figure src="/img/cubesat/cubesat_physical_model.jpg" width=50% caption="Working model of a CubeSat" >}}
+
 ## Motivation and Summary
 
 Space systems like satellites operate in complex and dynamic environments that require adaptive control strategies to cope with uncertainties and disturbances. The fixed gain PID controller cannot perfectly stabilize non-linear systems with uncertainties in terms of the model and parameters. An adaptive control algorithm can enhance the performance and provide the adaptive capability in such environments. One such strategy is model reference adaptive control (MRAC), which is used to design the controller that works by adjusting the controller parameters so that the output of the actual system tracks the output of a reference model having the same reference input. 
@@ -34,9 +36,16 @@ A reaction wheel is a type of flywheel used for orientation control of bodies, s
 
 In this project, we implement a simple adaptive control algorithm using MRAC with the MIT rule for yaw control of a suspended body mimicking the yaw of a cubic satellite (CubeSat) using a reaction wheel. We compare our algorithm with PID control, which is a conventional feedback controller that uses proportional, integral, and derivative terms to adjust the parameters. We use SolidWorks to design and SimMechanics to simulate our system model. We also fabricate our physical CubeSat model using open source components.
 
-{{< figure src="/img/cubesat/cubesat_physical_model.jpg" width=75% caption="Working model of a CubeSat" >}}
-
 We did a comparison of the PID and MRAC controllers in terms of settling time, overshoot, and steady-state error. The MRAC controller shows better performance in the presence of uncertainties.
 
+**The detailed project report can be found in pdf format [here 👆](/img/cubesat/CubeSat_Report_2017.pdf).**
+
+---
+
+<!-- In-line html -->
+<div style="text-align: right"> 
+<a href="/projects">Back to Projects 👆</a>
+</div>
+
 #### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Dennis Joshy](https://www.linkedin.com/in/dmj6288/), [B Suresh](https://www.linkedin.com/in/b-suresh-09b4b562/)
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Dennis Joshy](https://www.linkedin.com/in/dmj6288/), [B Suresh](https://www.linkedin.com/in/b-suresh-09b4b562/), [Hari Shankar](https://www.linkedin.com/in/hari-shankar-s/)
