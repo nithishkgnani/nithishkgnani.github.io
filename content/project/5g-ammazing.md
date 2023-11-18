@@ -9,7 +9,7 @@ draft: false
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: March 2020 - June 2022  
 🎯 For: 5G Hackathon by Department of Telecommunication, Government of India  
-👩‍🏫 Guided by: [K J Vinoy](https://ece.iisc.ac.in/~kjvinoy/) and [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
+👩‍🏫 Guided by: [Prof. K J Vinoy](https://ece.iisc.ac.in/~kjvinoy/) and [Prof. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 

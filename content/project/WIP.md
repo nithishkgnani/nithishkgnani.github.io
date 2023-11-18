@@ -9,7 +9,7 @@ draft: true
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: March 2022 - Present  
 💰 Funded by: Ministry of Electronics and Information Technology (MeitY), Government of India and Center for Networked Intelligence (CNI), a Cisco CSR initiative.  
-👩‍🏫 Guided by: [Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
+👩‍🏫 Guided by: [Prof. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Prof. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 _Note:_ This work is under progress and the page will be updated.

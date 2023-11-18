@@ -10,7 +10,7 @@ draft: false
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: March 2021 - Present  
 💰 Funded by: Ministry of Electronics and Information Technology (MeitY), Government of India and Center for Networked Intelligence (CNI), a Cisco CSR initiative.  
-👩‍🏫 Guided by: [Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
+👩‍🏫 Guided by: [Prof. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Prof. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 _Note:_ This work is under progress. The information in this page is up to August 2022. The application developed over this work is detailed in the project "[Designing Tactile Cyber-Physical Systems](/project/tcps/)".

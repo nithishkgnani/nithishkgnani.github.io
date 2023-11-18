@@ -8,7 +8,7 @@ draft: false
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: July 2020 - June 2021  
 💰 Funded by: Boeing  
-👩‍🏫 Guided by: [Neelesh Mehta](https://ece.iisc.ac.in/~nextgenwrl/Neelesh.html) and [Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/)  
+👩‍🏫 Guided by: [Prof. Neelesh Mehta](https://ece.iisc.ac.in/~nextgenwrl/Neelesh.html) and [Prof. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/)  
 
 ---
 

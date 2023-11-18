@@ -8,7 +8,7 @@ draft: false
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
 📅 Duration: February 2020 - January 2021  
 💰 Funded by: Boeing  
-👩‍🏫 Guided by: [TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
+👩‍🏫 Guided by: [Prof. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
 ---
 
