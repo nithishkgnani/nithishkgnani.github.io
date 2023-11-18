@@ -4,7 +4,7 @@ date: 2017-04-30
 author: "Nithish K Gnani"
 tags: [robotics, control, embedded systems]
 categories: [robotics, control, embedded systems]
-draft: true
+draft: false
 ---
 ---
 🗺 Location: National Institute of Technology Karnataka, Surathkal, India  
