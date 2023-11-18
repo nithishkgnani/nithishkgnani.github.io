@@ -12,13 +12,12 @@ draft: false
 👩‍🏫 Bachelors major project, guided by [Prof. Prasad Krishna](https://mech.nitk.ac.in/faculty/prasad-krishna)  
 
 ---
-<!-- EDIT THE VIDEO WITH TEXT INDICATORS AND TRY TO MUTE THE VOICE NARRATION -->
 
 <!-- {{< rawhtml >}}
 
 <video width=100% controls yes>
-    <source src="/img/cubsat/CubeSat_video.mp4" type="video/mp4">
-    Intercity haptic bilateral teleoperation.  
+    <source src="/img/cubsat/CubeSat03.mp4" type="video/mp4">
+    Yaw control of a suspended CubeSat using a smartphone.  
 </video>
 
 {{< /rawhtml >}} -->
