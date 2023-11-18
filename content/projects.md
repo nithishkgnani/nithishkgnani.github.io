@@ -5,7 +5,11 @@ draft: false
 ---
 <div style="text-align: justify"> 
 
-{{< details "**Designing Tactile Cyber-Physical Systems (TCPS)** " open >}}
+_Note:_ Click on "👆 More details" links under the dropdowns to open the detailed page about each project.
+
+### Tactile internet and cyber-physical systems  
+
+{{< details "Designing Tactile Cyber-Physical Systems (TCPS) " open >}}
 [👆 More details](/project/tcps/)  
 
 ![](/img/tcps/TCPS_Testbed.jpg "Cyber-Physical System Testbed")
@@ -16,7 +20,8 @@ draft: false
 
 {{< /details >}}
 
-{{< details "**Time Sensitive Networking (TSN) Switch** " open >}}
+---
+{{< details "Time Sensitive Networking (TSN) Switch " open >}}
 [👆 More details](/project/tsn/)  
 
 ![](/img/project_tiles/1_TCPS.png "TCPS and TSN overview")
@@ -28,7 +33,20 @@ Built an IEEE 802.1 TSN-capable ethernet switch with in-hardware implementation 
 
 {{< /details >}}
 
-{{< details "**Acoustics Based Localization**" open >}}
+---
+{{< details "Yaw Control of a CubeSat Using Reaction Wheels " open >}}
+[👆 More details](/project/cubesat/)  
+
+<!-- ![](/img/tcps/TCPS_Testbed.jpg "Cyber-Physical System Testbed") -->
+
+* Designed a suspended CubeSat body and achieved precise control of its yaw using reaction wheels using a manually tuned PID controller.
+* Modeled it in Simulink and implemented Model Reference Adaptive Control (MRAC) using the MIT rule and achieved better performance compared to PID control.
+
+{{< /details >}}
+
+### IoT data management, indoor localization and security  
+
+{{< details "Acoustics Based Localization" open >}}
 [👆 More details](/project/acoustic-localization/) 
 
 ![](/img/project_tiles/2_Acoustic-Localization2.png "Localization setup")
@@ -39,7 +57,8 @@ Built an IEEE 802.1 TSN-capable ethernet switch with in-hardware implementation 
 Developed an application to locate multiple wireless edge devices with embedded microphones by using audio signals from speakers.  
 {{< /details >}}
 
-{{< details "**Airplane IoT data analytics and management**" open >}}
+---
+{{< details "Airplane IoT data analytics and management" open >}}
 [👆 More details](/project/aiot/) 
 
 ![](/img/project_tiles/3_AIOT-Data-Management.png "AIOT data management")
@@ -48,7 +67,9 @@ Developed an application to locate multiple wireless edge devices with embedded 
 * _Novelty:_ Developed an algorithm that does linear interpolation between non-consecutive data points from time series data to adaptively store data based on a cost function which balances storage space savings and error in reconstruction of data. Achieved 96% savings in storage space. 
 {{< /details >}}
 
-{{< details "**Wi-Fi Modelling**" open >}}
+### Wireless communication and video streaming  
+
+{{< details "Wi-Fi Modelling" open >}}
 [👆 More details](/project/wi-fi-modelling/) 
 
 ![](/img/project_tiles/4_WLAN-Modelling.png "WLAN modelling in MATLAB")
@@ -58,7 +79,8 @@ Developed an application to locate multiple wireless edge devices with embedded 
 * Implementing Rate Control Algorithms in MATLAB. 
 {{< /details >}}
 
-{{< details "**5G - AMMAZING – Advanced MM-wAve Systems for Informatics at Gigabit**" open >}}
+---
+{{< details "5G - AMMAZING – Advanced MM-wAve Systems for Informatics at Gigabit" open >}}
 [👆 More details](/project/5g-ammazing/) 
 
 ![](/img/project_tiles/5_AMMAZING.png "5G - AMMAZING - Overview")
@@ -68,7 +90,8 @@ Developed an application to locate multiple wireless edge devices with embedded 
 * Shortlisted in top 10 teams in 5G Hackathon 2020-22 by Department of Telecommunication (DoT), Government of India. 
 {{< /details >}}
 
-{{< details "**Video Casting**" open >}}
+---
+{{< details "Video Casting" open >}}
 [👆 More details](/project/video-casting/) 
 
 ![](/img/project_tiles/6_Video-Casting.gif "Wi-Fi channel interference in an aircraft cabin")
@@ -78,8 +101,6 @@ Developed an application to locate multiple wireless edge devices with embedded 
 * WLAN Toolbox in MATLAB was used to simulate the physical behavior of Wi-Fi transmissions in a dense environment.
 * _Novelty:_ Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0). 
 {{< /details >}}
-
-_Note:_ Click on "👆 More details" links under the dropdowns to open the detailed page about each project.
 
 </div>
 
