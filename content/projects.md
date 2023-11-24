@@ -21,7 +21,7 @@ _Note:_ Click on "👆 More details" links under the dropdowns to open the detai
 {{< /details >}}
 
 ---
-{{< details "Time Sensitive Networking (TSN) Switch " open >}}
+{{< details "Time Sensitive Networking (TSN) switch " open >}}
 [👆 More details](/project/tsn/)  
 
 ![](/img/project_tiles/1_TCPS.png "TCPS and TSN overview")
@@ -34,7 +34,7 @@ Built an IEEE 802.1 TSN-capable ethernet switch with in-hardware implementation 
 {{< /details >}}
 
 ---
-{{< details "Yaw Control of a CubeSat Using Reaction Wheels " open >}}
+{{< details "Yaw control of a CubeSat using reaction wheels " open >}}
 [👆 More details](/project/cubesat/)  
 
 <!-- ![](/img/tcps/TCPS_Testbed.jpg "Cyber-Physical System Testbed") -->
@@ -91,7 +91,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< /details >}}
 
 ---
-{{< details "Video Casting" open >}}
+{{< details "Video casting" open >}}
 [👆 More details](/project/video-casting/) 
 
 ![](/img/project_tiles/6_Video-Casting.gif "Wi-Fi channel interference in an aircraft cabin")
@@ -100,6 +100,19 @@ Developed an application to locate multiple wireless edge devices with embedded 
 * Considering that 2.4 \& 5 GHz Wi-Fi is congested in an aircraft cabin in which 400+ passengers use devices to cast media onto seat back displays in close proximity, the possibility of using IEEE 802.11ad, 60GHz Wi-Fi (Wi-Gig) \& 802.11ax (Wi-Fi 6E) was explored.
 * WLAN Toolbox in MATLAB was used to simulate the physical behavior of Wi-Fi transmissions in a dense environment.
 * _Novelty:_ Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0). 
+{{< /details >}}
+
+
+### Hobby projects  
+
+{{< details "Building and flying RC planes" open >}}
+[👆 More details](/project/rc-planes/)  
+
+![](/img/project_tiles/7_Nitro-plane.jpg "RC Planes")
+
+* Built RC planes from scratch using balsa wood, biofoam and corrugated plastic sheets.
+* Won flying competitions in Mangalore region. 
+* Conducted RC plane building workshops.
 {{< /details >}}
 
 </div>
