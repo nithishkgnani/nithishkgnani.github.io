@@ -30,7 +30,7 @@ I now wanted to build a delta plane. With just two servo motors, a fusion of ail
 
 <video width=100% controls yes>
     <source src="/img/rc-planes/DeltaWing/DeltaWingFlying.mp4" type="video/mp4">
-    Intercity haptic bilateral teleoperation.  
+    Trying to fly the delta wing plane.  
 </video>
 
 {{< /rawhtml >}}
@@ -45,7 +45,7 @@ This is the best plane I've built. It was a project by Flying and Robotics club.
 
 <video width=100% controls yes>
     <source src="/img/rc-planes/Nitro/NitroPlaneFlying.mp4" type="video/mp4">
-    Intercity haptic bilateral teleoperation.  
+    Filling fuel, take off and landing of Nitro plane.  
 </video>
 
 {{< /rawhtml >}}

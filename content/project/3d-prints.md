@@ -1,7 +1,78 @@
 ---
 title: "3D Prints"
-date: 2023-11-24T10:43:22+05:30
+date: 2023-11-25
 author: "Nithish K Gnani"
-draft: true
+tags: [design, product development, hobby]
+categories: [design, product development, hobby]
+draft: false
 ---
 
+For the [TSN](/project/tsn/)  project, my lab procured some NetFPGA Sume development boards. Since it was a sophisticated and expensive piece of hardware, I wanted to protect it from any physical and electrical damage. So, I designed a case for it. I took this as an opportunity to purchase a 3D printer for myself to meet my long time desire of owning one. I bought the pocket friendly and geek-engaging Creality Ender 3 3D printer. As a test run, I printed some 3D models of super hero figurines from the internet. I edited the models in software like Autodesk Fusion 360 and Blender. I have used PLA material in all my prints.
+
+{{< load-photoswipe >}}
+{{< gallery dir="/img/3d-prints/figurines" />}}
+
+---
+
+## NetFPGA Sume case
+I used Autodesk Fusion 360 for designing the case after carefully measuring the Sume board. The case was designed in such a way that the board could be easily equipped with and removed from the case and secured to it with screws. The case had a provision for the power supply and the optical fiber cables to be connected to the board. It had to be printed in two parts as it was too big for the print bed. So, a T-shaped joint was designed to join the two parts. The case was a success and has been in use for two years.
+
+{{< gallery dir="/img/3d-prints/sume-case" />}}
+
+---
+
+## Functional products
+
+I gained enough expertise to now design and print functional products. This invovled designing from scratch or downloading designs from the internet and modifying them to suit my needs. The designs ensured minimum use of material and maximum strength while keeping print time low. Thanks to the YouTube channel [Maker's Muse](https://www.youtube.com/@MakersMuse) for tips & tricks and [Thingiverse](https://www.thingiverse.com/) for designs.
+
+### Desk organization
+
+I designed a phone stand that could hold a phone in different angles. It ended up working for a tablet as well. I also designed rasiers for my laptop-stand which enabled me to push cables and a usb-hub below the stand, saving valuable desk space. I printed a USB and SD-card stand and a battery holder whose design I found online.
+
+{{< gallery dir="/img/3d-prints/desk-org" />}}
+
+### Products with moving parts
+
+I tried printing products with moving parts and was genuinely surprised by the results. The possibilities of 3D printing exceeded my expectations. 
+
+{{< rawhtml >}}
+
+A cable spool to organize earphones.<br>
+<video width=60% controls yes>
+    <source src="/img/3d-prints/moving-prod/cable-spool.mp4" type="video/mp4">
+    Intercity haptic bilateral teleoperation.  
+</video>
+
+<br>A toy elephant that can also work as a phone stand.<br>
+<video width=60% controls yes>
+    <source src="/img/3d-prints/moving-prod/elephant-stand.mp4" type="video/mp4">
+    Intercity haptic bilateral teleoperation.  
+</video>
+
+<br>A carbiner printed as a single part.<br>
+<video width=60% controls yes>
+    <source src="/img/3d-prints/moving-prod/carabiner.mp4" type="video/mp4">
+    Intercity haptic bilateral teleoperation.  
+</video>
+
+{{< /rawhtml >}}
+
+### Phone mount for my motorcycle
+
+I designed a phone mount for my motorcycle. It was designed to be attached to the handlebar. The phone can be tightly secured to the mount using a screw mechanism. The mount itself has a clip mechanism to attach it to the handlebar which already has an attachment for a GoPro camera. I learnt that even screws and nuts can be 3D printed and they work well enough. Just to be extra secure, I used a metal screws and nuts.
+
+{{< gallery dir="/img/3d-prints/bike-mount" />}}
+
+### Parts for my lab
+
+I've desinged and printed some products that are useful in my lab like hooks, USB or battery holders. I also printed the Logo of our lab and attached it to the door of our lab.
+
+{{< gallery dir="/img/3d-prints/lab" />}}
+
+---
+
+## 3D printing - a new normal
+
+3D printing has become a new normal for me. Any replacement part that I can design is now printed instead of being bought. I now gift my friends and family 3D printed products like keychains, figurines, models, etc. Some of the products I have printed are shown below.  
+
+{{< gallery dir="/img/3d-prints/new-normal" />}}
