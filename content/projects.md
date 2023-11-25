@@ -110,7 +110,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 
 ![](/img/project_tiles/8_3D-prints.png "3D printed products")
 
-* My hobby of 3D printing for fun and utility.
+* Designing and 3D printing figurines, models and functional products for home and work.
 {{< /details >}}
 
 ---
@@ -119,7 +119,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 
 ![](/img/project_tiles/7_Nitro-plane.jpg "RC Planes")
 
-* Built RC planes from scratch using balsa wood, biofoam and corrugated plastic sheets.
+* Built RC planes using balsa wood, biofoam and corrugated plastic sheets, powered by brushless motors and nitro engines.
 * Won flying competitions in Mangalore region. 
 * Conducted RC plane building workshops.
 {{< /details >}}
