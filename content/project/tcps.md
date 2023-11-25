@@ -61,11 +61,11 @@ The edge intelligent switch port connected to the haptic device runs the _tremor
 
 ### 2. Automatic pose correction
 
-A 5x3 array of force-sensitive resistors (FSRs) was built and attached to custom fingertips on a two-fingered gripper. It is used to detect the contact region and force between the gripper and the tool. An Arduino Mega communicates the sensor data to the switch via a host computer.
+A 5x3 array of force-sensitive resistors (FSRs) was built and attached to 3D printed custom fingertips designed using Autodesk Fusion 360. This was fitted on a Robotiq 2F-85 two-fingered gripper. It is used to detect the contact region and force between the gripper and the tool. An Arduino Mega communicates the sensor data to the switch via a host computer.
 
 {{< figure src="/img/tcps/TCPS_FingerMod.jpg" width=70% caption="A. stock and B. modified gripper fingertips design in CAD; C. Photo of modified gripper" >}}
 
-The edge intelligent switch port connected to the robotic arm runs the automatic _pose correction_ algorithm that:
+The edge intelligent switch port connected to the UR3 robotic arm runs the automatic _pose correction_ algorithm that:
 
 * Monitors the grip of the two-fingered gripper on a tool using the force sensor array.
 * Calculates and sends the necessary translation and rotation steps to the robot to achieve a firm and accurate grip.

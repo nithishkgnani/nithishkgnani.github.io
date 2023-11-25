@@ -17,7 +17,7 @@ For the [TSN](/project/tsn/)  project, my lab procured some NetFPGA Sume develop
 ## NetFPGA Sume case
 I used Autodesk Fusion 360 for designing the case after carefully measuring the Sume board. The case was designed in such a way that the board could be easily equipped with and removed from the case and secured to it with screws. The case had a provision for the power supply and the optical fiber cables to be connected to the board. It had to be printed in two parts as it was too big for the print bed. So, a T-shaped joint was designed to join the two parts. The case was a success and has been in use for two years.
 
-{{< gallery dir="/img/3d-prints/sume-case" />}}
+<!-- {{< gallery dir="/img/3d-prints/sume-case" />}} -->
 
 ---
 
@@ -37,19 +37,19 @@ I tried printing products with moving parts and was genuinely surprised by the r
 
 {{< rawhtml >}}
 
-A cable spool to organize earphones.<br>
+<i>A cable spool to organize earphones:</i><br>
 <video width=60% controls yes>
     <source src="/img/3d-prints/moving-prod/cable-spool.mp4" type="video/mp4">
     Intercity haptic bilateral teleoperation.  
 </video>
 
-<br>A toy elephant that can also work as a phone stand.<br>
+<br><i>A toy elephant that can also work as a phone stand:</i><br>
 <video width=60% controls yes>
     <source src="/img/3d-prints/moving-prod/elephant-stand.mp4" type="video/mp4">
     Intercity haptic bilateral teleoperation.  
 </video>
 
-<br>A carbiner printed as a single part.<br>
+<br><i>A carbiner printed as a single part:</i><br>
 <video width=60% controls yes>
     <source src="/img/3d-prints/moving-prod/carabiner.mp4" type="video/mp4">
     Intercity haptic bilateral teleoperation.  
@@ -63,11 +63,17 @@ I designed a phone mount for my motorcycle. It was designed to be attached to th
 
 {{< gallery dir="/img/3d-prints/bike-mount" />}}
 
-### Parts for my lab
+## Parts for my lab
 
-I've desinged and printed some products that are useful in my lab like hooks, USB or battery holders. I also printed the Logo of our lab and attached it to the door of our lab.
+I've designed and printed some products that are useful in my lab like hooks, USB or battery holders. I also printed the Logo of our lab and attached it to the door of our lab.
 
-{{< gallery dir="/img/3d-prints/lab" />}}
+<!-- {{< gallery dir="/img/3d-prints/lab" />}} -->
+
+### Modified gripper fingers for a robot
+
+For the [TCPS](/project/tcps/) project, I designed a set of modified fingers for a two-finger gripper on a robotic arm. This was to attach a custom-built force sensor array PCB to it. The FSRs were used to detect the contact region and force between the gripper and a laparoscopic tool.
+
+{{< gallery dir="/img/3d-prints/gripper-fingers" />}}
 
 ---
 

@@ -105,6 +105,15 @@ Developed an application to locate multiple wireless edge devices with embedded 
 
 ### Hobby projects  
 
+{{< details "Designing 3D printed products" open >}}
+[👆 More details](/project/3d-prints/) 
+
+![](/img/project_tiles/8_3D-prints.jpg "3D printed products")
+
+* My hobby of 3D printing for fun and utility.
+{{< /details >}}
+
+---
 {{< details "Building and flying RC planes" open >}}
 [👆 More details](/project/rc-planes/)  
 
