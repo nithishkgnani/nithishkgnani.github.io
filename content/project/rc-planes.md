@@ -7,7 +7,7 @@ categories: [robotics, control, embedded systems, hobby]
 draft: false
 ---
 
-## MY first RC plane
+## My first RC plane
 
 I built my first remote controlled plane in 2014 at home during my break after second semester. It was a simple design with only rudder and elevator and no ailerons. I used a 3 channel transmitter and receiver. The plane was powered by a 1400kv brushless motor and a 20A ESC. I used a 1500mAh 3S LiPo battery. I used a 9g servos for the rudder and the elevator. It was made of balsa wood and had a wingspan of 1m. I cut the wood using HSS saw blades and shaped the aerofoil by sanding it using sand papers manually. It was a task intensive job and yet, I couldn't do a good enough job of making an aerofoil. I had a hard time flying it.
 
@@ -49,3 +49,8 @@ This is the best plane I've built. It was a project by Flying and Robotics club.
 </video>
 
 {{< /rawhtml >}}
+
+---
+<div style="text-align: right">
+<a href="/projects">Back to Projects 👆</a>
+</div>

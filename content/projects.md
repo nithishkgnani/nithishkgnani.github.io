@@ -37,7 +37,7 @@ Built an IEEE 802.1 TSN-capable ethernet switch with in-hardware implementation 
 {{< details "Yaw control of a CubeSat using reaction wheels " open >}}
 [👆 More details](/project/cubesat/)  
 
-<!-- ![](/img/tcps/TCPS_Testbed.jpg "Cyber-Physical System Testbed") -->
+![](/img/project_tiles/9_CubeSat.png "Yaw control of CubeSat using reaction wheels")
 
 * Designed a suspended CubeSat body and achieved precise control of its yaw using reaction wheels using a manually tuned PID controller.
 * Modeled it in Simulink and implemented Model Reference Adaptive Control (MRAC) using the MIT rule and achieved better performance compared to PID control.
@@ -108,7 +108,7 @@ Developed an application to locate multiple wireless edge devices with embedded 
 {{< details "Designing 3D printed products" open >}}
 [👆 More details](/project/3d-prints/) 
 
-![](/img/project_tiles/8_3D-prints.jpg "3D printed products")
+![](/img/project_tiles/8_3D-prints.png "3D printed products")
 
 * My hobby of 3D printing for fun and utility.
 {{< /details >}}

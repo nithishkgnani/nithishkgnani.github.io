@@ -66,5 +66,5 @@ _Judicious data management for sustaining an energy harvesting sensor node, Conc
 <a href="/projects">Back to Projects 👆</a>
 </div>
 
-#### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Sachin SM](https://www.linkedin.com/in/sachin-s-m-040288124), [Pratyush Shukla](https://www.linkedin.com/in/pratyush-shukla/%20%20)
+<!-- #### Team
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Sachin SM](https://www.linkedin.com/in/sachin-s-m-040288124), [Pratyush Shukla](https://www.linkedin.com/in/pratyush-shukla/%20%20) -->

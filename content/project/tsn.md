@@ -78,6 +78,6 @@ TAS is a feature specified in the IEEE 802.1Qbv standard that helps to guarantee
 <a href="/projects">Back to Projects 👆</a>
 </div>
 
-#### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Joydeep Pal](https://joygetsit.github.io/), [Deepak Choudhary](https://deepakc7y.github.io/)
+<!-- #### Team
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Joydeep Pal](https://joygetsit.github.io/), [Deepak Choudhary](https://deepakc7y.github.io/) -->
 

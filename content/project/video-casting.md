@@ -85,5 +85,5 @@ The document is a comprehensive and informative guide on video casting and its v
 <a href="/projects">Back to Projects 👆</a>
 </div>
 
-#### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Pratyush Shukla](https://www.linkedin.com/in/pratyush-shukla/%20%20)
+<!-- #### Team
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Pratyush Shukla](https://www.linkedin.com/in/pratyush-shukla/%20%20) -->

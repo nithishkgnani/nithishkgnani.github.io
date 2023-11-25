@@ -174,5 +174,5 @@ A demonstration of teleoperation of the UR3 robotic arm by a human operator usin
 <a href="/projects">Back to Projects 👆</a>
 </div>
 
-#### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Joydeep Pal](https://joygetsit.github.io/), [Deepak Choudhary](https://deepakc7y.github.io/)
+<!-- #### Team
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Joydeep Pal](https://joygetsit.github.io/), [Deepak Choudhary](https://deepakc7y.github.io/) -->

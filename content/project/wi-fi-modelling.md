@@ -88,5 +88,5 @@ coexisting WLAN networks, [visit this page](https://labs.dese.iisc.ac.in/zenlab/
 <a href="/projects">Back to Projects 👆</a>
 </div>
 
-#### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Shyam Sundar D G](http://linkedin.com/in/shyam-sundar-44216818a)
+<!-- #### Team
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Shyam Sundar D G](http://linkedin.com/in/shyam-sundar-44216818a) -->

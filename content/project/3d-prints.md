@@ -82,3 +82,8 @@ For the [TCPS](/project/tcps/) project, I designed a set of modified fingers for
 3D printing has become a new normal for me. Any replacement part that I can design is now printed instead of being bought. I now gift my friends and family 3D printed products like keychains, figurines, models, etc. Some of the products I have printed are shown below.  
 
 {{< gallery dir="/img/3d-prints/new-normal" />}}
+
+---
+<div style="text-align: right">
+<a href="/projects">Back to Projects 👆</a>
+</div>

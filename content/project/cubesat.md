@@ -9,24 +9,24 @@ draft: false
 ---
 🗺 Location: National Institute of Technology Karnataka, Surathkal, India  
 📅 Duration: July 2016 - April 2017  
-👩‍🏫 Bachelors major project, guided by [Prof. Prasad Krishna](https://mech.nitk.ac.in/faculty/prasad-krishna)  
+👩‍🏫 Bachelor's thesis project, guided by [Prof. Prasad Krishna](https://mech.nitk.ac.in/faculty/prasad-krishna)  
+📄 The detailed project report can be found in pdf format [here 👆](/img/cubesat/CubeSat_Report_2017.pdf)
 
 ---
-
-<!-- {{< rawhtml >}}
-
-<video width=100% controls yes>
-    <source src="/img/cubsat/CubeSat03.mp4" type="video/mp4">
-    Yaw control of a suspended CubeSat using a smartphone.  
-</video>
-
-{{< /rawhtml >}} -->
 
 # Objective
 
 To implement a simple adaptive control algorithm, MRAC using the MIT rule, for yaw control of a suspended CubeSat body using a reaction wheel and compare it with PID control.
 
-{{< figure src="/img/cubesat/cubesat_physical_model.jpg" width=50% caption="Working model of a CubeSat" >}}
+{{< rawhtml >}}
+
+<video width=100% controls yes>
+    <source src="/img/cubesat/CubeSat02.mp4" type="video/mp4">
+    Yaw control of a suspended CubeSat using a smartphone.  
+</video>
+
+{{< /rawhtml >}}
+
 
 ## Motivation and Summary
 
@@ -34,10 +34,29 @@ Space systems like satellites operate in complex and dynamic environments that r
 
 A reaction wheel is a type of flywheel used for orientation control of bodies, such as satellites, by changing its rotation speed and causing the body to counter-rotate proportionally through conservation of angular momentum
 
-In this project, we implement a simple adaptive control algorithm using MRAC with the MIT rule for yaw control of a suspended body mimicking the yaw of a cubic satellite (CubeSat) using a reaction wheel. We compare our algorithm with PID control, which is a conventional feedback controller that uses proportional, integral, and derivative terms to adjust the parameters. We use SolidWorks to design and SimMechanics to simulate our system model. We also fabricate our physical CubeSat model using open source components.
+In this project, a simple adaptive control algorithm using MRAC with the MIT rule is implemented for yaw control of a suspended body mimicking the yaw of a cubic satellite (CubeSat) using a reaction wheel. This algorithm is compared with PID control, which is a conventional feedback controller that uses proportional, integral, and derivative terms to adjust the parameters. SolidWorks is used to design and SimMechanics to simulate the system model. Also a physical CubeSat model is fabricated using open source components.
 
-We did a comparison of the PID and MRAC controllers in terms of settling time, overshoot, and steady-state error. The MRAC controller shows better performance in the presence of uncertainties.
+A comparison of the PID and MRAC controllers is done in terms of settling time, overshoot, and steady-state error. The MRAC controller shows better performance in the presence of uncertainties.
 
+
+{{< rawhtml >}}
+
+<!-- Two images side by side with captions in html -->
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
+    <figure>
+        <img src="/img/cubesat/cubesat_cad_model.png" width=75%>
+        <figcaption>CAD model of the CubeSat</figcaption>
+    </figure>
+    <figure>
+        <img src="/img/cubesat/cubesat_physical_model.jpg" width=50%>
+        <figcaption>Working model of the CubeSat</figcaption>
+    </figure>
+</div>
+
+{{< /rawhtml >}}
+
+
+---
 **The detailed project report can be found in pdf format [here 👆](/img/cubesat/CubeSat_Report_2017.pdf).**
 
 ---
@@ -47,5 +66,5 @@ We did a comparison of the PID and MRAC controllers in terms of settling time, o
 <a href="/projects">Back to Projects 👆</a>
 </div>
 
-#### Team
-[Nithish K Gnani](https://nithishkgnani.github.io/), [Dennis Joshy](https://www.linkedin.com/in/dmj6288/), [B Suresh](https://www.linkedin.com/in/b-suresh-09b4b562/), [Hari Shankar](https://www.linkedin.com/in/hari-shankar-s/)
+<!-- #### Team
+[Nithish K Gnani](https://nithishkgnani.github.io/), [Dennis Joshy](https://www.linkedin.com/in/dmj6288/), [B Suresh](https://www.linkedin.com/in/b-suresh-09b4b562/), [Hari Shankar](https://www.linkedin.com/in/hari-shankar-s/) -->
