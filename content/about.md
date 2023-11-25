@@ -46,13 +46,10 @@ Bachelor of Technology in Mechanical Engineering from National Institute of Tech
 * Indoor localization and sensor identification
 * IoT Data Management
 
-### Contact and Social
+### Contact
 **Email**  
 Work: nithishgnani@iisc.ac.in  
 Personal: nkgnani101@gmail.com  
-
-[Google Scholar](https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/nithish-k-gnani/) | [GitHub](https://github.com/nithishkgnani/)
-
 
 **Address**  
 DESE, IISc Bangalore, CV Raman Road, Bengaluru, Karnataka, India - 560012
