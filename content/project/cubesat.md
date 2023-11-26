@@ -48,7 +48,7 @@ A comparison of the PID and MRAC controllers is done in terms of settling time, 
         <figcaption>CAD model of the CubeSat</figcaption>
     </figure>
     <figure>
-        <img src="/img/cubesat/cubesat_physical_model.jpg" width=50%>
+        <img src="/img/cubesat/cubesat_physical_model.jpg" width=75%>
         <figcaption>Working model of the CubeSat</figcaption>
     </figure>
 </div>
