@@ -16,7 +16,7 @@ author = "Nithish Krishnabharathi Gnani"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nithish's website"
 keywords = "blog,developer,personal,research,networking,communication,IoT"
-info = ["","Cyber-Physical Systems, Communication Networks & Mechanical Engineer", "🔍 Researcher at Indian Institute of Science", "[Download CV 👆](/Nithish-K-Gnani_CV.pdf)"]
+info = ["Researcher at Indian Institute of Science", "Cyber-Physical Systems, Communication Networks & Mechatronics", "", "[Projects](/projects/) | [3D-printing hobby](/project/3d-prints/)", "", "[Google scholar](https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/nithish-k-gnani/) | [**CV**](/Nithish-K-Gnani_CV.pdf)"]
 avatarURL = "img/Nithish-OD23-square.jpeg"
 #gravatar = "john.doe@example.com"
 
@@ -111,23 +111,23 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-[[params.social]]
-name = "Work at ZENLab"
-icon = "fa fa-3x fa-briefcase"
-weight = 1
-url = "https://labs.dese.iisc.ac.in/zenlab/people/nithish-k-gnani/"
+# [[params.social]]
+# name = "Work at ZENLab"
+# icon = "fa fa-3x fa-briefcase"
+# weight = 1
+# url = "https://labs.dese.iisc.ac.in/zenlab/people/nithish-k-gnani/"
 
-[[params.social]]
-name = "Github"
-icon = "fa fa-3x fa-github"
-weight = 2
-url = "https://github.com/nithishkgnani/"
+# [[params.social]]
+# name = "Github"
+# icon = "fa fa-3x fa-github"
+# weight = 2
+# url = "https://github.com/nithishkgnani/"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-3x fa-linkedin"
-weight = 3
-url = "https://www.linkedin.com/in/nithish-k-gnani/"
+# [[params.social]]
+# name = "LinkedIn"
+# icon = "fa fa-3x fa-linkedin"
+# weight = 3
+# url = "https://www.linkedin.com/in/nithish-k-gnani/"
 
 #[[params.social]]
 #name = "Wordpress"

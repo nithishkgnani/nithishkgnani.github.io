@@ -19,16 +19,18 @@ IoT data management among other research areas in mechatronic systems.
     </div>
     <div style="flex: 70%;">
         <h3>Nithish Krishnabharathi Gnani</h3>
-        <p>I'm a researcher at Indian Institute of Science (IISc), Bangalore. I work with cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems.<br>
+        <p>I'm a researcher at Indian Institute of Science (IISc), advised by <a href="https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/">Prof. T V Prabhakar</a> and <a href="https://faculty.dese.iisc.ac.in/chandramani/">Prof. Chandramani Singh</a>. I work with cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. <i>(<a href="/projects/">Projects page</a>)</i><br>
         <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar</a> |
         <a href="https://www.linkedin.com/in/nithish-k-gnani/">LinkedIn</a> |
         <a href="https://github.com/nithishkgnani/">GitHub</a> |
-        <a href="/Nithish-K-Gnani_CV.pdf">CV</a>
+        <a href="/Nithish-K-Gnani_CV.pdf"><b>CV</b></a>
         </p>
     </div>
 </div>
 
 {{< /rawhtml >}}
+
+I also design [3D printed products](/project/3d-prints/) as a hobby and for work projects.
 
 ### Experience
 * Technical Associate, Centre for Networked Intelligence (CNI), IISc (2022-present)
@@ -44,7 +46,9 @@ Bachelor of Technology in Mechanical Engineering from National Institute of Tech
 * Cyber-Physical Systems, Robotics & Control and Mechatronics
 * Ultra Reliable Low Latency Communication (uRLLC) - Time Sensitive Networking (IEEE 802.1TSN)
 * Indoor localization and sensor identification
-* IoT Data Management
+* IoT Data Management  
+
+### [Publications](/publications/)
 
 ### Contact
 **Email**  
