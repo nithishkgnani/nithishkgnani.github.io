@@ -1,5 +1,5 @@
 ---
-title: "3D Prints"
+title: "Designing 3D printed products"
 date: 2023-11-25
 author: "Nithish K Gnani"
 tags: [design, product development, hobby]
