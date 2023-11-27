@@ -23,7 +23,7 @@ I used Autodesk Fusion 360 for designing the case after carefully measuring the 
 
 ## Functional products
 
-I gained enough expertise to now design and print functional products. This invovled designing from scratch or downloading designs from the internet and modifying them to suit my needs. The designs ensured minimum use of material and maximum strength while keeping print time low. Thanks to the YouTube channel [Maker's Muse](https://www.youtube.com/@MakersMuse) for tips & tricks and [Thingiverse](https://www.thingiverse.com/) for designs.
+I gained enough expertise to now design and print functional products. This invovled designing from scratch or downloading designs from the internet and modifying them to suit my needs. I learned to design products in such a way that there was minimum use of material and maximum strength while keeping print time low. Thanks to the YouTube channel [Maker's Muse](https://www.youtube.com/@MakersMuse) for tips & tricks and [Thingiverse](https://www.thingiverse.com/) for designs.
 
 ### Desk organization
 
