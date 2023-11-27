@@ -27,7 +27,7 @@ I gained enough expertise to now design and print functional products. This invo
 
 ### Desk organization
 
-I designed a phone stand that could hold a phone in different angles. It ended up working for a tablet as well. I also designed rasiers for my laptop-stand which enabled me to push cables and a usb-hub below the stand, saving valuable desk space. I printed a USB and SD-card stand and a battery holder whose design I found online.
+I designed a phone stand that could hold a phone in different angles. It ended up working for a tablet as well. I also added rasiers to my laptop-stand which enabled me to push cables and a usb-hub below the stand, saving valuable desk space. I printed a USB and SD-card stand and a battery holder whose design I found online.
 
 {{< gallery dir="/img/3d-prints/desk-org" />}}
 
@@ -59,7 +59,7 @@ I tried printing products with moving parts and was genuinely surprised by the r
 
 ### Phone mount for my motorcycle
 
-I designed a phone mount for my motorcycle. It was designed to be attached to the handlebar. The phone can be tightly secured to the mount using a screw mechanism. The mount itself has a clip mechanism to attach it to the handlebar which already has an attachment for a GoPro camera. I learnt that even screws and nuts can be 3D printed and they work well enough. Just to be extra secure, I used a metal screws and nuts.
+This mount is to attach a smartphone to my motorcycle handlebar. The phone can be tightly secured to the mount using a screw mechanism. The mount has a clip mechanism to attach to a GoPro camera mount already on the handlebar. I learned that even screws and nuts can be 3D printed, and they work well enough. Just to be extra secure, I used a metal screws and nuts.
 
 {{< gallery dir="/img/3d-prints/bike-mount" />}}
 
