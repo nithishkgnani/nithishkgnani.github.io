@@ -5,6 +5,9 @@ author: "Nithish K Gnani"
 draft: false
 ---
 
+{{< load-photoswipe >}}
+{{< gallery dir="/img/swimming-spectrum23" />}}
+
 Swimming is not only a great way to stay fit, but also a life-saving skill. I started swimming for these two reasons, but little did I know that it would lead me to win medals at Spectrum 2023, the annual sports festival of the Indian Institute of Science (IISc).
 
 Spectrum is a platform for IISc students and staff to showcase their talents and compete with their peers in various events, representing their departments. I was interested in participating in the swimming events, but I was not sure if I had the speed or the technique to compete with the experienced swimmers.
@@ -18,6 +21,3 @@ I had another race to go, the 1500-yard event. I knew it would be more challengi
 I also participated in a mixed team relay event of 4x100 yards freestyle, where I teamed up with three other swimmers from my department. We managed to win the bronze medal in this event, adding to my medal tally.
 
 I had a great time at Spectrum 2023, and I was glad that I could represent my department (Electronic Systems Engineering) and win medals in swimming. What started out as a fitness activity turned out to be a successful competition. I learned a lot from this experience, and I hope to continue swimming and improving my skills. I also want to try swimming in rougher waters, as it would be a different challenge and a useful skill. 
-
-{{< load-photoswipe >}}
-{{< gallery dir="/img/swimming-spectrum23" />}}
