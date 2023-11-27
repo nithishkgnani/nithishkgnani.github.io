@@ -23,7 +23,7 @@ IoT data management among other research areas in mechatronic systems.
         <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar</a> |
         <a href="https://www.linkedin.com/in/nithish-k-gnani/">LinkedIn</a> |
         <a href="https://github.com/nithishkgnani/">GitHub</a> |
-        <a href="/Nithish-K-Gnani_CV.pdf"><b>CV</b></a>
+        <a href="/Nithish-K-Gnani_CV.pdf">CV</a>
         </p>
     </div>
 </div>

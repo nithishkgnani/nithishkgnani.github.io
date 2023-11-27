@@ -182,13 +182,18 @@ url = "projects/"
 
 [[languages.en.menu.main]]
 name = "Publications"
-weight = 2
+weight = 3
 url = "publications/"
 
 [[languages.en.menu.main]]
 name = "Blog"
-weight = 3
+weight = 4
 url = "blog/"
+
+[[languages.en.menu.main]]
+name = "CV"
+weight = 5
+url = "Nithish-K-Gnani_CV.pdf/"
 
 # [[languages.en.menu.main]]
 # name = "Home"
