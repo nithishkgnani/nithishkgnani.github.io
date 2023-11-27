@@ -65,13 +65,13 @@ This mount is to attach a smartphone to my motorcycle handlebar. The phone can b
 
 ## Lab projects and workspace organization
 
-I designed mounts and cases for electronic components like sensors and microprocessors. To organize the workspace in the lab, I designed hooks, USB holders, battery holders, phone stands, etc. I also attached 3D printed logos of my lab (ZENLab) and IISc to the door of the lab for easy identification by visitors.  
+To organize the workspace in the lab, I made hooks, USB holders, battery holders, phone stands, etc. I also attached 3D printed logos of my lab (ZENLab) and IISc to the door of the lab for easy identification by visitors. I helped my friend Himanshu in designing cases for a Raspberry Pi 4, a temperature sensor and a pulse oximeter sensor for a project on implementating FRER to make transmission of patient data from an ambulane to a hospital more reilable.
 
 {{< gallery dir="/img/3d-prints/lab" />}}
 
 ### Modified gripper fingers for a robot
 
-For the [TCPS](/project/tcps/) project, I designed a set of modified fingers for a two-finger gripper on a robotic arm. This was to attach a custom-built force sensor array PCB to it. The FSRs were used to detect the contact region and force between the gripper and a laparoscopic tool.
+For the [TCPS](/project/tcps/) project, I designed a set of modified fingers for a two-finger gripper on a robotic arm which housed a custom-built force sensor array PCB made with force sensitive resistors. The modified fingers with a sensor array was used to detect the contact region and force between the gripper and a laparoscopic tool.
 
 {{< gallery dir="/img/3d-prints/gripper-fingers" />}}
 
