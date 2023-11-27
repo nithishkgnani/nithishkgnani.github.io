@@ -15,9 +15,9 @@ For the [TSN](/project/tsn/)  project, my lab procured some NetFPGA Sume develop
 ---
 
 ## NetFPGA Sume case
-I used Autodesk Fusion 360 for designing the case after carefully measuring the Sume board. The case was designed in such a way that the board could be easily equipped with and removed from the case and secured to it with screws. The case had a provision for the power supply and the optical fiber cables to be connected to the board. It had to be printed in two parts as it was too big for the print bed. So, a T-shaped joint was designed to join the two parts. The case was a success and has been in use for two years.
+I used Autodesk Fusion 360 for designing the case after carefully measuring the Sume board. The case was designed in such a way that the board could be easily equipped with and removed from the case and secured to it with screws. The case had a provision for the power supply, optical fiber cables and USB-JTAG to be connected to the board. It had to be printed in two parts as it was too big for the print bed. So, a T-shaped joint was designed to join the two parts. The case was a success and has been in use for two years.
 
-<!-- {{< gallery dir="/img/3d-prints/sume-case" />}} -->
+{{< gallery dir="/img/3d-prints/sume-case" />}}
 
 ---
 
@@ -63,11 +63,11 @@ I designed a phone mount for my motorcycle. It was designed to be attached to th
 
 {{< gallery dir="/img/3d-prints/bike-mount" />}}
 
-## Parts for my lab
+## Lab projects and workspace organization
 
-I've designed and printed some products that are useful in my lab like hooks, USB or battery holders. I also printed the Logo of our lab and attached it to the door of our lab.
+I designed mounts and cases for electronic components like sensors and microprocessors. To organize the workspace in the lab, I designed hooks, USB holders, battery holders, phone stands, etc. I also attached 3D printed logos of my lab (ZENLab) and IISc to the door of the lab for easy identification by visitors.  
 
-<!-- {{< gallery dir="/img/3d-prints/lab" />}} -->
+{{< gallery dir="/img/3d-prints/lab" />}}
 
 ### Modified gripper fingers for a robot
 
