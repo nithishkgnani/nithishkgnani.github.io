@@ -43,41 +43,45 @@ At the receiving end, all the 16-bit words of the headers plus data area are add
 Let's take an example with the following hexadecimal values:  
 *(This is a simplified example and actual UDP packets will have more data)*
 
-```
+```markdown
 84eb dfea 9edf
 ```
 
 Here's how you calculate the checksum:
 
 1. **Divide the payload and headers into 16-bit words**:
-```
-84eb, dfea, 9edf
-```
+
+    ```markdown
+    84eb, dfea, 9edf
+    ```
 
 2. **Sum the 16-bit words**:
-```
- 84eb
-+dfea
-+9edf
-------
-=203b4
-```
+
+    ```markdown
+    84eb
+    +dfea
+    +9edf
+    ------
+    =203b4
+    ```
 
 3. **Handle overflow**: There's an overflow since the sum `203b4` is more than `FFFF` (16 bits in binary). So, we wrap the overflow (2 in **2**03b4)  around:
-```
- 03b4
-+   2
-------
-=03b6
-```
+
+    ```markdown
+    03b4
+    +   2
+    ------
+    =03b6
+    ```
 
 4. **Take the one's complement**: The one's complement of `3B6` is `FC49`.  
-```
-            03B6 = 0000001110110110  
-One's complement = 1111110001001001 = FC49
-```
 
-5. **Append the checksum to the message**: The checksum `D58C` is appended to the message.
+    ```markdown
+                03B6 = 0000001110110110  
+    One's complement = 1111110001001001 = FC49
+    ```
+
+5. **Insert the checksum to the datagram**: The checksum `FC49` is added to the checksum field of the UDP header.
 
 At the receiving end, all the 16-bit words of the headers plus data area are added together (wrapping at 16 bits) and the result is checked against `FFFF`. If the result is `FFFF`, then the segment is valid else the segment has an error.
 
@@ -100,7 +104,8 @@ The steps done in the script are:
 5. The result is the checksum
 
 ```python
-# Function to split a hexadecimal number into 4-bit chunks and pad the leftmost chunk with zeros if necessary
+# Function to split a hexadecimal number into 4-bit chunks 
+# and pad the leftmost chunk with zeros if necessary
 def split_hex(hex_str):
     hex_chunks = []
     while len(hex_str) > 0:
@@ -109,19 +114,22 @@ def split_hex(hex_str):
         hex_str = hex_str[:-4]
     return hex_chunks
 
-# Function to perform sum of a list of hexadecimal numbers by converting them to decimal and then to hexadecimal
+# Function to perform sum of a list of hexadecimal numbers
+# by converting them to decimal and then to hexadecimal
 def sum_hex(hex_list):
     decimal_sum = sum(int(hex_num, 16) for hex_num in hex_list)
     hex_sum = hex(decimal_sum)[2:]    
     return hex_sum
 
-# Function to covert a hexadecimal number to binary and do one's complement
+# Function to covert a hexadecimal number to binary
+# and do one's complement
 def ones_complement(hex_num):
     bin_result = bin(int(hex_num, 16))[2:].zfill(16)
     checksum = hex(int(''.join('1' if bit == '0' else '0' for bit in bin_result), 2))[2:].zfill(4)
     return checksum
 
-# Function to compute the checksum of a hexadecimal number using all the above functions
+# Function to compute the checksum of a hexadecimal number
+# using all the above functions
 def checksum_calc(hex_number):
     while len(hex_number) > 4:
         hex_list = split_hex(hex_number)
