@@ -11,6 +11,9 @@ enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 
+[markup.highlight]
+noClasses = false
+
 [params]
 author = "Nithish Krishnabharathi Gnani"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
