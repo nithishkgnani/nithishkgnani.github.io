@@ -20,10 +20,12 @@ _Digital Threats: Research and Practice_ | <span style="color: orange;">ACM jour
 [PDF](https://dl.acm.org/doi/pdf/10.1145/3488306)
 
 * [Judicious data management for sustaining an energy harvesting sensor node](https://doi.org/10.1002/cpe.5997)  
-Kaumudi Singh, Pratyush Shukla, Sachin S. M., **Nithish K Gnan**i, Prabhakar T. V., Joy Kuri.  
+Kaumudi Singh, Pratyush Shukla, Sachin S. M., **Nithish K Gnani**, Prabhakar T. V., Joy Kuri.  
 _Concurrency and Computation: Practice and Experience_ | <span style="color: orange;">Wiley journal</span>  
 [PDF](https://onlinelibrary.wiley.com/share/author/K6MPERHBFRIRH9HTMIAC?target=10.1002/cpe.5997)
 
-* Judicious data management for sustaining an energy harvesting sensor node - extension  
-Kaumudi Singh, **Nithish K Gnan**i, Pratyush Shukla, Sachin S M, T V Prabhakar, Joy Kuri  
-_Manuscript in preparation_
+##### Under review/preparation
+
+* DIA: Intercontinental Haptic Bilateral Teleoperation  
+
+* Judicious data management for sustaining an energy harvesting sensor node - extension
