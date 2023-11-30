@@ -7,7 +7,7 @@ draft: false
 
 _Note:_ Click on "👆 More details" links under the dropdowns to open the detailed page about each project.
 
-### Tactile internet and cyber-physical systems  
+### Cyber-Physical Systems and Tactile Internet  
 
 {{< details "Designing Tactile Cyber-Physical Systems (TCPS) " open >}}
 [👆 More details](/project/tcps/)  
