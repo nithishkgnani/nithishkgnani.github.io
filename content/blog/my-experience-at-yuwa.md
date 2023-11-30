@@ -9,7 +9,7 @@ I had quit my job at an FMCG company due to some personal reasons and was at a s
 
 [Yuwa](https://www.yuwa-india.org/) empowers girls from impoverished families in rural Jharkhand, where they are at a risk of child marriage and human trafficking. Yuwa achieves this through football and education in a way which builds confidence, provides skills and prepares them to be self reliant.
 
-For its outstanding work, Yuwa won the [Laureus Sports for Good Award](https://www.laureus.com/sport-for-good/india/yuwa) in 2019. As a matter of luck I happened to be in Yuwa at that time.
+For its outstanding work, Yuwa won the [Laureus Sports for Good Award](https://www.laureus.com/world-sports-awards/2019/sport-for-good/yuwa) in 2019. As a matter of luck I happened to be in Yuwa at that time.
 
 This post captures my experience at Yuwa through a few pictures and also talks about what Yuwa does.
 
