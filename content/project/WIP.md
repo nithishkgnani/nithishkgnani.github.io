@@ -12,7 +12,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 40%;">
-        <img src="/img/project_tiles/TCPS_testbed.png" >
+        <img src="/img/project_tiles/portrait/TCPS_testbed.png" >
     </div>
     <div style="flex: 60%;">
         <h5>&nbsp;&nbsp;&nbsp;&nbsp;Designing Tactile Cyber-Physical Systems (TCPS)</h5>
@@ -45,7 +45,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/9_CubeSat.png" >
+        <img src="/img/project_tiles/portrait/CubeSat.png" >
     </div>
     <div style="flex: 70%;">
         <h5>Yaw control of a CubeSat using reaction wheels</h5>
@@ -60,7 +60,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/2_Acoustic-Localization2.png" >
+        <img src="/img/project_tiles/portrait/Acoustic-Localization.png" >
     </div>
     <div style="flex: 70%;">
         <h5>&nbsp;&nbsp;&nbsp;&nbsp;Acoustics Based Localization</h5>
@@ -76,7 +76,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/3_AIOT-Data-Management.png" >
+        <img src="/img/project_tiles/portrait/AIOT.png" >
     </div>
     <div style="flex: 70%;">
         <h5>&nbsp;&nbsp;&nbsp;&nbsp;Airplane IoT data analytics and management</h5>
@@ -93,7 +93,7 @@ draft: true
 <h3>Wireless communication and video streaming</h3>
 <div style="display: flex; align-items: center;">
     <div style="flex: 40%;">
-        <img src="/img/project_tiles/4_WLAN-Modelling.png" >
+        <img src="/img/project_tiles/portrait/WLAN-Modelling.png" >
     </div>
     <div style="flex: 60%;">
         <h5>&nbsp;&nbsp;&nbsp;&nbsp;Wi-Fi Modelling</h5>
@@ -145,7 +145,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/8_3D-prints.png" width=95%>
+        <img src="/img/project_tiles/portrait/3D-prints.png" width=95%>
     </div>
     <div style="flex: 70%;">
         <h5>Designing 3D printed products</h5>
@@ -157,7 +157,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/7_Nitro-plane.jpg" width=95%>
+        <img src="/img/project_tiles/portrait/Nitro-plane.jpg" width=95%>
     </div>
     <div style="flex: 70%;">
         <h5>Building and flying RC planes</h5>
@@ -169,4 +169,3 @@ draft: true
 </div>
 
 {{< /rawhtml >}}
-

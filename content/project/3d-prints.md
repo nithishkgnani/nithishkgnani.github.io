@@ -49,7 +49,7 @@ I tried printing products with moving parts and was genuinely surprised by the r
     Intercity haptic bilateral teleoperation.  
 </video>
 
-<br><i>A carbiner printed as a single part:</i><br>
+<br><i>A carabiner printed as a single part:</i><br>
 <video width=60% controls yes>
     <source src="/img/3d-prints/moving-prod/carabiner.mp4" type="video/mp4">
     Intercity haptic bilateral teleoperation.  
