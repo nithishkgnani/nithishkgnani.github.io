@@ -28,7 +28,7 @@ draft: true
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 40%;">
-        <img src="/img/project_tiles/1_tsn-switch.png" >
+        <img src="/img/project_tiles/portrait/tsn-switch.png" width=97%>
     </div>
     <div style="flex: 60%;">
         <h5>Time Sensitive Networking (TSN) switch</h5>

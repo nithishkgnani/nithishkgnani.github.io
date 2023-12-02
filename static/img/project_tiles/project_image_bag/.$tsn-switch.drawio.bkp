@@ -1,10 +1,10 @@
-<mxfile host="Electron" modified="2023-12-02T08:11:33.653Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="117pAm0bL2NyULNk7bRS" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2023-12-02T08:10:48.016Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Yx9bxQy8DpjAEvrKi14Q" version="22.1.2" type="device">
   <diagram id="7nvtyj95nnQOoJ-ixUxW" name="Page-1">
     <mxGraphModel dx="3960" dy="2409" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="LZ0WPYJbfGiM6aLiG-Kl-5" value="TSN" parent="0" />
-        <mxCell id="EKI7xuxzVu-wYQ03CT5--131" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillOpacity=50;" parent="LZ0WPYJbfGiM6aLiG-Kl-5" vertex="1">
+        <mxCell id="EKI7xuxzVu-wYQ03CT5--131" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillOpacity=50;" parent="LZ0WPYJbfGiM6aLiG-Kl-5" vertex="1">
           <mxGeometry x="836" y="2225" width="2737" height="888" as="geometry" />
         </mxCell>
         <mxCell id="q8nC3kANH8DAug5tz2sZ-0" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillOpacity=50;" parent="LZ0WPYJbfGiM6aLiG-Kl-5" vertex="1">
