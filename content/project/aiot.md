@@ -63,7 +63,7 @@ _Judicious data management for sustaining an energy harvesting sensor node, Conc
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
 
 <!-- #### Team

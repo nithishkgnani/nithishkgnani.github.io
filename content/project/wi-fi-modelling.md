@@ -85,7 +85,7 @@ coexisting WLAN networks, [visit this page](https://labs.dese.iisc.ac.in/zenlab/
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
 
 <!-- #### Team

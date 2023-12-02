@@ -167,11 +167,11 @@ A demonstration of teleoperation of the UR3 robotic arm by a human operator usin
 
 <!-- In-line html -->
 <div style="text-align: right">
-<a href="/project/tsn/">Go to Time Sensitive Networking Switch 👆</a>
+<a href="/project/tsn/">Go to Time Sensitive Networking Switch 🔗</a>
 </div>
 
 <div style="text-align: right">
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
 
 <!-- #### Team

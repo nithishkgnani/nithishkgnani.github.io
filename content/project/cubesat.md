@@ -10,7 +10,7 @@ draft: false
 🗺 Location: National Institute of Technology Karnataka, Surathkal, India  
 📅 Duration: July 2016 - April 2017  
 👩‍🏫 Bachelor's thesis project, guided by [Prof. Prasad Krishna](https://mech.nitk.ac.in/faculty/prasad-krishna)  
-📄 The detailed project report can be found in pdf format [here 👆](/img/cubesat/CubeSat_Report_2017.pdf)
+📄 The detailed project report can be found in pdf format [here 🔗](/img/cubesat/CubeSat_Report_2017.pdf)
 
 ---
 
@@ -57,13 +57,13 @@ A comparison of the PID and MRAC controllers is done in terms of settling time, 
 
 
 ---
-**The detailed project report can be found in pdf format [here 👆](/img/cubesat/CubeSat_Report_2017.pdf).**
+**The detailed project report can be found in pdf format [here 🔗](/img/cubesat/CubeSat_Report_2017.pdf).**
 
 ---
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
 
 <!-- #### Team

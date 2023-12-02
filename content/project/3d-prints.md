@@ -85,5 +85,5 @@ For the [TCPS](/project/tcps/) project, I designed a set of modified fingers for
 
 ---
 <div style="text-align: right">
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>

@@ -52,5 +52,5 @@ This is the best plane I've built. It was a project by Flying and Robotics club.
 
 ---
 <div style="text-align: right">
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>

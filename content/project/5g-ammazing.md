@@ -28,5 +28,5 @@ Ideally, a phone, tablet, laptop or desktop PC can serve as the platform for the
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>

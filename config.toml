@@ -19,7 +19,7 @@ author = "Nithish Krishnabharathi Gnani"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Nithish's website"
 keywords = "blog,developer,personal,research,networking,communication,IoT"
-info = ["Researcher at Indian Institute of Science", "Cyber-Physical Systems, Communication Networks & Mechatronics", "", "[Projects](/projects/) | [3D-printing hobby](/project/3d-prints/)", "", "[Google scholar](https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/nithish-k-gnani/) | [**CV**](/Nithish-K-Gnani_CV.pdf)"]
+info = ["","Researcher at Indian Institute of Science", "Cyber-Physical Systems, Communication Networks & Mechatronics", "", "[Projects](/projects/) | [3D-printing hobby](/project/3d-prints/)", "", "[Google scholar](https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/nithish-k-gnani/) | [**CV**](/Nithish-K-Gnani_CV.pdf)"]
 avatarURL = "img/Nithish-OD23-square.jpeg"
 #gravatar = "john.doe@example.com"
 

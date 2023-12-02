@@ -82,7 +82,7 @@ The document is a comprehensive and informative guide on video casting and its v
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
 
 <!-- #### Team

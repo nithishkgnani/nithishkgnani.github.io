@@ -70,12 +70,12 @@ TAS is a feature specified in the IEEE 802.1Qbv standard that helps to guarantee
 
 <!-- In-line html -->
 <div style="text-align: right">
-<a href="/project/tcps/">Go to Designing Tactile Cyber-Physical Systems 👆</a>
+<a href="/project/tcps/">Go to Designing Tactile Cyber-Physical Systems 🔗</a>
 </div>
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
 
 <!-- #### Team

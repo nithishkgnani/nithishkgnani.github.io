@@ -62,5 +62,5 @@ _Sensor Identification via Acoustic Physically Unclonable Function, Digital Thre
 
 <!-- In-line html -->
 <div style="text-align: right"> 
-<a href="/projects">Back to Projects 👆</a>
+<a href="/projects">Back to Projects 🔗</a>
 </div>
