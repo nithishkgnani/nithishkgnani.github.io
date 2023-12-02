@@ -4,9 +4,9 @@ date: 2022-10-30T19:05:33+05:30
 draft: true
 ---
 
-<div style="text-align: justify"> 
-
 {{< rawhtml >}}
+
+<div style="text-align: justify"> 
 
 <h3>Cyber-Physical Systems and Tactile Internet</h3>
 
@@ -166,6 +166,7 @@ draft: true
     </div>
 </div>
 
+</div>
+
 {{< /rawhtml >}}
 
-</div>
