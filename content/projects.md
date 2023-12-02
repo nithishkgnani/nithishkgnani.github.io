@@ -8,15 +8,15 @@ draft: false
 
 <div style="text-align: justify"> 
 
-<h3>Cyber-Physical Systems and Tactile Internet</h3>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Cyber-Physical Systems and Tactile Internet</h2>
 
 <div style="display: flex; align-items: center;">
-    <div style="flex: 40%;">
-        <img src="/img/project_tiles/portrait/TCPS_testbed.png" >
+    <div style="flex: 30%;">
+        <img src="/img/project_tiles/portrait/TCPS_testbed.png" width=95%>
     </div>
-    <div style="flex: 60%;">
-        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Designing Tactile Cyber-Physical Systems (TCPS)</h5>
-        <ul>
+    <div style="flex: 70%;">
+        <h4>Designing Tactile Cyber-Physical Systems (TCPS)</h4>
+        <ul style="padding-left: 16px;">
             <li>Designed and executed a Tactile Cyber-Physical System (TCPS) connecting a haptic device and a robotic arm for live teleoperation.</li>
             <li>Developed <i>pose correction</i> algorithm that automatically adjusts the pose of a robot while gripping a tool.</li>
             <li>Developed <i>tremor suppression</i> algorithm that suppresses tremors in the robot arm while controlling it using a haptic device.</li>
@@ -27,47 +27,51 @@ draft: false
 <!-- <hr> -->
 
 <div style="display: flex; align-items: center;">
-    <div style="flex: 40%;">
-        <img src="/img/project_tiles/portrait/tsn-switch.png" width=97%>
-    </div>
-    <div style="flex: 60%;">
-        <h5>Time Sensitive Networking (TSN) switch</h5>
-        Built an IEEE 802.1 TSN-capable ethernet switch with hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). Key novelties:
-    </div>
+    <div style="flex: 30%;">
+        <img src="/img/project_tiles/portrait/tsn-switch.png" width=95% style="float: left;">
+    </div> 
+    <div style="flex: 70%;">
+        <h4>Time Sensitive Networking (TSN) switch</h4>
+        Built an IEEE 802.1 TSN-capable ethernet switch with hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). 
+        <b>Novelties</b>:
+        <ul style="padding-left: 16px;" >
+            <li><i>µTAS</i> - Employed P4-MicroC-based design for SmartNIC, enabling Time-Aware Shaper offloading and achieving a 20 µs latency between connected hosts via SmartNICs.</li>
+            <li>Packet de-duplication algorithms for SmartNICs for Scheduled Traffic reliability. Achieved 100% packet delivery at destination for one 2.5 Gbps stream across two links with 10% losses each. Achieved 99.88% efficiency & 99.83% packet delivery for 12 simultaneous streams.</li>
+            <li><i>EdgeP4</i> - Embedding intelligence for <i>pose correction</i> and <i>tremor suppression</i> in P4-programmable edge switches. These algorithms curbed control loop latency (<100µs) and network load (99% reduction), demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.</li>
+            <li><a href="/project/tsn/">Detailed project page 🔗</a></li>
+        </ul>
+    </div>   
 </div>
-<ul>
-    <li><i>µTAS</i> - Employed P4-MicroC-based design for SmartNIC, enabling Time-Aware Shaper offloading and achieving a 20 µs latency between connected hosts via SmartNICs.</li>
-    <li>Devised packet de-duplication algorithms for SmartNICs, bolstering Scheduled Traffic reliability. Attained 100% packet delivery at destination for a single 2.5 Gbps stream across two links with 10% losses each. Achieved 99.88% efficiency & 99.83% packet delivery for 12 simultaneous streams.</li>
-    <li><i>EdgeP4</i> - Embedding intelligence for <i>pose correction</i> and <i>tremor suppression</i> in P4-programmable edge switches. These algorithms curbed control loop latency (<100µs) and network load (99% reduction), demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.</li>
-    <li><a href="/project/tsn/">Detailed project page 🔗</a></li>
-</ul>
 <!-- <hr> -->
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/portrait/CubeSat.png" >
+        <img src="/img/project_tiles/portrait/CubeSat.png" width=95% >
     </div>
     <div style="flex: 70%;">
-        <h5>Yaw control of a CubeSat using reaction wheels</h5>
-        Designed a suspended CubeSat body and achieved precise control of its yaw using reaction wheels using a manually tuned PID controller. Modeled it in Simulink and implemented Model Reference Adaptive Control (MRAC) using the MIT rule and achieved better performance compared to PID control.<br>
-        <a href="/project/cubesat/">Detailed project page 🔗</a>
+        <h4>Yaw control of a CubeSat using reaction wheels</h4>
+        <ul style="padding-left: 16px;">
+            <li>Designed a suspended CubeSat body and achieved precise control of its yaw using reaction wheels using a manually tuned PID controller.</li>
+            <li>Modeled it in Simulink and implemented Model Reference Adaptive Control (MRAC) using the MIT rule and achieved better performance compared to PID control.</li>
+            <li><a href="/project/cubesat/">Detailed project page 🔗</a></li>
+        </ul>
     </div>
 </div>
 <hr>
 
-<h3>IoT data management, indoor localization and security</h3>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >IoT data management, indoor localization and security</h2>
 
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/portrait/Acoustic-Localization.png" >
+        <img src="/img/project_tiles/portrait/Acoustic-Localization.jpg" width=95% >
     </div>
     <div style="flex: 70%;">
-        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Acoustics Based Localization</h5>
-        <ul>
+        <h4>Acoustics Based Localization</h4>
+        <ul style="padding-left: 16px;">
             <li>Developed an application to locate multiple wireless edge devices with embedded microphones by using audio signals from speakers. </li>
             <li>Simulated a few localization algorithms using MATLAB. Implemented KNN fingerprinting based localization of the receivers and achieved an accuracy of 98%.</li>
-            <li><i>Novelty:</i> Unlike the usual source localization, here, the receivers (mics) are localized when the locations of speakers are known.</li>
+            <li><b>Novelty</b> - Unlike the usual source localization, here, the receivers (mics) are localized when the locations of speakers are known.</li>
             <li><a href="/project/acoustic-localization/">Detailed project page 🔗</a></li>
         </ul>
     </div>
@@ -76,13 +80,13 @@ draft: false
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/portrait/AIOT.png" >
+        <img src="/img/project_tiles/portrait/AIOT.png" width=95% >
     </div>
     <div style="flex: 70%;">
-        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Airplane IoT data analytics and management</h5>
-        <ul>
+        <h4>Airplane IoT data analytics and management</h4>
+        <ul style="padding-left: 16px;">
             <li>Developed machine learning algorithms to classify anomalies and take corrective actions using real-time data generated from sensors from a MATLAB/Simulink model of an aircraft environmental control system. </li>
-            <li><i>Novelty:</i> Developed an algorithm that does linear interpolation between non-consecutive data points from time series data to adaptively store data based on a cost function which balances storage space savings and error in reconstruction of data. Achieved 96% savings in storage space.</li>
+            <li><b>Novelty</b> - Developed an algorithm that does linear interpolation between non-consecutive data points from time series data to adaptively store data based on a cost function which balances storage space savings and error in reconstruction of data. Achieved 96% savings in storage space.</li>
             <li><a href="/project/aiot/">Detailed project page 🔗</a></li>
         </ul>
     </div>
@@ -90,18 +94,18 @@ draft: false
 <hr>
 
 
-<h3>Wireless communication and video streaming</h3>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Wireless communication and video streaming</h2>
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 35%;">
         <!-- <img src="/img/project_tiles/5_AMMAZING.png" > -->
-        <iframe src="https://www.youtube.com/embed/QhCendre_SY" title="5G-AMMAZING-summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width=95% src="https://www.youtube.com/embed/QhCendre_SY" title="5G-AMMAZING-summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div style="flex: 65%;">
-        <h5>&nbsp;&nbsp;&nbsp;&nbsp;5G - AMMAZING</h5>
-        <ul>
+        <h4>5G - AMMAZING</h4>
+        <ul style="padding-left: 16px;">
             <li>An end to end 5G mmWave system for infotainment. </li>
-            <li><i>Novelty:</i> Data & control plane of a video stream split over 5G and regular Wi-Fi.</li>
+            <li><b>Novelty</b> - Data & control plane of a video stream split over 5G and regular Wi-Fi.</li>
             <li>Won 🥇 first place and a cash award of $13,200 in 5G Hackathon 2020 <br>by the Government of India </li>
             <li><a href="/project/5g-ammazing/">More details 🔗</a></li>
         </ul>
@@ -109,12 +113,12 @@ draft: false
 </div>
 
 <div style="display: flex; align-items: center;">
-    <div style="flex: 40%;">
-        <img src="/img/project_tiles/portrait/WLAN-Modelling.png" >
+    <div style="flex: 35%;">
+        <img src="/img/project_tiles/portrait/WLAN-Modelling.png" width=95% >
     </div>
-    <div style="flex: 60%;">
-        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Wi-Fi Modelling</h5>
-        <ul>
+    <div style="flex: 65%;">
+        <h4>Wi-Fi Modelling</h4>
+        <ul style="padding-left: 16px;">
             <li>Modelling & simulation of IEEE 802.11n & 802.11ac using MATLAB. </li>
             <li>Performance Metrics: throughput, packet error rate & range.</li>
             <li>Implementing Rate Control Algorithms in MATLAB. </li>
@@ -126,14 +130,14 @@ draft: false
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 35%;">
-        <img src="/img/project_tiles/6_Video-Casting.gif" >
+        <img src="/img/project_tiles/portrait/Video-Casting.gif" width=95% >
     </div>
     <div style="flex: 65%;">
-        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Video casting</h5>
-        <ul>
+        <h4>Video casting</h4>
+        <ul style="padding-left: 16px;">
             <li>As 2.4 & 5 GHz Wi-Fi is congested in an aircraft cabin in which 400+ passengers cast media onto seat back displays in close proximity, using IEEE 802.11ad, 60GHz Wi-Fi (Wi-Gig) & 802.11ax (Wi-Fi 6E) was explored.</li>
             <li>MATLAB WLAN Toolbox was used to simulate the physical behavior of Wi-Fi transmissions in a dense environment.</li>
-            <li><i>Novelty:</i> Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0).</li>
+            <li><b>Novelty</b> - Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0).</li>
             <li><a href="/project/video-casting/">More details 🔗</a></li>
         </ul>
     </div>
@@ -141,28 +145,30 @@ draft: false
 <hr>
 
 
-<h3>Hobby projects</h3>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Hobby projects</h2>
 
 <div style="display: flex; align-items: center;">
-    <div style="flex: 30%;">
+    <div style="flex: 40%;">
         <img src="/img/project_tiles/portrait/3D-prints.png" width=95%>
     </div>
-    <div style="flex: 70%;">
-        <h5>Designing 3D printed products</h5>
+    <div style="flex: 60%;">
+        <h4>Designing 3D printed products</h4>
         Designing and 3D printing figurines, models and functional products for home and work.<br>
         <a href="/project/3d-prints/">Link to the products developed 🔗</a>
+        <br><br><br><br><br>
     </div>
 </div>
 <!-- <hr> -->
 
 <div style="display: flex; align-items: center;">
-    <div style="flex: 30%;">
+    <div style="flex: 40%;">
         <img src="/img/project_tiles/portrait/Nitro-plane.jpg" width=95%>
     </div>
-    <div style="flex: 70%;">
-        <h5>Building and flying RC planes</h5>
+    <div style="flex: 60%;">
+        <h4>Building and flying RC planes</h4>
         Built RC planes using balsa wood, biofoam and corrugated plastic sheets, powered by brushless motors and nitro engines. Won flying competitions in Mangalore region. Conducted RC plane building workshops.<br>
         <a href="/project/rc-planes/">Link to the planes built 🔗</a>
+        <br><br><br><br><br>
     </div>
 </div>
 
