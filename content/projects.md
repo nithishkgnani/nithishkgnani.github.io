@@ -107,7 +107,7 @@ draft: false
             <li>An end to end 5G mmWave system for infotainment. </li>
             <li><b>Novelty</b> - Data & control plane of a video stream split over 5G and regular Wi-Fi.</li>
             <li>Won 🥇 first place and a cash award of $13,200 in 5G Hackathon 2020 <br>by the Government of India </li>
-            <li><a href="/project/5g-ammazing/">More details 🔗</a></li>
+            <!-- <li><a href="/project/5g-ammazing/">More details 🔗</a></li> -->
         </ul>
     </div>
 </div>
@@ -138,7 +138,7 @@ draft: false
             <li>As 2.4 & 5 GHz Wi-Fi is congested in an aircraft cabin in which 400+ passengers cast media onto seat back displays in close proximity, using IEEE 802.11ad, 60GHz Wi-Fi (Wi-Gig) & 802.11ax (Wi-Fi 6E) was explored.</li>
             <li>MATLAB WLAN Toolbox was used to simulate the physical behavior of Wi-Fi transmissions in a dense environment.</li>
             <li><b>Novelty</b> - Developed an algorithm that dynamically allocates different channels to 400 transmitters such that the packet error ratio is zero (PER = 0).</li>
-            <li><a href="/project/video-casting/">More details 🔗</a></li>
+            <li><a href="/project/video-casting/">Detailed project page 🔗</a></li>
         </ul>
     </div>
 </div>
