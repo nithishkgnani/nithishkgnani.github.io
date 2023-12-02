@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{< rawhtml >}}
-
+<hr>
 <div style="text-align: justify"> 
 
 <h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Cyber-Physical Systems and Tactile Internet</h2>
@@ -173,6 +173,7 @@ draft: false
 </div>
 
 </div>
+<hr>
 
 {{< /rawhtml >}}
 
