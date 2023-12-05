@@ -32,12 +32,12 @@ draft: false
     </div> 
     <div style="flex: 70%;">
         <h4>Time Sensitive Networking (TSN) switch</h4>
-        Built an IEEE 802.1 TSN-capable ethernet switch with hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). 
+        Built IEEE 802.1 TSN-capable ethernet switches using SmartNICs hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). 
         <b>Novelties</b>:
         <ul style="padding-left: 16px;" >
-            <li><i>µTAS</i> - Employed P4-MicroC-based design for SmartNIC, enabling Time-Aware Shaper offloading and achieving a 20 µs latency between connected hosts via SmartNICs.</li>
-            <li>Packet de-duplication algorithms for SmartNICs for Scheduled Traffic reliability. Achieved 100% packet delivery at destination for one 2.5 Gbps stream across two links with 10% losses each. Achieved 99.88% efficiency & 99.83% packet delivery for 12 simultaneous streams.</li>
-            <li><i>EdgeP4</i> - Embedding intelligence for <i>pose correction</i> and <i>tremor suppression</i> in P4-programmable edge switches. These algorithms curbed control loop latency (<100µs) and network load (99% reduction), demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.</li>
+            <li><i>µTAS</i> - Designed a P4-MicroC-based SmartNIC that offloaded Time-Aware Shaper and achieved 20µs latency between hosts across two switches.</li>
+            <li>Implemented packet de-duplication algorithms that ensured 100% and 99.83% packet delivery for two and tweleve streams respectively across two links each with 10% loss.</li>
+            <li><i>EdgeP4</i> - Embedding intelligence for <i>pose correction</i> and <i>tremor suppression</i> in P4-programmable edge switches, reducing control loop latency (<100µs) and network load (99% reduction) and demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.</li>
             <li><a href="/project/tsn/">Detailed project page 🔗</a></li>
         </ul>
     </div>   
