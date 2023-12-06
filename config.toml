@@ -176,7 +176,7 @@ languageName = ":us:"
 [[languages.en.menu.main]]
 name = "About"
 weight = 1
-url = "about/"
+url = ""
 
 [[languages.en.menu.main]]
 name = "Projects"
