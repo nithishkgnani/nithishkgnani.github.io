@@ -86,13 +86,14 @@ The edge intelligent switch port connected to the UR3 robotic arm runs the autom
 * At the end of the video, force is demonstrated by placing the pointer on top of the cube and then taking the force away by stopping the program.
 
 {{< rawhtml >}}
-
-<video width=100% controls yes>
-    <source src="/img/tcps/GT_VR02.mp4" type="video/mp4">
-    Interaction with VR.  
-</video>
-
+<div style="display: flex; justify-content: center;">
+    <video width=80% controls yes>
+        <source src="/img/tcps/GT_VR02.mp4" type="video/mp4">
+        Interaction with VR.  
+    </video>
+</div>
 {{< /rawhtml >}}
+
 
 ### Force feedback from a simulated robot
 
@@ -101,13 +102,14 @@ The edge intelligent switch port connected to the UR3 robotic arm runs the autom
 * Time series plot of x-coordinate of the simulated robot and real Geomagic Touch shows that the robot cannot move beyond the cube wall.
 
 {{< rawhtml >}}
-
-<video width=100% controls yes>
-    <source src="/img/tcps/SimRobot01.mp4" type="video/mp4">
-    Force feedback from a simulated robot.  
-</video>
-
+<div style="display: flex; justify-content: center;">
+    <video width=80% controls yes>
+        <source src="/img/tcps/SimRobot01.mp4" type="video/mp4">
+        Force feedback from a simulated robot.  
+    </video>
+</div>
 {{< /rawhtml >}}
+
 
 ## Teleoperation of UR3 robotic arm
 
@@ -115,12 +117,12 @@ UR3 from Universal Robots is a high-precision capable collaborative robot. It co
 Some issues of vibration and jerky motion were fixed by developing a few algorithms.
 
 {{< rawhtml >}}
-
-<video width=100% controls yes autoplay loop>
-    <source src="/img/tcps/JerkyToSmooth03.mp4" type="video/mp4">
-    Eliminating vibrations and jerky motion.  
-</video>
-
+<div style="display: flex; justify-content: center;">
+    <video width=80% controls yes autoplay loop>
+        <source src="/img/tcps/JerkyToSmooth03.mp4" type="video/mp4">
+        Eliminating vibrations and jerky motion.  
+    </video>
+</div>
 {{< /rawhtml >}}
 
 <!-- {{< figure src="/img/tcps/TCPS_robot_motion.gif" caption="Eliminating vibrations and jerky motion" >}} -->
@@ -130,17 +132,20 @@ Some issues of vibration and jerky motion were fixed by developing a few algorit
 Applying force feedback to indicate breach of operating boundary and floor touch. This lead to easier and safer teleoperation of the robot for the writing task.
 
 {{< rawhtml >}}
-
-<video width=100% controls yes loop>
-    <source src="/img/tcps/Boundary04.mp4" type="video/mp4">
-    Operating boundary implementation.  
-</video>
-
+<div style="display: flex; justify-content: center;">
+    <video width=80% controls yes loop>
+        <source src="/img/tcps/Boundary04.mp4" type="video/mp4">
+        Operating boundary implementation.  
+    </video>
+</div>
 {{< /rawhtml >}}
 
-A demonstration of teleoperation of the UR3 robotic arm by a human operator using the Geomagic Touch haptic device across two cities: (YouTube link to a higher quality version of the video at the top of this page)
+### Intercity haptic bilateral teleoperation
 
-{{< youtube id="ATLq_FPcpLU" >}}
+The low latency network infrastructure developed in the TSN project was leveraged to achieve the teleoperation of the UR3 robotic arm by a human operator using the Geomagic Touch haptic device across two cities. In the video at the top of the page, I am controlling the robotic arm at IISc, Bangalore from IIT Madras Research Park, Chennai.
+
+<!-- (YouTube link to a higher quality version of the video at the top of this page)
+{{< youtube id="ATLq_FPcpLU" >}} -->
 
 
 
@@ -148,16 +153,17 @@ A demonstration of teleoperation of the UR3 robotic arm by a human operator usin
 
 * Improving the performance and parallel processing using ROS2
 * Intercontinental haptic bilateral teleoperation
-* Developing application that utilizes haptic gloves to feel touch and grasp sensation while interacting with virtual and physical objects.
+* Application that utilizes haptic gloves to feel grasp sensation while interacting with virtual and physical objects.
 
 {{< rawhtml >}}
-
-<video width=100% controls yes autoplay loop>
-    <source src="/img/tcps/GloveCalib01.mp4" type="video/mp4">
-    SenseGlove Nova calibration.  
-</video>
-
+<div style="display: flex; justify-content: center;">
+    <video width=80% controls yes autoplay loop>
+        <source src="/img/tcps/GloveCalib01.mp4" type="video/mp4">
+        SenseGlove Nova calibration.  
+    </video>
+</div>
 {{< /rawhtml >}}
+
 
 # Related publications
 * EdgeP4: A P4-Programmable Edge Intelligent Ethernet Switch for Tactile Cyber-Physical Systems, preprint, 2023. [Link](https://arxiv.org/abs/2309.10383)
