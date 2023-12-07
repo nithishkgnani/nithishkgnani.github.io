@@ -12,7 +12,8 @@ draft: false
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/portrait/TCPS_testbed.png" width=95%>
+        <!-- <img src="/img/project_tiles/portrait/TCPS_testbed.png" width=95%> -->
+        <img src="/img/project_tiles/portrait/Teleop.gif" width=95%>
     </div>
     <div style="flex: 70%;">
         <h4>Designing Tactile Cyber-Physical Systems (TCPS)</h4>
@@ -46,7 +47,10 @@ draft: false
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/portrait/CubeSat.png" width=95% >
+        <!-- <img src="/img/project_tiles/portrait/CubeSat.png" width=95% > -->
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/project_tiles/portrait/CubeSat.gif" width=40% style="flex: 0 1 auto;">
+        </div>
     </div>
     <div style="flex: 70%;">
         <h4>Yaw control of a CubeSat using reaction wheels</h4>
@@ -154,7 +158,7 @@ draft: false
     <div style="flex: 60%;">
         <h4>Designing 3D printed products</h4>
         Designing and 3D printing figurines, models and functional products for home and work.<br>
-        <a href="/project/3d-prints/">Link to the products developed 🔗</a>
+        <a href="/project/3d-prints/">Details on the products developed 🔗</a>
         <br><br><br><br><br>
     </div>
 </div>
@@ -167,7 +171,7 @@ draft: false
     <div style="flex: 60%;">
         <h4>Building and flying RC planes</h4>
         Built RC planes using balsa wood, biofoam and corrugated plastic sheets, powered by brushless motors and nitro engines. Won flying competitions in Mangalore region. Conducted RC plane building workshops.<br>
-        <a href="/project/rc-planes/">Link to the planes built 🔗</a>
+        <a href="/project/rc-planes/">Details on the planes built 🔗</a>
         <br><br><br><br><br>
     </div>
 </div>
