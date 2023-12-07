@@ -5,20 +5,23 @@ draft: false
 ---
 
 {{< rawhtml >}}
+<div style="width: 120%; margin-left: -12%;">
 <!-- <p style="text-align: center; font-size:24px;"><i>Vision: To make the world a level playing field for everyone </i></p> -->
 <div style="display: flex; align-items: flex-start;">
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
-        <img src="/img/Nithish-OD23-DP.jpeg" width=70%>
-        <h3>Nithish Krishnabharathi Gnani</h3>
-        <h5 style="margin-top: 10px; margin-bottom: 0px;">Technical Associate</h5>
-        <h6 style=" margin-top: 10px; margin-bottom: -10px;">Indian Institute of Science (IISc)</h6>
-        <p style="text-align: center;">
+        <img src="/img/Nithish-OD23-DP.jpeg" width=60%>
+        <h3 style="color: #043361;">Nithish Krishnabharathi Gnani</h3>
+        <h5 style="margin-top: 00px; margin-bottom: 0px;">Technical Associate</h5>
+        <h6 style="color: #555555; margin-top: 10px; margin-bottom: 0px;">Indian Institute of Science (IISc)</h6>
+        <p style="margin-top: 24px; text-align: center; font-family: Mono;">
         Email: nithishgnani [at] iisc.ac.in<br>
         <!-- Email: nkgnani101 [at] gmail.com<br> -->
-        <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar</a> |
-        <a href="https://www.linkedin.com/in/nithish-k-gnani/">LinkedIn</a> |
-        <a href="https://github.com/nithishkgnani/">GitHub</a>
-        <br><a href="/Nithish-K-Gnani_CV.pdf">CV</a>
+        </p>
+        <p style="margin-top: 0px; text-align: center;">
+        <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar&nbsp;</a> |
+        <a href="https://www.linkedin.com/in/nithish-k-gnani/">&nbsp;LinkedIn&nbsp;</a> |
+        <a href="https://github.com/nithishkgnani/">&nbsp;GitHub&nbsp;</a> |
+        <a href="/Nithish-K-Gnani_CV.pdf">&nbsp;CV</a>
         </p>
     </div>
     <div style="flex: 60%;">
@@ -53,6 +56,7 @@ draft: false
         <b>Address</b><br>
         ZENLab, DESE, IISc Bangalore, CV Raman Road, Bengaluru, Karnataka, India - 560012 -->
     </div>
+</div>
 </div>
 {{< /rawhtml >}}
 
