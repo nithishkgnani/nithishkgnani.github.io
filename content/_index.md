@@ -10,9 +10,9 @@ draft: false
 <div style="display: flex; align-items: flex-start;">
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
         <img src="/img/Nithish-OD23-DP.jpeg" width=60%>
-        <h3 style="color: #043361;">Nithish Krishnabharathi Gnani</h3>
+        <h3 style="color: #8f42db;">Nithish Krishnabharathi Gnani</h3>
         <h5 style="margin-top: 00px; margin-bottom: 0px;">Technical Associate</h5>
-        <h6 style="color: #555555; margin-top: 10px; margin-bottom: 0px;">Indian Institute of Science (IISc)</h6>
+        <h6 style="color: #888888; margin-top: 10px; margin-bottom: 0px;">Indian Institute of Science (IISc)</h6>
         <p style="margin-top: 24px; text-align: center; font-family: Mono;">
         Email: nithishgnani [at] iisc.ac.in<br>
         <!-- Email: nkgnani101 [at] gmail.com<br> -->
