@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{< rawhtml >}}
-<div style="width: 120%; margin-left: -12%;">
+<div style="width: 100%; margin-left: 0%;">
 <!-- <p style="text-align: center; font-size:24px;"><i>Vision: To make the world a level playing field for everyone </i></p> -->
 <div style="display: flex; align-items: flex-start;">
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
