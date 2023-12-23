@@ -34,7 +34,7 @@ draft: false
     <div style="flex: 70%;">
         <h4>Time Sensitive Networking (TSN) switch</h4>
         Built IEEE 802.1 TSN-capable ethernet switches using SmartNICs hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). 
-        <b>Novelties</b>:
+        <br><br><b>Novelties</b>:
         <ul style="padding-left: 16px;" >
             <li><i>µTAS</i> - Designed a P4-MicroC-based SmartNIC that offloaded Time-Aware Shaper and achieved 20µs latency between hosts across two switches.</li>
             <li>Implemented packet de-duplication algorithms that ensured 100% and 99.83% packet delivery for two and tweleve streams respectively across two links each with 10% loss.</li>
@@ -110,7 +110,7 @@ draft: false
         <ul style="padding-left: 16px;">
             <li>An end to end 5G mmWave system for infotainment. </li>
             <li><b>Novelty</b> - Data & control plane of a video stream split over 5G and regular Wi-Fi.</li>
-            <li>Won 🥇 first place and a cash award of $13,200 in 5G Hackathon 2020 <br>by the Government of India </li>
+            <li>🥇 Won first place and a cash award of $7,200 in 5G Hackathon 2020 by the Government of India with 1100+ participating teams.</li>
             <!-- <li><a href="/project/5g-ammazing/">More details 🔗</a></li> -->
         </ul>
     </div>
