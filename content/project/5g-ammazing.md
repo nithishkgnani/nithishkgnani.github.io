@@ -24,6 +24,10 @@ Ideally, a phone, tablet, laptop or desktop PC can serve as the platform for the
 ## Project summary
 {{< youtube id="QhCendre_SY" >}}
 
+## Winning 5G Hackathon
+
+{{< figure src="/img/other_images/5G-Hack-certificates.jpg" caption="Winners of 5G Hackathon by Government of India" >}}
+
 ---
 
 <!-- In-line html -->
