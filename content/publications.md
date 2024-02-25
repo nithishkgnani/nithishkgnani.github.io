@@ -9,10 +9,16 @@ draft: false
 {{< rawhtml >}}
 <ul>
 <li>
-    <a href="https://arxiv.org/abs/2309.10383">EdgeP4: A P4-Programmable Edge Intelligent Ethernet Switch for Tactile Cyber-Physical Systems</a>
+    <b>EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities</b>
     <br><b>Nithish K Gnani</b>, Joydeep Pal, Deepak Choudhary, Himanshu V, Soumya R, Kaushal M, T.V. Prabhakar, Chandramani Singh
-    <br><i>Under review</i>
-    <br><a href="https://arxiv.org/pdf/2309.10383.pdf" style="border: 1px solid black; padding: 1px;">PDF</a>
+    <br><i>Accepted, CNERT 2024, <span style="color: #fc6b03;">IEEE INFOCOM</span></i>
+    <br><a href="https://arxiv.org/pdf/2309.10383.pdf" style="border: 1px solid black; padding: 1px;">Early Preprint</a>
+</li>
+<br>
+<li>
+    <b>Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems</b>
+    <br>Joydeep Pal, <b>Nithish K Gnani</b>, Deepak Choudhary, Chandramani Singh, T.V. Prabhakar
+    <br><i>Accepted, CNERT 2024, <span style="color: #fc6b03;">IEEE INFOCOM</span></i>
 </li>
 <br>
 <li>
