@@ -47,6 +47,12 @@ draft: false
             <li>Indoor localization and sensor identification</li>
             <li>IoT Data Management</li>
         </ul>  
+        <h5 style="margin-top: -0px; margin-bottom: -10px; color: #0c990c;"><i>News</i></h5>
+        <ul style="padding-left: 20px;" >
+            <li><u>February 2024</u>: Our paper "EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities" got accepted at CNERT, IEEE INFOCOM 2024.</li>
+            <li><u>February 2024</u>: Our paper "Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems" got accepted at CNERT, IEEE INFOCOM 2024.</li>
+            <li><u>January 2022</u>: My team has won the 5G Hackathon 2020 with a cash award ₹6,00,000 conducted by the Department of Telecommunications, Government of India amoong 1100+ participating teams.</li>
+        </ul> 
         <!-- <h5 style="margin-top: -0px; margin-bottom: -10px;"><a href="/projects/">Publications 🔗</a></h5> -->
         <!-- <h5 style="margin-top: 30px; margin-bottom: -10px;">Contact</h5>
         <p>
