@@ -12,9 +12,12 @@ draft: false
         <img src="/img/Nithish-OD23-DP.jpeg" width=60%>
         <h3 style="color: #8f42db;">Nithish Krishnabharathi Gnani</h3>
         <h5 style="margin-top: 00px; margin-bottom: 0px;">Technical Associate</h5>
-        <h6 style="color: #888888; margin-top: 10px; margin-bottom: 0px;">Indian Institute of Science (IISc)</h6>
+        <h6 style="color: #888888; margin-top: 6px; margin-bottom: 0px;">Indian Institute of Science (IISc)</h6>
+        <h5 style="margin-top: 20px; margin-bottom: 0px;">Incoming dual masters student</h5>
+        <p style="margin-top: 00px; margin-bottom: 0px;">Autonomous Systems and Intelligent Robots</p>        
+        <h6 style="color: #888888; margin-top: 6px; margin-bottom: 0px;">UCA, France & KTH Royal, Sweden</h6>
         <p style="margin-top: 24px; text-align: center; font-family: Mono;">
-        Email: nithishgnani [at] iisc.ac.in<br>
+        Email: nithishgnani [at] iisc.ac.in<br>nkgnani101 [at] gmail.com
         <!-- Email: nkgnani101 [at] gmail.com<br> -->
         </p>
         <p style="margin-top: 0px; text-align: center;">
@@ -49,6 +52,8 @@ draft: false
         </ul>  
         <h5 style="margin-top: -0px; margin-bottom: -10px; color: #0c990c;"><i>News</i></h5>
         <ul style="padding-left: 20px;" >
+            <li><u>April 2024</u>: Got admissions for Master of Science from TU Berlin, Germany in Global Production Engineering, Central Nantes University, France in Control and Robotics and Chalmers University of Technology, Sweden in Product Development.
+            <br>Accepted the admission with scholarship from EIT Digital for dual Master of Science from Université Cote d'Azur, France and KTH Royal Institute of Technology, Sweden in Autonomous Systems and Intelligent Robots.</li>
             <li><u>February 2024</u>: Our paper "EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities" got accepted at CNERT, IEEE INFOCOM 2024.</li>
             <li><u>February 2024</u>: Our paper "Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems" got accepted at CNERT, IEEE INFOCOM 2024.</li>
             <li><u>January 2022</u>: My team has won the 5G Hackathon 2020 with a cash award ₹6,00,000 conducted by the Department of Telecommunications, Government of India amoong 1100+ participating teams.</li>
