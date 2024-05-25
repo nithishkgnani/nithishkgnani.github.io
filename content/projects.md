@@ -61,6 +61,22 @@ draft: false
         </ul>
     </div>
 </div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/project_tiles/landscape/10_fpv.jpg" width=80% style="flex: 0 1 auto;">
+        </div>
+    </div>
+    <div style="flex: 70%;">
+        <h4>FPV Goggles</h4>
+        <ul style="padding-left: 16px;">
+            <li>Designed a first person view goggles which is lightweight and affordable.</li>
+            <li>Application: live streaming and recording the doctor's view during a surgery for training.</li>
+            <li><a href="/project/fpv-goggles/">Detailed project page 🔗</a></li>
+        </ul>
+    </div>
+</div>
 <hr>
 
 <h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >IoT data management, indoor localization and security</h2>
