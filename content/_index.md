@@ -52,7 +52,7 @@ draft: false
         </ul>  
         <h5 style="margin-top: -0px; margin-bottom: -10px; color: #0c990c;"><i>News</i></h5>
         <ul style="padding-left: 20px;" >
-            <li><u>May 2024</u>: <b>Best paper award!!</b> for our paper "EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities" at CNERT, IEEE INFOCOM 2024.</li>
+            <li><u>May 2024</u>: <a href="/img/other_images/CNERT24-Best-Paper.pdf"><b>Best paper award!!</b></a> for my paper EdgeP4 at CNERT, IEEE INFOCOM 2024.</li>
             <li><u>April 2024</u>: Got admissions for Master of Science from TU Berlin, Germany in Global Production Engineering, Central Nantes University, France in Control and Robotics and Chalmers University of Technology, Sweden in Product Development.
             <br>Accepted the admission with scholarship from EIT Digital for dual Master of Science from Université Cote d'Azur, France and KTH Royal Institute of Technology, Sweden in Autonomous Systems and Intelligent Robots.</li>
             <li><u>February 2024</u>: Our paper "EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities" got accepted at CNERT, IEEE INFOCOM 2024.</li>
