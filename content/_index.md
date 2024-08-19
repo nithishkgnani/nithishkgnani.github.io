@@ -11,14 +11,13 @@ draft: false
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
         <img src="/img/Nithish-OD23-DP.jpeg" width=60%>
         <h3 style="color: #8f42db;">Nithish Krishnabharathi Gnani</h3>
-        <h5 style="margin-top: 00px; margin-bottom: 0px;">Technical Associate</h5>
-        <h6 style="color: #888888; margin-top: 6px; margin-bottom: 0px;">Indian Institute of Science (IISc)</h6>
-        <h5 style="margin-top: 20px; margin-bottom: 0px;">Incoming dual masters student</h5>
+        <h5 style="margin-top: 00px; margin-bottom: 0px;">Dual masters student</h5>
         <p style="margin-top: 00px; margin-bottom: 0px;">Autonomous Systems and Intelligent Robots</p>        
-        <h6 style="color: #888888; margin-top: 6px; margin-bottom: 0px;">UCA, France & KTH Royal, Sweden</h6>
+        <h6 style="color: #333333; margin-top: 6px; margin-bottom: 0px;">UCA, France, 2024-25</h6>
+        <h6 style="color: #333333; margin-top: 6px; margin-bottom: 0px;">KTH Royal, Sweden, 2025-26</h6>
         <p style="margin-top: 24px; text-align: center; font-family: Mono;">
-        Email: nithishgnani [at] iisc.ac.in<br>nkgnani101 [at] gmail.com
-        <!-- Email: nkgnani101 [at] gmail.com<br> -->
+        Email: nkgnani101 [at] gmail.com
+        <!-- Email: nithishgnani [at] iisc.ac.in<br>nkgnani101 [at] gmail.com -->
         </p>
         <p style="margin-top: 0px; text-align: center;">
         <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar&nbsp;</a> |
@@ -29,14 +28,14 @@ draft: false
     </div>
     <div style="flex: 60%;">
         <p style="margin-top: -0px;">
-        I'm a researcher at IISc, working with <a href="/projects/">projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. 
-        <br>I also design <a href="/project/3d-prints/">3D printed products</a> as a hobby and for work.
+        I'm a master of science student at Université Cote d'Azur, France. Previously, I was a researcher at IISc for over five years. I work with <a href="/projects/">projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. 
+        <br>I also design <a href="/project/3d-prints/">3D printed products</a> as a hobby.
         <h5 style="margin-top: -0px; margin-bottom: -10px;">Experience</h5>
         <ul style="padding-left: 20px;" >
-            <li>Technical Associate, Centre for Networked Intelligence (CNI), IISc (2022-present)</li>
-            <li>Research Staff, Department of Electronic Systems Engineering (DESE), IISc (2019-present)
+            <li>Technical Associate, Centre for Networked Intelligence (CNI), IISc (2022-2024)</li>
+            <li>Research Staff, Department of Electronic Systems Engineering (DESE), IISc (2019-2024)
                 <ul>
-                    <li>Research Associate, (2021-present)</li>
+                    <li>Research Associate, (2021-2024)</li>
                     <li>Research Assistant, (2019-2021)</li>
                 </ul>
             </li>
