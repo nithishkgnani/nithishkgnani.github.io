@@ -8,7 +8,7 @@ draft: false
 ---
 ---
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
-📅 Duration: March 2021 - Present  
+📅 Duration: March 2021 - August 2024  
 💰 Funded by: Ministry of Electronics and Information Technology (MeitY), Government of India and Center for Networked Intelligence (CNI), a Cisco CSR initiative.  
 👩‍🏫 Guided by: [Prof. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Prof. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
@@ -63,6 +63,8 @@ TAS is a feature specified in the IEEE 802.1Qbv standard that helps to guarantee
 {{<figure src="/img/tcps/TCPS_future_work.jpg">}}
 
 # Related publications
+* EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities, IEEE INFOCOM CNERT 2024. [Link](https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620719)
+* Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems, IEEE INFOCOM CNERT 2024. [Link](https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620882)
 * Enhancing Reliability of Scheduled Traffic in Time-Sensitive Networks using Frame Replication and Elimination,  IEEE LANMAN 2023. [Link](https://ieeexplore.ieee.org/document/10189416)
 * μTAS: Design and implementation of Time Aware Shaper on SmartNICs to achieve bounded latency, prepint, 2023. [Link](https://arxiv.org/abs/2310.07480)
 

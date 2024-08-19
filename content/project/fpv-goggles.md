@@ -27,7 +27,7 @@ It is coded to stream live video over WiFi. Various methods of streaming are bei
 
 #### Preliminary design
 
-Currently, the Nicla Vision is power by a battery that is carried in the pockers of the user. I'm working on a better design that integrates the battery wiring into the spectacle frame.
+Currently, the Nicla Vision is power by a battery that is carried in the pockets of the user. I'm working on a better design that integrates the battery wiring into the spectacle frame.
 
 {{< rawhtml >}}
 <div style="display: flex; align-items: center;">

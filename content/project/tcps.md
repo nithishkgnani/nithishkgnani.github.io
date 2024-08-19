@@ -8,7 +8,7 @@ draft: false
 ---
 ---
 🗺 Location: Indian Institute of Science (IISc), Bangalore, India  
-📅 Duration: March 2022 - Present  
+📅 Duration: March 2022 - August 2024  
 💰 Funded by: Ministry of Electronics and Information Technology (MeitY), Government of India and Center for Networked Intelligence (CNI), a Cisco CSR initiative.  
 👩‍🏫 Guided by: [Prof. Chandramani Singh](https://faculty.dese.iisc.ac.in/chandramani/) and [Prof. TV Prabhakar](https://labs.dese.iisc.ac.in/zenlab/people/tv-prabhakar/)  
 
@@ -166,7 +166,8 @@ The low latency network infrastructure developed in the TSN project was leverage
 
 
 # Related publications
-* EdgeP4: A P4-Programmable Edge Intelligent Ethernet Switch for Tactile Cyber-Physical Systems, preprint, 2023. [Link](https://arxiv.org/abs/2309.10383)
+* EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities, IEEE INFOCOM CNERT 2024. [Link](https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620719)
+* Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems, IEEE INFOCOM CNERT 2024. [Link](https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620882)
 
 ---
 
