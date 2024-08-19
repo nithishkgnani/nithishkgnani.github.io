@@ -9,35 +9,36 @@ draft: false
 {{< rawhtml >}}
 <ul>
 <li>
-    <b>EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities</b>
+    <a href="https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620719"><b>EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities</b></a>
     <br><b>Nithish K Gnani</b>, Joydeep Pal, Deepak Choudhary, Himanshu V, Soumya R, Kaushal M, T V Prabhakar, Chandramani Singh
-    <br><i>IEEE INFOCOM CNERT Workshop, 2024</i> | <span style="color: #e74d3c;">Best paper award</span>
-    <br><a href="https://arxiv.org/pdf/2309.10383.pdf" style="border: 1px solid black; padding: 1px;">Early Preprint</a>
+    <br><i>The 11th International Workshop on Computer and Networking Experimental Research using Testbeds 2024</i> | <span style="color: #e74d3c;"><b>Best paper award</b> <a href="/img/other_images/CNERT24-Best-Paper.pdf"><b>🔗</b></span>
+    <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620719" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">IEEE INFOCOM</span>
 </li>
 <br>
 <li>
-    <b>Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems</b>
+    <a href="https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620882"><b>Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems</b></a>
     <br>Joydeep Pal, Deepak Choudhary*, <b>Nithish K Gnani*</b>, Chandramani Singh, T V Prabhakar, Hari Krishna A, A Paventhan  
     <br> <b>*</b> Equal contributors
-    <br><i>IEEE INFOCOM CNERT Workshop, 2024</i>
+    <br><i>The 11th International Workshop on Computer and Networking Experimental Research using Testbeds 2024</i>
+    <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620882" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">IEEE INFOCOM</span>
 </li>
 <br>
 <li>
-    <a href="https://arxiv.org/abs/2310.07480">μTAS: Design and implementation of Time Aware Shaper on SmartNICs to achieve bounded latency</a>
+    <a href="https://arxiv.org/abs/2310.07480"><b>μTAS: Design and implementation of Time Aware Shaper on SmartNICs to achieve bounded latency</b></a>
     <br>Joydeep Pal, Deepak Choudhary, <b>Nithish K Gnani</b>, Chandramani Singh, T V Prabhakar
     <br><i>Under review</i>
     <br><a href="https://arxiv.org/pdf/2310.07480.pdf" style="border: 1px solid black; padding: 1px;">Preprint</a>
 </li>
 <br>
 <li>
-    <a href="https://doi.org/10.1145/3488306">Sensor Identification via Acoustic Physically Unclonable Function</a>
+    <a href="https://doi.org/10.1145/3488306"><b>Sensor Identification via Acoustic Physically Unclonable Function</b></a>
     <br>Girish Vaidya, T V Prabhakar, <b>Nithish K Gnani</b>, Ryan Shah, Shishir Nagaraja.
     <br><i>Digital Threats: Research and Practice, 2022</i>
     <br><a href="https://dl.acm.org/doi/pdf/10.1145/3488306" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">ACM journal</span>
 </li>
 <br>
 <li>
-    <a href="https://doi.org/10.1002/cpe.5997">Judicious data management for sustaining an energy harvesting sensor node</a>
+    <a href="https://doi.org/10.1002/cpe.5997"><b>Judicious data management for sustaining an energy harvesting sensor node</b></a>
     <br>Kaumudi Singh, Pratyush Shukla, Sachin S. M., <b>Nithish K Gnani</b>, T V Prabhakar, Joy Kuri.
     <br><i>Concurrency and Computation: Practice and Experience, 2020</i>
     <br><a href="https://onlinelibrary.wiley.com/share/author/K6MPERHBFRIRH9HTMIAC?target=10.1002/cpe.5997" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">Wiley journal</span>
@@ -56,8 +57,8 @@ draft: false
 
 ## Teaching
 
-* 2023 - **Instructor**, _PG Level Advanced Certification Course in 5G Technologies with AI and Cloud_. 
-<br>Taught two batches how to design cyber-physical systems leveraging programmable networks, NSE TalentSprint and IISc
+* 2023-24 - **Instructor**, _PG Level Advanced Certification Course in 5G Technologies with AI and Cloud_. 
+<br>Taught three batches of 50 students (industry professionals) how to design cyber-physical systems leveraging programmable networks, NSE TalentSprint & IISc
 
 * Dec 2023 - **Instructor**, _P4 Workshop_.
 <br>Taught 20 participants from Power Grid Corporation of India Limited the basics of P4 with hands-on tutorial, IISc
@@ -79,3 +80,79 @@ draft: false
 
 * Sep 2022 - **Poster** accepted in IBM-IISc Research Day
 * Nov 2022 - Cisco-IISc Day, IISc
+
+
+<!--
+{{< rawhtml >}}
+<hr>
+<div style="text-align: justify"> 
+
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <img src="/img/publication_tiles/CNERT24-Best-Paper-1.jpg" width=95%>
+    </div>
+    <div style="flex: 70%;">
+            <a href="https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620719"><b>EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities</b></a>
+            <br><b>Nithish K Gnani</b>, Joydeep Pal, Deepak Choudhary, Himanshu V, Soumya R, Kaushal M, T V Prabhakar, Chandramani Singh
+            <br><i>The 11th International Workshop on Computer and Networking Experimental Research using Testbeds 2024</i>
+            <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620719" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">IEEE INFOCOM</span>  | <span style="color: #e74d3c;"><b>Best paper award</b></span>
+    </div>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <img src="/img/project_tiles/portrait/tsn-switch.png" width=95% style="float: left;">
+    </div> 
+    <div style="flex: 70%;">
+        <a href="https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620882"><b>Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems</b></a>
+        <br>Joydeep Pal, Deepak Choudhary*, <b>Nithish K Gnani*</b>, Chandramani Singh, T V Prabhakar, Hari Krishna A, A Paventhan  
+        <br> <b>*</b> Equal contributors
+        <br><i>The 11th International Workshop on Computer and Networking Experimental Research using Testbeds 2024</i>
+        <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620882" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">IEEE INFOCOM</span>
+    </div>   
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/project_tiles/portrait/CubeSat.gif" width=40% style="flex: 0 1 auto;">
+        </div>
+    </div>
+    <div style="flex: 70%;">
+        <a href="https://arxiv.org/abs/2310.07480"><b>μTAS: Design and implementation of Time Aware Shaper on SmartNICs to achieve bounded latency</b></a>
+        <br>Joydeep Pal, Deepak Choudhary, <b>Nithish K Gnani</b>, Chandramani Singh, T V Prabhakar
+        <br><i>Under review</i>
+        <br><a href="https://arxiv.org/pdf/2310.07480.pdf" style="border: 1px solid black; padding: 1px;">Preprint</a>
+    </div>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/project_tiles/landscape/10_fpv.jpg" width=80% style="flex: 0 1 auto;">
+        </div>
+    </div>
+    <div style="flex: 70%;">
+        <a href="https://doi.org/10.1145/3488306"><b>Sensor Identification via Acoustic Physically Unclonable Function</b></a>
+        <br>Girish Vaidya, T V Prabhakar, <b>Nithish K Gnani</b>, Ryan Shah, Shishir Nagaraja.
+        <br><i>Digital Threats: Research and Practice, 2022</i>
+        <br><a href="https://dl.acm.org/doi/pdf/10.1145/3488306" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">ACM journal</span>
+    </div>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/project_tiles/landscape/10_fpv.jpg" width=80% style="flex: 0 1 auto;">
+        </div>
+    </div>
+    <div style="flex: 70%;">
+        <a href="https://doi.org/10.1002/cpe.5997"><b>Judicious data management for sustaining an energy harvesting sensor node</b></a>
+        <br>Kaumudi Singh, Pratyush Shukla, Sachin S. M., <b>Nithish K Gnani</b>, T V Prabhakar, Joy Kuri.
+        <br><i>Concurrency and Computation: Practice and Experience, 2020</i>
+        <br><a href="https://onlinelibrary.wiley.com/share/author/K6MPERHBFRIRH9HTMIAC?target=10.1002/cpe.5997" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">Wiley journal</span>
+    </div>
+</div>
+<hr>
+{{< /rawhtml >}} -->
