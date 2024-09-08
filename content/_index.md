@@ -28,7 +28,7 @@ draft: false
     </div>
     <div style="flex: 60%;">
         <p style="margin-top: -0px;">
-        I'm a master of science student at Université Cote d'Azur, France. Previously, I was a researcher at IISc for over five years. I work with <a href="/projects/">projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. 
+        I'm a master of science student at Polytech Nice Sophia, Université Cote d'Azur, France. Previously, I was a researcher at IISc for over five years. I work with <a href="/projects/">projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. 
         <br>I also design <a href="/project/3d-prints/">3D printed products</a> as a hobby.
         <h5 style="margin-top: -0px; margin-bottom: -10px;">Experience</h5>
         <ul style="padding-left: 20px;" >
