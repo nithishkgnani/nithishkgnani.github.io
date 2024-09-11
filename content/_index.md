@@ -16,8 +16,8 @@ draft: false
         <h6 style="color: #333333; margin-top: 6px; margin-bottom: 0px;">UCA, France, 2024-25</h6>
         <h6 style="color: #333333; margin-top: 6px; margin-bottom: 0px;">KTH Royal, Sweden, 2025-26</h6>
         <p style="margin-top: 24px; text-align: center; font-family: Mono;">
-        Email: nkgnani101 [at] gmail.com
-        <!-- Email: nithishgnani [at] iisc.ac.in<br>nkgnani101 [at] gmail.com -->
+        <!-- Email: nkgnani101 [at] gmail.com -->
+        Email: nithish.gnani [at] etu.univ-cotedazur.fr<br>nkgnani101 [at] gmail.com
         </p>
         <p style="margin-top: 0px; text-align: center;">
         <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar&nbsp;</a> |
