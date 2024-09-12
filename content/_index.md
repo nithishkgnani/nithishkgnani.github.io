@@ -11,10 +11,10 @@ draft: false
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
         <img src="/img/Nithish-OD23-DP.jpeg" width=60%>
         <h3 style="color: #8f42db;">Nithish Krishnabharathi Gnani</h3>
-        <h5 style="margin-top: 00px; margin-bottom: 0px;">Dual masters student</h5>
+        <h5 style="margin-top: 00px; margin-bottom: 0px;">Dual Master of Science Student</h5>
         <p style="margin-top: 00px; margin-bottom: 0px;">Autonomous Systems and Intelligent Robots</p>        
-        <h6 style="color: #333333; margin-top: 6px; margin-bottom: 0px;">UCA, France, 2024-25</h6>
-        <h6 style="color: #333333; margin-top: 6px; margin-bottom: 0px;">KTH Royal, Sweden, 2025-26</h6>
+        <h6 style="margin-top: 6px; margin-bottom: 0px;">Polytech Nice Sophia, UCA, France, 2024-25</h6>
+        <h6 style="margin-top: 6px; margin-bottom: 0px;">KTH Royal Institute of Technology, Sweden, 2025-26</h6>
         <p style="margin-top: 24px; text-align: center; font-family: Mono;">
         <!-- Email: nkgnani101 [at] gmail.com -->
         Email: nithish.gnani [at] etu.univ-cotedazur.fr<br>nkgnani101 [at] gmail.com
@@ -28,8 +28,7 @@ draft: false
     </div>
     <div style="flex: 60%;">
         <p style="margin-top: -0px;">
-        I'm a master of science student at Polytech Nice Sophia, Université Cote d'Azur, France. Previously, I was a researcher at IISc for over five years. I work with <a href="/projects/">projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. 
-        <br>I also design <a href="/project/3d-prints/">3D printed products</a> as a hobby.
+        I'm a master of science student at Polytech Nice Sophia, Université Cote d'Azur, France. Previously, I was a researcher at IISc for over five years. I work with <a href="/projects/">projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. I also design <a href="/project/3d-prints/">3D printed products</a> as a hobby.
         <h5 style="margin-top: -0px; margin-bottom: -10px;">Experience</h5>
         <ul style="padding-left: 20px;" >
             <li>Technical Associate, Centre for Networked Intelligence (CNI), IISc (2022-2024)</li>
@@ -56,7 +55,7 @@ draft: false
             <br>Accepted the admission with scholarship from EIT Digital for dual Master of Science from Université Cote d'Azur, France and KTH Royal Institute of Technology, Sweden in Autonomous Systems and Intelligent Robots.</li>
             <li><u>February 2024</u>: Our paper "EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities" got accepted at CNERT, IEEE INFOCOM 2024.</li>
             <li><u>February 2024</u>: Our paper "Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems" got accepted at CNERT, IEEE INFOCOM 2024.</li>
-            <li><u>January 2022</u>: My team has won the 5G Hackathon 2020 with a cash award ₹6,00,000 conducted by the Department of Telecommunications, Government of India amoong 1100+ participating teams.</li>
+            <li><u>January 2022</u>: My team won the 5G Hackathon 2020 with a cash award ₹6,00,000 conducted by the Department of Telecommunications, Government of India amoong 1100+ participating teams.</li>
         </ul> 
         <!-- <h5 style="margin-top: -0px; margin-bottom: -10px;"><a href="/projects/">Publications 🔗</a></h5> -->
         <!-- <h5 style="margin-top: 30px; margin-bottom: -10px;">Contact</h5>
