@@ -9,7 +9,7 @@ draft: false
 <!-- <p style="text-align: center; font-size:24px;"><i>Vision: To make the world a level playing field for everyone </i></p> -->
 <div style="display: flex; align-items: flex-start;">
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
-        <img src="/img/IMG_20240914_152550.jpeg" width=60%>
+        <img src="/img/IMG_20240914_152550.jpg" width=60%>
         <h3 style="color: #8f42db;">Nithish Krishnabharathi Gnani</h3>
         <h5 style="margin-top: 00px; margin-bottom: 0px;">Dual Master of Science Student</h5>
         <p style="margin-top: 00px; margin-bottom: 0px;">Autonomous Systems and Intelligent Robots</p>        
