@@ -9,8 +9,16 @@ draft: false
 <!-- <p style="text-align: center; font-size:24px;"><i>Vision: To make the world a level playing field for everyone </i></p> -->
 <div style="display: flex; align-items: flex-start;">
     <div style="flex: 40%; display: flex; flex-direction: column; align-items: center;">
-        <img src="/img/IMG_20240914_152550.jpg" width=60%>
+        <img src="/img/IMG_20240914_152550_rounded.png" width=60%>
         <h3 style="color: #8f42db;">Nithish Krishnabharathi Gnani</h3>
+        </p>
+        <p style="margin-top: -50px; text-align: center;">
+        <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar&nbsp;</a> |
+        <a href="https://www.linkedin.com/in/nithish-k-gnani/">&nbsp;LinkedIn&nbsp;</a> |
+        <a href="https://github.com/nithishkgnani/">&nbsp;GitHub&nbsp;</a> |
+        <!-- <a href="/Nithish-K-Gnani_CV.pdf">&nbsp;CV&nbsp;</a> | -->
+        <a href="/Resume_GNANI_Nithish-Krishnabharathi.pdf">&nbsp;Resume</a>
+        </p>        
         <h5 style="margin-top: 00px; margin-bottom: 0px;">Dual Master of Science Student</h5>
         <p style="margin-top: 00px; margin-bottom: 0px;">Autonomous Systems and Intelligent Robots</p>        
         <h6 style="margin-top: 6px; margin-bottom: 0px;">Polytech Nice Sophia, UCA, France, 2024-25</h6>
@@ -18,13 +26,6 @@ draft: false
         <p style="margin-top: 24px; text-align: center; font-family: Mono;">
         <!-- Email: nkgnani101 [at] gmail.com -->
         Email: nithish.gnani [at] etu.univ-cotedazur.fr<br>nkgnani101 [at] gmail.com
-        </p>
-        <p style="margin-top: 0px; text-align: center;">
-        <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">Google Scholar&nbsp;</a> |
-        <a href="https://www.linkedin.com/in/nithish-k-gnani/">&nbsp;LinkedIn&nbsp;</a> |
-        <a href="https://github.com/nithishkgnani/">&nbsp;GitHub&nbsp;</a> |
-        <a href="/Nithish-K-Gnani_CV.pdf">&nbsp;CV</a>
-        </p>
     </div>
     <div style="flex: 60%;">
         <p style="margin-top: -0px;">
@@ -55,7 +56,7 @@ draft: false
             <br>Accepted the admission with scholarship from EIT Digital for dual Master of Science from Université Cote d'Azur, France and KTH Royal Institute of Technology, Sweden in Autonomous Systems and Intelligent Robots.</li>
             <li><u>February 2024</u>: Our paper "EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities" got accepted at CNERT, IEEE INFOCOM 2024.</li>
             <li><u>February 2024</u>: Our paper "Towards a TSN-DetNet Intercity Testbed for Tactile Cyber-Physical Systems" got accepted at CNERT, IEEE INFOCOM 2024.</li>
-            <li><u>January 2022</u>: My team won the 5G Hackathon 2020 with a cash award ₹6,00,000 conducted by the Department of Telecommunications, Government of India amoong 1100+ participating teams.</li>
+            <li><u>January 2022</u>: My team won the 5G Hackathon 2020 with a cash award ₹6,00,000 conducted by the Department of Telecommunications, Government of India among 1100+ participating teams.</li>
         </ul> 
         <!-- <h5 style="margin-top: -0px; margin-bottom: -10px;"><a href="/projects/">Publications 🔗</a></h5> -->
         <!-- <h5 style="margin-top: 30px; margin-bottom: -10px;">Contact</h5>

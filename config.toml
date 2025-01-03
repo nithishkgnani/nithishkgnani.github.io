@@ -194,9 +194,14 @@ weight = 4
 url = "blog/"
 
 [[languages.en.menu.main]]
-name = "CV"
+name = "Resume"
 weight = 5
-url = "Nithish-K-Gnani_CV.pdf"
+url = "Resume_GNANI_Nithish-Krishnabharathi.pdf"
+
+# [[languages.en.menu.main]]
+# name = "CV"
+# weight = 5
+# url = "Nithish-K-Gnani_CV.pdf"
 
 # [[languages.en.menu.main]]
 # name = "Home"
