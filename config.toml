@@ -23,6 +23,8 @@ info = ["","Researcher at Indian Institute of Science", "Cyber-Physical Systems,
 avatarURL = "img/Nithish-OD23-square.jpeg"
 #gravatar = "john.doe@example.com"
 
+math = true # enable math typesetting
+
 favicon_32 = "/img/favicon-32x32.png"
 favicon_16 = "/img/favicon-16x16.png"
 
