@@ -72,7 +72,7 @@ draft: false
         <h4>FPV Goggles</h4>
         <ul style="padding-left: 16px;">
             <li>Designed a first person view goggles which is lightweight and affordable.</li>
-            <li>Application: live streaming and recording the doctor's view during a surgery for training.</li>
+            <li>Application: wireless live streaming and recording the doctor's view during a surgery for training.</li>
             <li><a href="/project/fpv-goggles/">Detailed project page 🔗</a></li>
         </ul>
     </div>
