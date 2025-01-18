@@ -84,6 +84,13 @@ For the [TCPS](/project/tcps/) project, I designed a set of modified fingers for
 {{< gallery dir="/img/3d-prints/new-normal" />}}
 
 ---
+
+## More models
+
+I will add more models here as I print them.
+
+{{<figure src="/img/3d-prints/ipadStand.png" caption="iPad Pro Stand">}}
+---
 <div style="text-align: right">
 <a href="/projects">Back to Projects 🔗</a>
 </div>
