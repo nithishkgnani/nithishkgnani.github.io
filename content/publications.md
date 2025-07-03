@@ -9,6 +9,19 @@ draft: false
 {{< rawhtml >}}
 <ul>
 <li>
+    <b>Utilizing Operator Intent for Haptic Teleoperation under high latencies</b>
+    <br>H.J.C. Kroep, P. Makridis, J. Huidobro, K. Wosten, D. Choudhary, <b>N. Gnani</b>, T.V. Prabhakar, S. Coppens, R.R. Venkatesha Prasad, K. Van Berlo
+    <br>Accepted at <i>IEEE Transactions on Mobile Computing</i>
+    <br> <span style="color: #e74d3c;">IEEE journal</span>
+</li>
+<br>
+<li>
+    <a href="https://arxiv.org/abs/2506.01027"><b>RoboTwin: A Robotic Teleoperation Framework Using Digital Twins</b></a>
+    <br>Harsha Yelchuri, Diwakar Singh, <b>Nithish K Gnani</b>, T V Prabhakar, Chandramani Singh
+    <br><a href="https://arxiv.org/pdf/2506.01027" style="border: 1px solid black; padding: 1px;">Preprint</a> <i>Under review</i>
+</li>
+<br>
+<li>
     <a href="https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620719"><b>EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities</b></a>
     <br><b>Nithish K Gnani</b>, Joydeep Pal, Deepak Choudhary, Himanshu V, Soumya R, Kaushal M, T V Prabhakar, Chandramani Singh
     <br><i>The 11th International Workshop on Computer and Networking Experimental Research using Testbeds 2024</i> | <span style="color: #e74d3c;"><b>Best paper award</b> <a href="/img/other_images/CNERT24-Best-Paper.pdf"><b>🔗</b></span>
@@ -26,8 +39,7 @@ draft: false
 <li>
     <a href="https://arxiv.org/abs/2310.07480"><b>μTAS: Design and implementation of Time Aware Shaper on SmartNICs to achieve bounded latency</b></a>
     <br>Joydeep Pal, Deepak Choudhary, <b>Nithish K Gnani</b>, Chandramani Singh, T V Prabhakar
-    <br><i>Under review</i>
-    <br><a href="https://arxiv.org/pdf/2310.07480.pdf" style="border: 1px solid black; padding: 1px;">Preprint</a>
+    <br><a href="https://arxiv.org/pdf/2310.07480" style="border: 1px solid black; padding: 1px;">Preprint</a> <i>Under review</i>
 </li>
 <br>
 <li>
@@ -45,13 +57,6 @@ draft: false
 </li>
 </ul>
 {{< /rawhtml >}}
-
-###### Under review/preparation
-
-* DIA: Intercontinental Haptic Bilateral Teleoperation  
-
-* Judicious data management for sustaining an energy harvesting sensor node - extension
-
 
 <hr>
 
