@@ -9,10 +9,10 @@ draft: false
 {{< rawhtml >}}
 <ul>
 <li>
-    <b>Utilizing Operator Intent for Haptic Teleoperation under high latencies</b>
+    <a href="https://ieeexplore.ieee.org/document/11091592"><b>Utilizing Operator Intent for Haptic Teleoperation under high latencies</b></a>
     <br>H.J.C. Kroep, P. Makridis, J. Huidobro, K. Wosten, D. Choudhary, <b>N. Gnani</b>, T.V. Prabhakar, S. Coppens, R.R. Venkatesha Prasad, K. Van Berlo
     <br>Accepted at <i>IEEE Transactions on Mobile Computing</i>
-    <br> <span style="color: #e74d3c;">IEEE journal</span>
+    <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11091592" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">IEEE journal</span>
 </li>
 <br>
 <li>
@@ -25,7 +25,7 @@ draft: false
     <a href="https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620719"><b>EdgeP4: In-Network Edge Intelligence for a Tactile Cyber-Physical System Testbed Across Cities</b></a>
     <br><b>Nithish K Gnani</b>, Joydeep Pal, Deepak Choudhary, Himanshu V, Soumya R, Kaushal M, T V Prabhakar, Chandramani Singh
     <br><i>The 11th International Workshop on Computer and Networking Experimental Research using Testbeds 2024</i> | <span style="color: #e74d3c;"><b>Best paper award</b> <a href="/img/other_images/CNERT24-Best-Paper.pdf"><b>🔗</b></span>
-    <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620719" style="border: 1px solid black; padding: 1px;">PDF</a> <span style="color: #e74d3c;">IEEE INFOCOM</span>
+    <br><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620719" style="border: 1px solid black; padding: 1px;">PDF</a> <a href="https://github.com/nithishkgnani/EdgeP4" style="border: 1px solid black; padding: 1px;">Code</a> <a href="https://infocom2024.ieee-infocom.org/11th-international-workshop-computer-and-networking-experimental-research-using-testbeds-program" style="border: 1px solid black; padding: 1px;">Conference Program</a> <span style="color: #e74d3c;">IEEE INFOCOM</span>
 </li>
 <br>
 <li>
