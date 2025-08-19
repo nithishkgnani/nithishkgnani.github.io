@@ -3234,7 +3234,7 @@ figure {
 
 .container {
   margin: 1rem auto;
-  max-width: 120rem;
+  max-width: 100rem;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem; }
