@@ -6,33 +6,71 @@ draft: false
 
 {{< rawhtml >}}
 
-<!-- a small table of 4 cells for contact information -->
-<div style="display: flex; align-items: center;">
+<!-- a small table of 5 cells for contact information -->
+<!-- <div style="display: flex; align-items: center;">
     <div style="flex: 20%;">
         <a href="mailto:gnani@kth.se">
-            <i class="fa fa-envelope"> gnani [at] kth.se</i>
+            <i class="fa fa-envelope">&nbsp; gnani [at] kth.se</i>
         </a>
     </div>
     <div style="flex: 20%;">
         <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">
-            <i class="fa fa-google"> Google Scholar</i>
+            <i class="fa fa-google">&nbsp; Google Scholar</i>
         </a>
     </div>
     <div style="flex: 20%;">
         <a href="https://www.linkedin.com/in/nithish-k-gnani/">
-            <i class="fa fa-linkedin"> LinkedIn</i>
+            <i class="fa fa-linkedin">&nbsp; LinkedIn</i>
         </a>
     </div>
     <div style="flex: 20%;">
         <a href="https://github.com/nithishkgnani/">
-            <i class="fa fa-github"> GitHub</i>
+            <i class="fa fa-github">&nbsp; GitHub</i>
         </a>
     </div>
     <div style="flex: 20%;">
         <a href="/Resume_Nithish-Krishnabharathi-Gnani_KTH-MSc.pdf">
-            <i class="fa fa-file"> Resume</i>
+            <i class="fa fa-file">&nbsp; Resume</i>
         </a>
     </div>    
+</div>
+<hr> -->
+
+<!-- A small table for contact information -->
+<div style="display: flex; justify-content: center; margin-top: 16px;">
+    <table style="border-collapse: collapse; width: 100%; text-align: left;">
+        <tr>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="mailto:gnani@kth.se">
+                <i class="fa fa-envelope">&nbsp; gnani [at] kth.se</i>
+                </a>
+            </td>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">
+                <i class="fa fa-google">&nbsp; Google Scholar</i>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="https://www.linkedin.com/in/nithish-k-gnani/">
+                <i class="fa fa-linkedin">&nbsp; LinkedIn</i>
+                </a>
+            </td>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="https://github.com/nithishkgnani/">
+                <i class="fa fa-github">&nbsp; GitHub</i>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="/Resume_Nithish-Krishnabharathi-Gnani_KTH-MSc.pdf">
+                <i class="fa fa-file">&nbsp; Resume</i>
+                </a>
+            </td>
+        </tr>        
+    </table>
 </div>
 <hr>
 
@@ -114,32 +152,40 @@ draft: false
     </ul>      
 </div>
 <hr>
-<!-- a small table of 4 cells for contact information -->
-<div style="display: flex; align-items: center;">
-    <div style="flex: 20%;">
-        <a href="mailto:gnani@kth.se">
-            <i class="fa fa-envelope"> gnani [at] kth.se</i>
-        </a>
-    </div>
-    <div style="flex: 20%;">
-        <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">
-            <i class="fa fa-google"> Google Scholar</i>
-        </a>
-    </div>
-    <div style="flex: 20%;">
-        <a href="https://www.linkedin.com/in/nithish-k-gnani/">
-            <i class="fa fa-linkedin"> LinkedIn</i>
-        </a>
-    </div>
-    <div style="flex: 20%;">
-        <a href="https://github.com/nithishkgnani/">
-            <i class="fa fa-github"> GitHub</i>
-        </a>
-    </div>
-    <div style="flex: 20%;">
-        <a href="/Resume_GNANI_Nithish-Krishnabharathi.pdf">
-            <i class="fa fa-file"> Resume</i>
-        </a>
-    </div>    
+<!-- A small table for contact information -->
+<div style="display: flex; justify-content: center; margin-top: 16px;">
+    <table style="border-collapse: collapse; width: 100%; text-align: left;">
+        <tr>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="mailto:gnani@kth.se">
+                <i class="fa fa-envelope">&nbsp; gnani [at] kth.se</i>
+                </a>
+            </td>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en">
+                <i class="fa fa-google">&nbsp; Google Scholar</i>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="https://www.linkedin.com/in/nithish-k-gnani/">
+                <i class="fa fa-linkedin">&nbsp; LinkedIn</i>
+                </a>
+            </td>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="https://github.com/nithishkgnani/">
+                <i class="fa fa-github">&nbsp; GitHub</i>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 0px solid #ddd; padding: 8px;">
+                <a href="/Resume_Nithish-Krishnabharathi-Gnani_KTH-MSc.pdf">
+                <i class="fa fa-file">&nbsp; Resume</i>
+                </a>
+            </td>
+        </tr>        
+    </table>
 </div>
 {{< /rawhtml >}}
