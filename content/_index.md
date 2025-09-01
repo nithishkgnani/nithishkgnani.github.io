@@ -29,7 +29,7 @@ draft: false
         </a>
     </div>
     <div style="flex: 20%;">
-        <a href="/Resume_GNANI_Nithish-Krishnabharathi.pdf">
+        <a href="/Resume_Nithish-Krishnabharathi-Gnani_KTH-MSc.pdf">
             <i class="fa fa-file"> Resume</i>
         </a>
     </div>    
