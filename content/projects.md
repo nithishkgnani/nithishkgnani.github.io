@@ -8,6 +8,24 @@ draft: false
 <hr>
 <div style="text-align: justify"> 
 
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Human-Robot Interaction and Accessibility</h2>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <img src="/img/social-robotics/user-study-setup.jpeg" width=95%>
+    </div>
+    <div style="flex: 70%;">
+        <h4>Embodied Robot and Textual Interfaces for Sign Language Interpretation</h4>
+        <ul style="padding-left: 16px;">
+            <li>Built paired Furhat robot and text-display interfaces to compare embodied and non-embodied presentation of interpreted ASL content.</li>
+            <li>Developed a gesture-based Rock-Paper-Scissors interaction using webcam input and MediaPipe hand landmarks for a controlled active interaction task.</li>
+            <li>Conducted a within-subjects user study showing that the robot improved social presence and preference while trust and comprehension remained comparable to text.</li>
+            <li><a href="/project/asl-robot-interpreter/">Detailed project page 🔗</a></li>
+        </ul>
+    </div>
+</div>
+<hr>
+
 <h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Cyber-Physical Systems and Tactile Internet</h2>
 
 <div style="display: flex; align-items: center;">
