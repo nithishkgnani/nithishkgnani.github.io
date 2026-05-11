@@ -7,9 +7,9 @@ categories: [Robotics, Accessibility]
 draft: false
 ---
 ---
-Location: KTH Royal Institute of Technology, Stockholm, Sweden  
-Duration: Autumn 2025  
-For: MSc Social Robotics course project   
+🗺 Location: KTH Royal Institute of Technology, Stockholm, Sweden  
+📅 Duration: Autumn 2025  
+👩‍🏫 Guided by:  [Prof. Iolanda Leite](https://www.kth.se/profile/iolanda)
 
 ---
 
