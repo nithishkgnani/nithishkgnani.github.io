@@ -13,7 +13,7 @@ For: MSc Social Robotics course project
 
 ---
 
-{{< figure src="/img/social-robotics/user-study-setup.jpeg" caption="User study setup with the Furhat robot, ASL video display, participant position and camera input." >}}
+{{< figure src="/img/social-robotics/user-study-setup.jpg" caption="User study setup with the Furhat robot, ASL video display, participant position and camera input." >}}
 
 # Objective
 
@@ -41,6 +41,18 @@ flowchart LR
     output --> display[Display: text interface]
     robot --> study[User study ratings]
     display --> study
+
+    classDef actor fill:#e0f2fe,stroke:#0369a1,color:#0f172a,stroke-width:1.5px
+    classDef task fill:#fef3c7,stroke:#b45309,color:#0f172a,stroke-width:1.5px
+    classDef processing fill:#ecfdf5,stroke:#047857,color:#0f172a,stroke-width:1.5px
+    classDef outputNode fill:#fce7f3,stroke:#be185d,color:#0f172a,stroke-width:1.5px
+    classDef result fill:#ede9fe,stroke:#6d28d9,color:#0f172a,stroke-width:1.5px
+
+    class participant actor
+    class task,rps,asl task
+    class vision,videos processing
+    class output,robot,display outputNode
+    class study result
 {{< /mermaid >}}
 
 ## Gesture-based Rock-Paper-Scissors
