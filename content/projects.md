@@ -12,7 +12,7 @@ draft: false
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/social-robotics/user-study-setup.jpeg" width=95%>
+        <img src="/img/social-robotics/user-study-setup.jpg" width=95%>
     </div>
     <div style="flex: 70%;">
         <h4>Embodied Robot and Textual Interfaces for Sign Language Interpretation</h4>
