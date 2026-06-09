@@ -8,25 +8,7 @@ draft: false
 <hr>
 <div style="text-align: justify"> 
 
-<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Human-Robot Interaction and Accessibility</h2>
-
-<div style="display: flex; align-items: center;">
-    <div style="flex: 30%;">
-        <img src="/img/social-robotics/user-study-setup.jpg" width=95%>
-    </div>
-    <div style="flex: 70%;">
-        <h4>Embodied Robot and Textual Interfaces for Sign Language Interpretation</h4>
-        <ul style="padding-left: 16px;">
-            <li>Built paired Furhat robot and text-display interfaces to compare embodied and non-embodied presentation of interpreted ASL content.</li>
-            <li>Developed a gesture-based Rock-Paper-Scissors interaction using webcam input and MediaPipe hand landmarks for a controlled active interaction task.</li>
-            <li>Conducted a within-subjects user study showing that the robot improved social presence and preference while trust and comprehension remained comparable to text.</li>
-            <li><a href="/project/asl-robot-interpreter/">Detailed project page 🔗</a></li>
-        </ul>
-    </div>
-</div>
-<hr>
-
-<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Cyber-Physical Systems and Tactile Internet</h2>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Human Robot Interaction</h2>
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
@@ -43,39 +25,18 @@ draft: false
         </ul>
     </div>
 </div>
-<!-- <hr> -->
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <img src="/img/project_tiles/portrait/tsn-switch.png" width=95% style="float: left;">
-    </div> 
-    <div style="flex: 70%;">
-        <h4>Time Sensitive Networking (TSN) switch</h4>
-        Built IEEE 802.1 TSN-capable ethernet switches using SmartNICs hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). 
-        <br><br><b>Novelties</b>:
-        <ul style="padding-left: 16px;" >
-            <li><i>µTAS</i> - Designed a P4-MicroC-based SmartNIC that offloaded Time-Aware Shaper and achieved 20µs latency between hosts across two switches.</li>
-            <li>Implemented packet de-duplication algorithms that ensured 100% and 99.83% packet delivery for two and tweleve streams respectively across two links each with 10% loss.</li>
-            <li><i>EdgeP4</i> - Embedding intelligence for <i>pose correction</i> and <i>tremor suppression</i> in P4-programmable edge switches, reducing control loop latency (<100µs) and network load (99% reduction) and demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.</li>
-            <li><a href="/project/tsn/">Detailed project page 🔗</a></li>
-        </ul>
-    </div>   
-</div>
-<!-- <hr> -->
-
-<div style="display: flex; align-items: center;">
-    <div style="flex: 30%;">
-        <!-- <img src="/img/project_tiles/portrait/CubeSat.png" width=95% > -->
-        <div style="display: flex; justify-content: center;">
-            <img src="/img/project_tiles/portrait/CubeSat.gif" width=40% style="flex: 0 1 auto;">
-        </div>
+        <img src="/img/social-robotics/user-study-setup.jpg" width=95%>
     </div>
     <div style="flex: 70%;">
-        <h4>Yaw control of a CubeSat using reaction wheels</h4>
+        <h4>Embodied Robot and Textual Interfaces for Sign Language Interpretation</h4>
         <ul style="padding-left: 16px;">
-            <li>Designed a suspended CubeSat body and achieved precise control of its yaw using reaction wheels using a manually tuned PID controller.</li>
-            <li>Modeled it in Simulink and implemented Model Reference Adaptive Control (MRAC) using the MIT rule and achieved better performance compared to PID control.</li>
-            <li><a href="/project/cubesat/">Detailed project page 🔗</a></li>
+            <li>Built paired Furhat robot and text-display interfaces to compare embodied and non-embodied presentation of interpreted ASL content.</li>
+            <li>Developed a gesture-based Rock-Paper-Scissors interaction using webcam input and MediaPipe hand landmarks for a controlled active interaction task.</li>
+            <li>Conducted a within-subjects user study showing that the robot improved social presence and preference while trust and comprehension remained comparable to text.</li>
+            <li><a href="/project/asl-robot-interpreter/">Detailed project page 🔗</a></li>
         </ul>
     </div>
 </div>
@@ -97,8 +58,62 @@ draft: false
 </div>
 <hr>
 
-<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >IoT data management, indoor localization and security</h2>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Control Systems & Mechatronics</h2>
 
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/balancebot/sigi-robot.jpeg" width=75% style="flex: 0 1 auto;">
+        </div>
+    </div>
+    <div style="flex: 70%;">
+        <h4>BalanceBot: Simulink-Based Control Deployment on Hardware</h4>
+        <ul style="padding-left: 16px;">
+            <li>Modeled a wheeled inverted pendulum robot in MATLAB/Simulink and deployed controllers to Raspberry Pi hardware.</li>
+            <li>Designed and evaluated PID, lead-phase, state-feedback and LQR controllers for 1-DOF and 2-DOF balancing configurations.</li>
+            <li>Implemented a manually tuned PID controller on hardware and identified practical limits from motor saturation and gearbox backlash.</li>
+            <li><a href="/project/balancebot/">Detailed project page 🔗</a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <!-- <img src="/img/project_tiles/portrait/CubeSat.png" width=95% > -->
+        <div style="display: flex; justify-content: center;">
+            <img src="/img/project_tiles/portrait/CubeSat.gif" width=40% style="flex: 0 1 auto;">
+        </div>
+    </div>
+    <div style="flex: 70%;">
+        <h4>Yaw control of a CubeSat using reaction wheels</h4>
+        <ul style="padding-left: 16px;">
+            <li>Designed a suspended CubeSat body and achieved precise control of its yaw using reaction wheels using a manually tuned PID controller.</li>
+            <li>Modeled it in Simulink and implemented Model Reference Adaptive Control (MRAC) using the MIT rule and achieved better performance compared to PID control.</li>
+            <li><a href="/project/cubesat/">Detailed project page 🔗</a></li>
+        </ul>
+    </div>
+</div>
+<hr>
+
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Networks, Wireless & IoT</h2>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 30%;">
+        <img src="/img/project_tiles/portrait/tsn-switch.png" width=95% style="float: left;">
+    </div> 
+    <div style="flex: 70%;">
+        <h4>Time Sensitive Networking (TSN) switch</h4>
+        Built IEEE 802.1 TSN-capable ethernet switches using SmartNICs hardware implementation of time synchronization (IEEE 802.1AS), Time Aware Shaper (IEEE 802.1Qbv), and packet duplication/elimination (IEEE 802.1CB). 
+        <br><br><b>Novelties</b>:
+        <ul style="padding-left: 16px;" >
+            <li><i>µTAS</i> - Designed a P4-MicroC-based SmartNIC that offloaded Time-Aware Shaper and achieved 20µs latency between hosts across two switches.</li>
+            <li>Implemented packet de-duplication algorithms that ensured 100% and 99.83% packet delivery for two and tweleve streams respectively across two links each with 10% loss.</li>
+            <li><i>EdgeP4</i> - Embedding intelligence for <i>pose correction</i> and <i>tremor suppression</i> in P4-programmable edge switches, reducing control loop latency (<100µs) and network load (99% reduction) and demonstrating versatility in algorithm-switching for distinct tasks via P4's match-actions.</li>
+            <li><a href="/project/tsn/">Detailed project page 🔗</a></li>
+        </ul>
+    </div>   
+</div>
+<!-- <hr> -->
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
@@ -129,10 +144,6 @@ draft: false
         </ul>
     </div>
 </div>
-<hr>
-
-
-<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Wireless communication and video streaming</h2>
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 35%;">
@@ -183,7 +194,7 @@ draft: false
 <hr>
 
 
-<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Hobby projects</h2>
+<h2 style="text-align: center; margin-top: 20px; margin-bottom: 0;" >Hobbies</h2>
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 40%;">
