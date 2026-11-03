@@ -75,12 +75,12 @@ draft: false
 <hr>
 
 <div style="text-align: center; margin-top: 24px;">
-    <img src="/img/project_tiles/portrait/Teleop.gif" width=50%>
+    <img src="/img/project_tiles/portrait/Teleop_02.gif" width=50%>
 </div>
 
 <div>
     <p style="margin-top: 24px;">
-    I'm Nithish Krishnabhrathi Gnani, an experienced researcher and a master of science student in Autonomous Systems at KTH Royal Institute of Technology, Stockholm, Sweden. Previously, I was a Technical Associate at IISc for 5.5 years. I work with <a href="/projects/">R&D projects</a> on cyber-physical systems (connected robots), tactile internet, IoT data management among other research areas in mechatronic systems. I have several research <a href="/publications/">publications</a>, including a <a href="/img/other_images/CNERT24-Best-Paper.pdf">best paper award</a> at IEEE INFOCOM Workshops 2024. I also design <a href="/project/3d-prints/">3D printed products</a> as a hobby.
+    I'm Nithish Krishnabhrathi Gnani. I recently graduated with a dual master of science in Autonomous Systems at KTH Royal Institute of Technology, Sweden and Polytech Nice Sophia, Université Côte d'Azur, France. Previously, I was a Technical Associate at IISc for 5.5 years. I work with <a href="/projects/">R&D projects</a> on cyber-physical systems (connected robots), human-robot interaction, tactile internet, IoT data management among other research areas in mechatronic systems. I have several research <a href="/publications/">publications</a>, including a <a href="/img/other_images/CNERT24-Best-Paper.pdf">best paper award</a> at IEEE INFOCOM Workshops 2024. I also design <a href="/project/3d-prints/">3D printed products</a>.
 <hr>    
 
         <h5 style="margin-top: -0px; margin-bottom: -10px;">Publications</h5>
