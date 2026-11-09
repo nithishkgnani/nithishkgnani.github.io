@@ -2,7 +2,7 @@
 title: "BalanceBot: Simulink-Based Control Deployment on Hardware"
 date: 2025-04-07
 author: "Nithish K Gnani"
-tags: [robotics, control systems, Simulink, embedded systems]
+tags: [robotics, control systems, Simulink, embedded systems, Raspberry Pi, Control Systems]
 categories: [Robotics, Control Systems]
 draft: false
 ---

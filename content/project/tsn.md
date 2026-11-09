@@ -2,7 +2,7 @@
 title: "Time Sensitive Networking Switch"
 date: 2021-03-01
 author: "Nithish K Gnani"
-tags: [Networking, Tactile Internet]
+tags: [Networking, Tactile Internet, TSN, P4, SmartNIC, Time-Sensitive Networks]
 categories: [Networking]
 draft: false
 ---

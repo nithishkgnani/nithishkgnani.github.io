@@ -1,8 +1,7 @@
 ---
 title: "Designing 3D printed products"
-date: 2023-11-25
 author: "Nithish K Gnani"
-tags: [design, product development, hobby]
+tags: [design, product development, hobby, Mechatronics, FSR Sensors, CAD, 3D Printing, Rapid Prototyping]
 categories: [design, product development, hobby]
 draft: false
 ---
@@ -41,8 +40,6 @@ I used Autodesk Fusion 360 for designing the case after carefully measuring the 
 
 ### Cases for sensors and RPi4 
 I helped my friend Himanshu in designing cases for a Raspberry Pi 4, a temperature sensor and a pulse oximeter sensor for a project on implementating FRER to make transmission of patient data from an ambulane to a hospital more reliable.
-
-{{< load-photoswipe >}}
 {{< gallery dir="/img/3d-prints/sume-case" />}}
 
 ### Phone mount for my motorcycle

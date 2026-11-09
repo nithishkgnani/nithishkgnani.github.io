@@ -2,7 +2,7 @@
 title: "Designing Tactile Cyber-Physical Systems"
 date: 2022-03-01
 author: "Nithish K Gnani"
-tags: [Tactile Internet, Robotics]
+tags: [Tactile Internet, Robotics, P4, Edge Intelligence, SmartNIC, TSN, Teleoperation, Haptics]
 categories: [Networking, Robotics]
 draft: false
 ---

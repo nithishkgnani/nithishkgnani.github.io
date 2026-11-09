@@ -2,7 +2,7 @@
 title: "Embodied Robot and Textual Interfaces for Sign Language Interpretation"
 date: 2025-12-11
 author: "Nithish K Gnani"
-tags: [social robotics, human-robot interaction, accessibility, Robotics]
+tags: [social robotics, human-robot interaction, accessibility, Robotics, Social Robotics, HRI, MediaPipe]
 categories: [Robotics, Accessibility]
 draft: false
 ---

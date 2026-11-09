@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="list-container">
+  <div class="article-header">
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ with .Content }}
+      <div class="article-content">{{ . }}</div>
+    {{ end }}
+  </div>
+
+  <div class="list-items">
+    {{ range .Pages }}
+      <article class="publication-item">
+        <h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ if not .Date.IsZero }}
+          <div class="pub-venue">{{ .Date.Format "January 2, 2006" }}</div>
+        {{ end }}
+        {{ with .Summary }}
+          <p class="project-desc">{{ . | plainify | truncate 180 }}</p>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="project-link-btn">Read more &rarr;</a>
+      </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

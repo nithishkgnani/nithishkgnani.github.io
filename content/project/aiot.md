@@ -2,6 +2,8 @@
 title: "Aircraft IoT Data Management"
 date: 2019-03-17
 author: "Nithish K Gnani"
+tags: [IoT, Data Management, Aerospace, Data Analytics, Embedded]
+categories: [IoT, Aerospace]
 draft: false
 ---
 ---

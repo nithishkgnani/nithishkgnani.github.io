@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="single-article">
+  <div class="article-header">
+    <a href="javascript:history.back()" class="back-link">&larr; Back</a>
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ if not .Date.IsZero }}
+      <div class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.categories }}
+          <span>&bull;</span>
+          <span>{{ delimit . ", " }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+    {{ with .Params.tags }}
+      <div class="project-tags" style="margin-top: 10px;">
+        {{ range . }}
+          <span class="tag-badge">{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

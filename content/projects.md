@@ -1,6 +1,5 @@
 ---
 title: "Projects"
-date: 2022-10-30T19:05:33+05:30
 draft: false
 ---
 
@@ -12,8 +11,11 @@ draft: false
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 30%;">
-        <!-- <img src="/img/project_tiles/portrait/TCPS_testbed.png" width=95%> -->
-        <img src="/img/project_tiles/portrait/Teleop.gif" width=95%>
+        <div class="video-showcase">
+        <video autoplay loop muted playsinline class="featured-video">
+            <source src="/img/project_tiles/portrait/Teleop_vid_short.mp4" type="video/mp4">
+        </video>
+        </div>
     </div>
     <div style="flex: 70%;">
         <h4>Designing Tactile Cyber-Physical Systems (TCPS)</h4>

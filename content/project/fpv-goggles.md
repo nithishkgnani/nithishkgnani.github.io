@@ -2,7 +2,7 @@
 title: "FPV Goggles"
 date: 2024-05-25T20:43:59+05:30
 author: "Nithish K Gnani"
-tags: [Tactile Internet, design, product development]
+tags: [Tactile Internet, design, product development, Wearables, Low-Latency FPV, Medical, FPV Video]
 categories: [Networking, design, product development]
 draft: false
 ---
