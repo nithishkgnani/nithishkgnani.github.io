@@ -154,6 +154,18 @@ pre {
   padding: 6px 0;
 }
 
+/* Mermaid Diagram */
+.mermaid {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  padding: 12px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+}
+
 /* Header & Navigation */
 .site-header {
   border-bottom: 1px solid var(--nav-border);

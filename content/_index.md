@@ -12,12 +12,150 @@ draft: false
 
 <div class="bio-intro">
   <p>
-    I am an engineer and researcher working at the intersection of <strong>Cyber-Physical Systems (CPS)</strong>, <strong>Robotics</strong>, <strong>Tactile Internet</strong>, and <strong>Mechatronics</strong>. I recently graduated with a dual Master of Science in Autonomous Systems from <strong>KTH Royal Institute of Technology</strong> (Sweden) and <strong>Polytech Nice Sophia, Université Côte d'Azur</strong> (France).
+    I am an engineer and researcher working at the intersection of <strong>Cyber-Physical Systems (CPS)</strong>, <strong>Robotics</strong>, <strong>Real-Time Control</strong>, and <strong>Mechatronics</strong>. I hold a dual M.Sc. in Autonomous Systems from <strong>KTH Royal Institute of Technology</strong> (Sweden) and <strong>Polytech Nice Sophia, Université Côte d'Azur</strong> (France), backed by a B.Tech in Mechanical Engineering from <strong>NITK Surathkal</strong>.
   </p>
   <p>
-    Previously, I spent 5.5 years as a Technical Associate and Researcher at the <strong>Indian Institute of Science (IISc)</strong> in the Centre for Networked Intelligence (CNI) and the Department of Electronic Systems Engineering (DESE). My work spans bounded-latency robotic teleoperation, in-network intelligence using P4 programmable switches, Time-Sensitive Networking (TSN), and rapid hardware/embedded prototyping.
+    Most recently, I completed my master's thesis and R&D work at <strong>Scania (TRATON Group)</strong> in Sweden, developing machine learning models and closed-loop simulator-based driver-support policies over 20,000+ hours of commercial battery-electric truck telemetry. Previously, I spent 5.5 years as a researcher at the <strong>Indian Institute of Science (IISc)</strong> in the Centre for Networked Intelligence (<a href="https://cni.iisc.ac.in/">CNI</a>) and DESE, leading projects across bounded-latency robotic teleoperation, in-network computing on P4 programmable switches, Time-Sensitive Networking (TSN), and rapid mechatronic prototyping.
   </p>
 </div>
+
+---
+
+<h2 id="projects">Featured Projects and Builds</h2>
+
+<p class="section-intro">Selected engineering and research builds across robotics, programmable networking, haptics, and mechatronics. Click any project for architecture details, schematics, and demonstrations.</p>
+
+<div class="projects-grid">
+
+  <!-- RoboTwin Card -->
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/robotwin/known-object.png" alt="RoboTwin Framework" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">Digital Twins</span>
+        <span class="tag-badge">Robotics</span>
+        <span class="tag-badge">Teleoperation</span>
+      </div>
+      <h3 class="project-title"><a href="https://arxiv.org/pdf/2506.01027" target="_blank" rel="noopener">RoboTwin</a></h3>
+      <p class="project-desc">
+        A dual-digital-twin teleoperation framework synchronizing physical manipulators with GPU-accelerated NVIDIA Isaac Sim and ROS2. The operator-side twin provides zero-latency haptic feedback via Geomagic Touch, while the remote twin validates safe operating bounds before physical execution. Using RealSense RGB-D vision, YOLOv8 object detection, and SSIM discrepancy tracking, it streams semantic state updates—cutting network bandwidth by 25x and reducing NASA-TLX cognitive workload.
+      </p>
+      <a class="project-link-btn" href="https://arxiv.org/pdf/2506.01027" target="_blank" rel="noopener">View Preprint &rarr;</a>
+    </div>
+  </div>
+
+  <!-- EdgeP4 Card -->
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/project_tiles/landscape/TCPS_testbed.png" alt="EdgeP4 Testbed" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">P4</span>
+        <span class="tag-badge">Edge Intelligence</span>
+        <span class="tag-badge">SmartNIC</span>
+        <span class="tag-badge">TSN</span>
+      </div>
+      <h3 class="project-title"><a href="/project/tcps/">EdgeP4</a></h3>
+      <p class="project-desc">
+        In-network computing framework running directly on P4-programmable switches and Netronome Agilio SmartNICs to overcome host-side OS jitter in wide-area robotics. Offloads tremor suppression and closed-loop pose correction into the network data plane, slashing feedback latency below 100 µs and cutting wide-area network traffic by up to 99.9%. Validated on an intercity tactile CPS testbed across 400 km with a UR3 manipulator. Awarded Best Paper at IEEE INFOCOM CNERT 2024.
+      </p>
+      <a class="project-link-btn" href="https://github.com/nithishkgnani/EdgeP4">Code &rarr;</a>
+      <a class="project-link-btn" href="/project/tcps/">Project Details &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Embodied Card -->
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/social-robotics/user-study-setup.jpg" alt="Embodied Furhat Robot ASL Interpreter" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">Social Robotics</span>
+        <span class="tag-badge">HRI</span>
+        <span class="tag-badge">Computer Vision</span>
+      </div>
+      <h3 class="project-title"><a href="/project/asl-robot-interpreter/">Embodied Robot for ASL Interpretation</a></h3>
+      <p class="project-desc">
+        A human-robot interaction study investigating how physical embodiment affects automated sign language interpretation. Pairs a Furhat social robot (dynamic gaze, facial expressions, synthesized speech) with a real-time OpenCV and MediaPipe 3D hand-tracking pipeline with temporal gesture filtering. A 26-participant within-subjects empirical study showed that physical embodiment significantly elevated user engagement (p &lt; .001) and sociability without compromising comprehension or trust.
+      </p>
+      <a class="project-link-btn" href="/project/asl-robot-interpreter/">Project Details &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Custom Gripper Card -->
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/tcps/TCPS_FingerMod.jpg" alt="Custom Sensorized Gripper Fingers" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">Mechatronics</span>
+        <span class="tag-badge">FSR Sensors</span>
+        <span class="tag-badge">CAD / 3D Print</span>
+      </div>
+      <h3 class="project-title">Custom Sensorized Gripper</h3>
+      <p class="project-desc">
+        Custom sensorized fingertips engineered for a Robotiq 2F-85 gripper on a UR3 arm, designed in Autodesk Fusion 360 and 3D printed. Houses a custom 5&times;3 force-sensitive resistor (FSR) array PCB with Arduino ADC acquisition to capture contact localization and grip force distribution during laparoscopic tool manipulation. Delivers real-time tactile telemetry back to operator haptic interfaces, preventing slippage and excessive clamping forces during teleoperated surgical tasks.
+      </p>
+      <a class="project-link-btn" href="/project/3d-prints/#modified-gripper-fingers-for-a-robot">View Details &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Adaptive IoT Data Management Card -->
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/project_tiles/portrait/AIOT.png" alt="Adaptive IoT Data Management" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">IoT Analytics</span>
+        <span class="tag-badge">Time-Series</span>
+        <span class="tag-badge">Edge ML</span>
+        <span class="tag-badge">Aerospace</span>
+      </div>
+      <h3 class="project-title"><a href="/project/aiot/">Adaptive IoT Data Management</a></h3>
+      <p class="project-desc">
+        A Boeing-funded anomaly assessment and adaptive telemetry pipeline for aircraft cabin environmental control systems (ECS). Combines multi-zone MATLAB/Simulink physical simulations with supervised machine learning to classify sensor anomalies and assess severity across multivariate time series. Implements an error-bounded linear interpolation algorithm on the TICK stack, dynamically optimizing compression against reconstruction fidelity to achieve 96.6% storage savings.
+      </p>
+      <a class="project-link-btn" href="/project/aiot/">Project Details &rarr;</a>
+    </div>
+  </div>
+
+  <!-- FPV Goggles Card
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/project_tiles/landscape/10_fpv.jpg" alt="FPV Goggles" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">Wearables</span>
+        <span class="tag-badge">Low-Latency FPV</span>
+        <span class="tag-badge">Medical</span>
+      </div>
+      <h3 class="project-title"><a href="/project/fpv-goggles/">FPV Goggles</a></h3>
+      <p class="project-desc">
+        Lightweight, ergonomic first-person-view glasses engineered for surgical training and remote observation with arthroscopic surgeons at IISc. Features a modular 3D-printed spectacle frame in Fusion 360 housing an Arduino Nicla Vision (STM32H7 dual-core ARM Cortex-M7/M4, 2MP camera). Streams low-latency wireless video over Wi-Fi without obstructing the surgeon's view, incorporating a spring-loaded lens tilt mechanism, integrated wire routing, and an ergonomic 10+ hour battery pack.
+      </p>
+      <a class="project-link-btn" href="/project/fpv-goggles/">Project Details &rarr;</a>
+    </div>
+  </div>
+  -->
+
+  <!-- BalanceBot Card -->
+  <div class="project-card">
+    <img class="project-thumbnail" src="/img/balancebot/sigi-robot.jpeg" alt="BalanceBot Robot" loading="lazy">
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="tag-badge">Control Systems</span>
+        <span class="tag-badge">Simulink</span>
+        <span class="tag-badge">Raspberry Pi</span>
+      </div>
+      <h3 class="project-title"><a href="/project/balancebot/">BalanceBot</a></h3>
+      <p class="project-desc">
+        A dynamic modeling and embedded control deployment pipeline for the Sigi two-wheeled inverted pendulum robot. Derived nonlinear 1-DOF and 2-DOF equations of motion in MATLAB/Simulink using Lagrangian mechanics, identified motor constants, and resolved encoder overflow. Designed and benchmarked PID, Phase-Lead, and LQR controllers, deploying C code to an onboard Raspberry Pi 3B+ via Simulink External Mode over I2C to evaluate sim-to-real transfer, actuator saturation, and gearbox backlash.
+      </p>
+      <a class="project-link-btn" href="https://github.com/nithishkgnani/BalanceBot">Code &rarr;</a>
+      <a class="project-link-btn" href="/project/balancebot/">Project Details &rarr;</a>
+    </div>
+  </div>
+
+</div>
+
+<p style="text-align: right; margin-top: 10px;">
+  <a href="/projects/" style="font-weight: 600;">View archive of all projects &rarr;</a>
+</p>
 
 ---
 
@@ -107,128 +245,28 @@ draft: false
 
 ---
 
-<h2 id="projects">Featured Projects and Builds</h2>
-
-<p class="section-intro">Selected engineering and research builds across robotics, programmable networking, haptics, and mechatronics. Click any project for architecture details, schematics, and demonstrations.</p>
-
-<div class="projects-grid">
-
-  <!-- 1. RoboTwin Card -->
-  <div class="project-card">
-    <img class="project-thumbnail" src="/img/robotwin/known-object.png" alt="RoboTwin Framework" loading="lazy">
-    <div class="project-body">
-      <div class="project-tags">
-        <span class="tag-badge">Digital Twins</span>
-        <span class="tag-badge">Robotics</span>
-        <span class="tag-badge">Teleoperation</span>
-      </div>
-      <h3 class="project-title"><a href="https://arxiv.org/pdf/2506.01027" target="_blank" rel="noopener">RoboTwin</a></h3>
-      <p class="project-desc">
-        A real-time robotic teleoperation framework integrating digital twins for latency-resilient bilateral manipulation, dynamic state estimation, and physical-to-virtual robot synchronization.
-      </p>
-      <a class="project-link-btn" href="https://arxiv.org/pdf/2506.01027" target="_blank" rel="noopener">View Preprint &rarr;</a>
-    </div>
-  </div>
-
-  <!-- 2. EdgeP4 Card -->
-  <div class="project-card">
-    <img class="project-thumbnail" src="/img/tcps/TCPS_Testbed.jpg" alt="EdgeP4 Testbed" loading="lazy">
-    <div class="project-body">
-      <div class="project-tags">
-        <span class="tag-badge">P4</span>
-        <span class="tag-badge">Edge Intelligence</span>
-        <span class="tag-badge">SmartNIC</span>
-        <span class="tag-badge">TSN</span>
-      </div>
-      <h3 class="project-title"><a href="/project/tcps/">EdgeP4</a></h3>
-      <p class="project-desc">
-        In-network edge intelligence running directly on programmable P4 switches and Netronome SmartNICs. Executes real-time robot pose correction and packet processing across intercity testbeds. (IEEE INFOCOM CNERT 2024 Best Paper).
-      </p>
-      <a class="project-link-btn" href="/project/tcps/">View Project Details &rarr;</a>
-    </div>
-  </div>
-
-  <!-- 3. Embodied Card -->
-  <div class="project-card">
-    <img class="project-thumbnail" src="/img/social-robotics/user-study-setup.jpg" alt="Embodied Furhat Robot ASL Interpreter" loading="lazy">
-    <div class="project-body">
-      <div class="project-tags">
-        <span class="tag-badge">Social Robotics</span>
-        <span class="tag-badge">HRI</span>
-        <span class="tag-badge">Computer Vision</span>
-      </div>
-      <h3 class="project-title"><a href="/project/asl-robot-interpreter/">Embodied Robot for ASL Interpretation</a></h3>
-      <p class="project-desc">
-        Paired Furhat robot and textual display interfaces comparing embodied vs. screen-based sign language presentation. Features real-time MediaPipe hand-tracking and human-subject interaction studies.
-      </p>
-      <a class="project-link-btn" href="/project/asl-robot-interpreter/">View Project Details &rarr;</a>
-    </div>
-  </div>
-
-  <!-- 4. Custom Gripper Card -->
-  <div class="project-card">
-    <img class="project-thumbnail" src="/img/3d-prints/gripper-fingers/c)-3D-printed-fingers-mounted-on-the-gripper.jpg" alt="Custom Sensorized Gripper Fingers" loading="lazy">
-    <div class="project-body">
-      <div class="project-tags">
-        <span class="tag-badge">Mechatronics</span>
-        <span class="tag-badge">FSR Sensors</span>
-        <span class="tag-badge">CAD / 3D Print</span>
-      </div>
-      <h3 class="project-title">Custom Sensorized Gripper</h3>
-      <p class="project-desc">
-        Custom-designed modular fingertips for a Robotiq 2F-85 gripper housing a 5&times;3 force-sensitive resistor (FSR) array PCB. Detects contact points and grip force distribution during laparoscopic tool manipulation.
-      </p>
-      <a href="/project/3d-prints/#modified-gripper-fingers-for-a-robot">View Details &rarr;</a>
-    </div>
-  </div>
-
-  <!-- 5. FPV Goggles Card -->
-  <div class="project-card">
-    <img class="project-thumbnail" src="/img/project_tiles/landscape/10_fpv.jpg" alt="FPV Goggles" loading="lazy">
-    <div class="project-body">
-      <div class="project-tags">
-        <span class="tag-badge">Wearables</span>
-        <span class="tag-badge">Low-Latency FPV</span>
-        <span class="tag-badge">Medical</span>
-      </div>
-      <h3 class="project-title"><a href="/project/fpv-goggles/">FPV Goggles</a></h3>
-      <p class="project-desc">
-        Lightweight, ergonomic first-person view headset engineered for low-latency wireless video streaming and high-fidelity perspective recording for surgical training and remote observation.
-      </p>
-      <a class="project-link-btn" href="/project/fpv-goggles/">View Project Details &rarr;</a>
-    </div>
-  </div>
-
-  <!-- 6. BalanceBot Card -->
-  <div class="project-card">
-    <img class="project-thumbnail" src="/img/balancebot/sigi-robot.jpeg" alt="BalanceBot Robot" loading="lazy">
-    <div class="project-body">
-      <div class="project-tags">
-        <span class="tag-badge">Control Systems</span>
-        <span class="tag-badge">Simulink</span>
-        <span class="tag-badge">Raspberry Pi</span>
-      </div>
-      <h3 class="project-title"><a href="/project/balancebot/">BalanceBot</a></h3>
-      <p class="project-desc">
-        Discrete-time state feedback control for the Sigi wheeled inverted pendulum robot. Modeled and simulated in MATLAB/Simulink and deployed to a Raspberry Pi interfacing via I2C with a Balboa 32U4 board.
-      </p>
-      <a class="project-link-btn" href="/project/balancebot/">View Project Details &rarr;</a>
-    </div>
-  </div>
-
-</div>
-
-<p style="text-align: right; margin-top: 10px;">
-  <a href="/projects/" style="font-weight: 600;">View archive of all projects &rarr;</a>
-</p>
-
----
-
-<h2>Education &amp; Experience</h2>
+<h2>Education</h2>
 
 <ul>
   <li>
-    <strong>Dual M.Sc. in Autonomous Systems</strong> &mdash; KTH Royal Institute of Technology, Sweden &amp; Polytech Nice Sophia, Université Côte d'Azur, France (2022&ndash;2024)
+    <strong>Master of Science in Autonomous Systems and Intelligent Robots</strong> &mdash; EIT Digital Master School (2026)
+    <ul>
+      <li>KTH Royal Institute of Technology, Sweden</li>
+      <li>Polytech Nice Sophia, Université Côte d'Azur, France</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Bachelor of Technology in Mechanical Engineering</strong> &mdash; National Institute of Technology Karnataka (NITK), India (2017)
+  </li>
+</ul>
+
+---
+
+<h2>Experience</h2>
+
+<ul>
+  <li>
+    <strong>Master's Thesis &amp; Summer Worker, Vehicle Data and Driver Support</strong> &mdash; Scania (TRATON Group), Sweden (2026)
   </li>
   <li>
     <strong>Technical Associate &amp; Researcher</strong> &mdash; Indian Institute of Science (IISc), Bangalore (2019&ndash;2024)

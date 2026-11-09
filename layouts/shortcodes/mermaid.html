@@ -1,3 +1,15 @@
 <div class="mermaid">
   {{- .Inner | safeHTML }}
 </div>
+{{- if not ($.Page.Scratch.Get "mermaidloaded") }}
+{{- $.Page.Scratch.Set "mermaidloaded" 1 }}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: isDark ? 'dark' : 'default',
+    securityLevel: 'loose'
+  });
+</script>
+{{- end }}
