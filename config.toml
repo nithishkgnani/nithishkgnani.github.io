@@ -21,7 +21,7 @@ email = "gnani@kth.se"
 scholar = "https://scholar.google.com/citations?user=sVE_GcMAAAAJ&hl=en"
 linkedin = "https://www.linkedin.com/in/nithish-k-gnani/"
 github = "https://github.com/nithishkgnani/"
-resume = "/Resume_Nithish-Krishnabharathi-Gnani_KTH-MSc.pdf"
+resume = "/Resume_Gnani.pdf"
 
 [[menu.main]]
 name = "About"
@@ -46,4 +46,4 @@ url = "/blog/"
 [[menu.main]]
 name = "Resume"
 weight = 5
-url = "/Resume_Nithish-Krishnabharathi-Gnani_KTH-MSc.pdf"
+url = "/Resume_Gnani.pdf"
