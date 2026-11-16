@@ -86,12 +86,22 @@
   <script>
     document.addEventListener('click', function(e) {
       var link = e.target.closest('a');
-      if (link && link.href && link.href.includes('Resume_Gnani.pdf') && window.goatcounter && window.goatcounter.count) {
-        window.goatcounter.count({
-          path: 'click/resume',
-          title: 'Resume PDF Click',
-          event: true
-        });
+      if (!link || !link.href || !window.goatcounter || !window.goatcounter.count) return;
+      var targets = [
+        ['Resume_Gnani.pdf', 'click/resume', 'Resume PDF Click'],
+        ['github.com', 'click/github', 'GitHub Click'],
+        ['linkedin.com', 'click/linkedin', 'LinkedIn Click'],
+        ['scholar.google.com', 'click/scholar', 'Google Scholar Click']
+      ];
+      for (var i = 0; i < targets.length; i++) {
+        if (link.href.includes(targets[i][0])) {
+          window.goatcounter.count({
+            path: targets[i][1],
+            title: targets[i][2],
+            event: true
+          });
+          break;
+        }
       }
     });
   </script>
